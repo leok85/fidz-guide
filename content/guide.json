@@ -1,0 +1,4076 @@
+{
+  "title": "Fidz",
+  "brand": {
+    "logo": "/media/8b60efe47dd7ba73.png",
+    "color": "#6b2eba",
+    "cta": {
+      "label": "Fidz",
+      "href": "https://fidz.com.br"
+    }
+  },
+  "ogImage": "/media/6a1a8c4b85fa50b3.png",
+  "sections": [
+    {
+      "id": "cmuliox9n0003yt0jdltnlrem",
+      "title": "Introdução",
+      "slug": "introducao",
+      "demos": [
+        {
+          "id": "cmum1vpzq0bfrqmfhetbb5qge",
+          "title": "Acompanhar a fidelidade na Visão geral",
+          "description": "Veja como filtrar a Visão geral por período, de hoje aos últimos 30 dias, e por unidade para acompanhar a fidelidade de cada loja.",
+          "steps": [
+            {
+              "id": "cmum1w89m0bhdqmfhz5u06ncz",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Acompanhar a fidelidade por período e unidade",
+                "description": "Veja como filtrar a Visão geral por período, de hoje aos últimos 30 dias, e por unidade para acompanhar a fidelidade de cada loja.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum1vwxj0bgbqmfhkevgvcxs"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum1vwxj0bgbqmfhkevgvcxs",
+              "image": null,
+              "video": "/media/585e04f214098432.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 3.285,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum1vz3r0bggqmfhnhpnqrzr",
+              "image": "/media/ad10a284fd1dae01.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/88d62bbfe5db7a7c.mp3",
+              "captions": "/media/b9b2c5a0078c972c.vtt",
+              "narration": "Aqui você acompanha selos, clientes ativos e recompensas da loja. Abra Últimos 30 dias para escolher outro período.",
+              "duration": 10.57959183673469,
+              "hotspot": {
+                "x": 92.70833333333334,
+                "y": 15.153452685421994,
+                "w": 10.48611111111111,
+                "h": 5.754475703324808,
+                "tip": "left",
+                "text": "Aqui você acompanha selos, clientes ativos e recompensas da loja. Abra Últimos 30 dias para escolher outro período.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum1vzqe0bgmqmfhcsui0h42",
+              "image": "/media/b13211a5db998722.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9bc132b2e9293f5a.mp3",
+              "captions": "/media/1aa44aee9a210990.vtt",
+              "narration": "Escolha Últimos 7 dias para ver como foi a semana no balcão.",
+              "duration": 4.310204081632653,
+              "hotspot": {
+                "x": 91.11111111111111,
+                "y": 27.55754475703325,
+                "w": 12.63888888888889,
+                "h": 4.987212276214834,
+                "tip": "left",
+                "text": "Escolha Últimos 7 dias para ver como foi a semana no balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1vzpv0bgjqmfhfgkl7kdv",
+              "image": "/media/21d0d0ee51837661.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1f41ab04050381f2.mp3",
+              "captions": "/media/eb449ae4d20b4cbd.vtt",
+              "narration": "Os cards já mostram só a última semana. Quer olhar o dia? Abra Últimos 7 dias de novo.",
+              "duration": 7.941224489795919,
+              "hotspot": {
+                "x": 92.98611111111111,
+                "y": 15.153452685421994,
+                "w": 9.930555555555555,
+                "h": 5.754475703324808,
+                "tip": "left",
+                "text": "Os cards já mostram só a última semana. Quer olhar o dia? Abra Últimos 7 dias de novo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1w1290bgsqmfhyorhe9jh",
+              "image": "/media/d49e7899be6b87ee.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5356ca27f7955547.mp3",
+              "captions": "/media/e51d402635384272.vtt",
+              "narration": "Hoje mostra só o movimento do dia. Serve para conferir, no fim do expediente, o que o balcão lançou.",
+              "duration": 7.523265306122449,
+              "hotspot": {
+                "x": 91.11111111111111,
+                "y": 22.186700767263424,
+                "w": 12.63888888888889,
+                "h": 4.987212276214834,
+                "tip": "left",
+                "text": "Hoje mostra só o movimento do dia. Serve para conferir, no fim do expediente, o que o balcão lançou.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1w1ot0bgvqmfhjadj2o7r",
+              "image": "/media/715ff6ee2f948dd2.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7dfb34213868f504.mp3",
+              "captions": "/media/bbe5597e011acbc2.vtt",
+              "narration": "Para voltar a uma visão mais longa, abra o filtro Hoje e troque o período.",
+              "duration": 5.929795918367347,
+              "hotspot": {
+                "x": 95.01736111111111,
+                "y": 15.153452685421994,
+                "w": 5.798611111111112,
+                "h": 5.754475703324808,
+                "tip": "left",
+                "text": "Para voltar a uma visão mais longa, abra o filtro Hoje e troque o período.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1w2eb0bh1qmfhgqy4wq8u",
+              "image": "/media/aa442897dff32c9e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/12c6c08d0277d59f.mp3",
+              "captions": "/media/0b377af654766436.vtt",
+              "narration": "Com Últimos 30 dias, os cards comparam o resultado com o período anterior. Assim você vê se a fidelidade está crescendo.",
+              "duration": 8.25469387755102,
+              "hotspot": {
+                "x": 91.11111111111111,
+                "y": 32.928388746803066,
+                "w": 12.63888888888889,
+                "h": 4.987212276214834,
+                "tip": "left",
+                "text": "Com Últimos 30 dias, os cards comparam o resultado com o período anterior. Assim você vê se a fidelidade está crescendo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1w3eh0bh4qmfhfpgs9cv3",
+              "image": "/media/87449e4a0897d59f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/55934b1a47cb58ec.mp3",
+              "captions": "/media/7f7579948b77616f.vtt",
+              "narration": "Todas as unidades soma as suas lojas. Tem mais de uma? Abra o seletor no topo para olhar cada uma separada.",
+              "duration": 9.038367346938776,
+              "hotspot": {
+                "x": 29.86111111111111,
+                "y": 4.571611253196931,
+                "w": 11.25,
+                "h": 5.051150895140665,
+                "tip": "bottom",
+                "text": "Todas as unidades soma as suas lojas. Tem mais de uma? Abra o seletor no topo para olhar cada uma separada.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum1w4by0bh7qmfh0rk49u6w",
+              "image": "/media/1be7806bef861149.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5d03c99019571ae5.mp3",
+              "captions": "/media/76cdc8b9dd4edcea.vtt",
+              "narration": "Escolha Unidade Loja Centro e todos os números passam a mostrar só o movimento dessa loja.",
+              "duration": 7.471020408163265,
+              "hotspot": {
+                "x": 32.916666666666664,
+                "y": 16.624040920716112,
+                "w": 16.38888888888889,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Escolha Unidade Loja Centro e todos os números passam a mostrar só o movimento dessa loja.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            }
+          ],
+          "slug": "visao-geral",
+          "navTitle": "Visão Geral"
+        },
+        {
+          "id": "cmum25hj90c0pqmfhjtqu7953",
+          "title": "Gerenciar unidades e equipe",
+          "description": "Veja como adicionar e desativar unidades da sua loja, consultar o acesso do balcão e cadastrar quem atende em cada unidade.",
+          "steps": [
+            {
+              "id": "cmum26pby0c4rqmfhmycdfskc",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Gerenciar unidades e equipe",
+                "description": "Veja como adicionar e desativar unidades da sua loja, consultar o acesso do balcão e cadastrar quem atende em cada unidade.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum25lzl0c16qmfhqe15riq8"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum25lzl0c16qmfhqe15riq8",
+              "image": "/media/ed10284d55af0410.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/21a28cc2f0f1172e.mp3",
+              "captions": "/media/dd1e00a3f47c03f5.vtt",
+              "narration": "Suas lojas físicas ficam em Unidades, no menu lateral. Cada card mostra o mês da unidade, os clientes e a equipe.",
+              "duration": 8.855510204081632,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 29.53964194373401,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Suas lojas físicas ficam em Unidades, no menu lateral. Cada card mostra o mês da unidade, os clientes e a equipe.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum25p4t0c1eqmfhzrwxynht",
+              "image": "/media/3fd2010cac60530f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3313d262a5fa783f.mp3",
+              "captions": "/media/19f2c86150d2b7a2.vtt",
+              "narration": "Abra o menu de três pontos no card para ver as opções daquela unidade.",
+              "duration": 4.963265306122449,
+              "hotspot": {
+                "x": 69.61805555555556,
+                "y": 27.941176470588236,
+                "w": null,
+                "h": null,
+                "tip": "bottom",
+                "text": "Abra o menu de três pontos no card para ver as opções daquela unidade.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum25nx30c19qmfh7uldbsbe",
+              "image": "/media/b11b27e073906281.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c6a5bc78c5b16d38.mp3",
+              "captions": "/media/135e3b9f2b10b7ef.vtt",
+              "narration": "A loja fechou ou parou de atender? Clique em Desativar unidade. O balcão dela é cortado e o saldo dos clientes fica guardado.",
+              "duration": 10.57959183673469,
+              "hotspot": {
+                "x": 62.39583333333333,
+                "y": 55.56265984654731,
+                "w": 14.72222222222222,
+                "h": 4.987212276214834,
+                "tip": "left",
+                "text": "A loja fechou ou parou de atender? Clique em Desativar unidade. O balcão dela é cortado e o saldo dos clientes fica guardado.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 16.64961636828644,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum25prr0c1hqmfhomzfaxyk",
+              "image": "/media/63a1dc22ba42b128.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/bc69020ea479f3ae.mp3",
+              "captions": "/media/a175c8ecbbc7b19b.vtt",
+              "narration": "Abriu uma loja nova? Clique em Adicionar unidade. Quantas unidades cabem depende do seu plano.",
+              "duration": 8.724897959183673,
+              "hotspot": {
+                "x": 92.13541666666667,
+                "y": 15.217391304347828,
+                "w": 11.63194444444444,
+                "h": 5.88235294117647,
+                "tip": "left",
+                "text": "Abriu uma loja nova? Clique em Adicionar unidade. Quantas unidades cabem depende do seu plano.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum25qt70c1kqmfhzt2n7zyv",
+              "image": "/media/fa07f163f3765f39.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a4776c62de5eee5f.mp3",
+              "captions": "/media/b2d5aa2e0eeea9ab.vtt",
+              "narration": "Dê um nome à unidade. É ele que aparece no seletor do topo e no acesso do balcão.",
+              "duration": 5.433469387755102,
+              "hotspot": {
+                "x": 57.673611111111114,
+                "y": 43.09462915601023,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Dê um nome à unidade. É ele que aparece no seletor do topo e no acesso do balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum25ras0c1nqmfh9ewgum3a",
+              "image": "/media/3ae8f6534f33e05b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/64ae1da939e3bf06.mp3",
+              "captions": "/media/405d897bfdaf857d.vtt",
+              "narration": "Comece a digitar o endereço da loja no campo Endereço. As sugestões aparecem logo abaixo.",
+              "duration": 5.851428571428571,
+              "hotspot": {
+                "x": 50,
+                "y": 44.75703324808184,
+                "w": 35.27777777777778,
+                "h": 2.941176470588235,
+                "tip": "bottom",
+                "text": "Comece a digitar o endereço da loja no campo Endereço. As sugestões aparecem logo abaixo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 11.14583333333334,
+                "y": 2.960358056265989,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum25vzi0c1wqmfhior5h7ct",
+              "image": null,
+              "video": "/media/5f2628071e0d6fba.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 6.378,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum25xb30c21qmfhpbzsbkpp",
+              "image": "/media/493b551989f80a32.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/01661548a3c61eeb.mp3",
+              "captions": "/media/5342713a822e195f.vtt",
+              "narration": "Escolha o endereço na lista. Assim a localização da loja fica marcada no mapa do app da Fidz.",
+              "duration": 6.817959183673469,
+              "hotspot": {
+                "x": 52.11805555555556,
+                "y": 59.33503836317136,
+                "w": null,
+                "h": null,
+                "tip": "top",
+                "text": "Escolha o endereço na lista. Assim a localização da loja fica marcada no mapa do app da Fidz.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum25y810c24qmfhj8lknapf",
+              "image": "/media/42a2a25a29eeb8eb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/029f57edf112f86f.mp3",
+              "captions": "/media/ea40685323647768.vtt",
+              "narration": "Tudo certo? Clique em Adicionar unidade. Ela já entra ativa e aparece no seletor do topo.",
+              "duration": 7.000816326530612,
+              "hotspot": {
+                "x": 45.989583333333336,
+                "y": 68.98976982097187,
+                "w": 29.47916666666667,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Tudo certo? Clique em Adicionar unidade. Ela já entra ativa e aparece no seletor do topo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 5.069444444444443,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2613d0c2dqmfhsh1pn6b8",
+              "image": "/media/d621b5ec867b12b1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1aee54c942d8f7f2.mp3",
+              "captions": "/media/060833d80e9fedcb.vtt",
+              "narration": "Quem atende e o acesso do balcão ficam em Equipe, no menu lateral.",
+              "duration": 5.041632653061225,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 47.18670076726343,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Quem atende e o acesso do balcão ficam em Equipe, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 7.698209718670078,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum264w60c2mqmfht4was3nb",
+              "image": "/media/91bb9964e6bd39eb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fd8553972e768527.mp3",
+              "captions": "/media/3838b04126d26269.vtt",
+              "narration": "Cada unidade tem um usuário e uma senha para o tablet do balcão. Clique em mostrar para ver a senha.",
+              "duration": 6.765714285714286,
+              "hotspot": {
+                "x": 85.15625,
+                "y": 46.547314578005114,
+                "w": 4.340277777777778,
+                "h": 2.685421994884911,
+                "tip": "left",
+                "text": "Cada unidade tem um usuário e uma senha para o tablet do balcão. Clique em mostrar para ver a senha.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum265d80c2pqmfhu2f958qo",
+              "image": "/media/444bea4ef049b6e3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1b0e92bbc0463045.mp3",
+              "captions": "/media/d5f70254f45d2963.vtt",
+              "narration": "Clique em ocultar para esconder a senha. Lembre: Trocar senha desconecta o tablet daquela unidade na hora.",
+              "duration": 7.653877551020408,
+              "hotspot": {
+                "x": 85.34722222222221,
+                "y": 46.547314578005114,
+                "w": 3.958333333333333,
+                "h": 2.685421994884911,
+                "tip": "left",
+                "text": "Clique em ocultar para esconder a senha. Lembre: Trocar senha desconecta o tablet daquela unidade na hora.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 6.994884910485936,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum267910c2sqmfhg5swqv95",
+              "image": "/media/bcdc50ffc5ab1afb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/79e90fd2095e2290.mp3",
+              "captions": "/media/13e807bf7373a263.vtt",
+              "narration": "Chegou alguém novo na equipe? Clique em Adicionar pessoa.",
+              "duration": 4.41469387755102,
+              "hotspot": {
+                "x": 92.39583333333333,
+                "y": 15.217391304347828,
+                "w": 11.11111111111111,
+                "h": 5.88235294117647,
+                "tip": "left",
+                "text": "Chegou alguém novo na equipe? Clique em Adicionar pessoa.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum268aw0c2yqmfhou9leuqg",
+              "image": "/media/7c22d2f8822c468b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/86f263a2b5f2e1dc.mp3",
+              "captions": "/media/40fd187277c67771.vtt",
+              "narration": "Escreva o nome como a pessoa vai se reconhecer. É ele que aparece na tela de escolha do balcão.",
+              "duration": 7.523265306122449,
+              "hotspot": {
+                "x": 50,
+                "y": 44.309462915601024,
+                "w": 35.27777777777778,
+                "h": 2.941176470588235,
+                "tip": "bottom",
+                "text": "Escreva o nome como a pessoa vai se reconhecer. É ele que aparece na tela de escolha do balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 4.131944444444443,
+                "y": 0.0767263427109981,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum26bv60c3dqmfhxvaygvhj",
+              "image": null,
+              "video": "/media/e919ac5236875814.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 4.58,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum26d3s0c3iqmfhgvkrsjkb",
+              "image": "/media/f7fce9f5d26cd46a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/aeff425f01ed2c52.mp3",
+              "captions": "/media/0914bdc5da27fbf1.vtt",
+              "narration": "Defina em qual unidade a pessoa trabalha. Ela só aparece no balcão dessa unidade.",
+              "duration": 4.858775510204081,
+              "hotspot": {
+                "x": 41.94444444444444,
+                "y": 55.370843989769824,
+                "w": 6.041666666666667,
+                "h": 4.987212276214834,
+                "tip": "right",
+                "text": "Defina em qual unidade a pessoa trabalha. Ela só aparece no balcão dessa unidade.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum26dt50c3lqmfh37i8s8r2",
+              "image": "/media/4406b6c76312253c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8586662a84b85281.mp3",
+              "captions": "/media/5396a15187afa4e7.vtt",
+              "narration": "Pronto: clique em Adicionar. No próximo atendimento, o nome já está na tela do balcão.",
+              "duration": 7.000816326530612,
+              "hotspot": {
+                "x": 45.989583333333336,
+                "y": 77.55754475703324,
+                "w": 29.47916666666667,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Pronto: clique em Adicionar. No próximo atendimento, o nome já está na tela do balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 1.354166666666671,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum26nbn0c4hqmfhtt0j2233",
+              "image": null,
+              "video": "/media/9282699d86e58a0d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 11.852,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "gerenciar-unidades-e-equipe",
+          "navTitle": "Gerenciar unidades e equipe"
+        },
+        {
+          "id": "cmum27n2b0c5uqmfhni5s2epl",
+          "title": "Corrigir o saldo de um cliente",
+          "description": "Veja como achar um cliente na Gestão, conferir o extrato da cartela e dar ou tirar selos com um motivo, que fica registrado no histórico.",
+          "steps": [
+            {
+              "id": "cmum28orr0c98qmfhip6v0a4m",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Corrigir o saldo de um cliente",
+                "description": "Veja como achar um cliente na Gestão, conferir o extrato da cartela e dar ou tirar selos com um motivo, que fica registrado no histórico.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum27sn30c6aqmfh014ijzeh"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum27sn30c6aqmfh014ijzeh",
+              "image": "/media/04a344eeaf715c63.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e9410fc407268dfa.mp3",
+              "captions": "/media/4617c32002a57832.vtt",
+              "narration": "Seus clientes e o saldo de cada um ficam em Clientes, no menu lateral.",
+              "duration": 4.41469387755102,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 35.42199488491048,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Seus clientes e o saldo de cada um ficam em Clientes, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum27trr0c6gqmfht1dp2pyg",
+              "image": "/media/1b00bc669f4b5b33.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/04134325cc120c74.mp3",
+              "captions": "/media/19bbc42365200e66.vtt",
+              "narration": "Quer ver quem está quase ganhando a recompensa? Use o filtro Perto de completar.",
+              "duration": 5.851428571428571,
+              "hotspot": {
+                "x": 31.54513888888889,
+                "y": 25.767263427109977,
+                "w": 10.65972222222222,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Quer ver quem está quase ganhando a recompensa? Use o filtro Perto de completar.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum27vlw0c6jqmfh4ru274k5",
+              "image": "/media/b32a023fb4b007e0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/42259d0a119386d0.mp3",
+              "captions": "/media/fb65515ce1e8c0b6.vtt",
+              "narration": "Clique em um cliente, como Beatriz Nunes, para abrir o resumo da cartela.",
+              "duration": 4.728163265306122,
+              "hotspot": {
+                "x": 59.34027777777777,
+                "y": 40.47314578005115,
+                "w": 77.01388888888889,
+                "h": 8.695652173913043,
+                "tip": "left",
+                "text": "Clique em um cliente, como Beatriz Nunes, para abrir o resumo da cartela.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum280gu0c6yqmfht2bu99wp",
+              "image": "/media/e43f0d65caaf3f3c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e2894b2be87413ce.mp3",
+              "captions": "/media/8ea0d4493978ce79.vtt",
+              "narration": "Ver extrato mostra cada selo que o cliente ganhou, com data, atendente e unidade.",
+              "duration": 6.295510204081633,
+              "hotspot": {
+                "x": 91.45833333333333,
+                "y": 94.30946291560103,
+                "w": 13.19444444444444,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Ver extrato mostra cada selo que o cliente ganhou, com data, atendente e unidade.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum281z20c71qmfh6v5uio0m",
+              "image": "/media/69a61c74e3badff1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a28b75ec4341afdc.mp3",
+              "captions": "/media/c30463a49fc323de.vtt",
+              "narration": "Conferiu o extrato? Clique em Voltar ao resumo para retornar à cartela.",
+              "duration": 5.98204081632653,
+              "hotspot": {
+                "x": 84.51388888888889,
+                "y": 94.30946291560103,
+                "w": 27.08333333333333,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Conferiu o extrato? Clique em Voltar ao resumo para retornar à cartela.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum283w90c7jqmfhk7oevnzk",
+              "image": "/media/bb13e4d8839176e4.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/457d8df40b4a86ec.mp3",
+              "captions": "/media/043c5d001cd8b12c.vtt",
+              "narration": "Algum selo ficou faltando ou sobrando? Clique em Corrigir saldo.",
+              "duration": 5.877551020408164,
+              "hotspot": {
+                "x": 77.56944444444444,
+                "y": 94.30946291560103,
+                "w": 13.19444444444444,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Algum selo ficou faltando ou sobrando? Clique em Corrigir saldo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum286u50c7sqmfhauny21qn",
+              "image": "/media/db67e5fdcabfa194.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f54ee0f1da41d67a.mp3",
+              "captions": "/media/879e56307fd47bf4.vtt",
+              "narration": "Escolha quantos selos dar. Os atalhos 1, 2 e 5 preenchem o campo na hora.",
+              "duration": 7.96734693877551,
+              "hotspot": {
+                "x": 59.44444444444444,
+                "y": 45.39641943734015,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Escolha quantos selos dar. Os atalhos 1, 2 e 5 preenchem o campo na hora.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0.3964194373401497,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum288980c7vqmfhrj0m31n6",
+              "image": "/media/bb93061e63b5df8e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1acc876e0200db77.mp3",
+              "captions": "/media/b16b5f27d0f8fa20.vtt",
+              "narration": "Defina o motivo, como Cortesia. Ele entra no extrato do cliente junto com o seu nome.",
+              "duration": 6.112653061224489,
+              "hotspot": {
+                "x": 46.71875,
+                "y": 56.42583120204604,
+                "w": 6.076388888888888,
+                "h": 5.051150895140665,
+                "tip": "top",
+                "text": "Defina o motivo, como Cortesia. Ele entra no extrato do cliente junto com o seu nome.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 4.930555555555557,
+                "y": 13.95780051150895,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum28a3z0c7yqmfhdn838m28",
+              "image": "/media/cff78e794c6a3ea5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1158910b57e018ff.mp3",
+              "captions": "/media/dd9293dc8f0ba991.vtt",
+              "narration": "Confira a prévia em Fica com e clique em Adicionar ao saldo para salvar a correção.",
+              "duration": 6.26938775510204,
+              "hotspot": {
+                "x": 59.25347222222223,
+                "y": 82.35294117647058,
+                "w": 17.67361111111111,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Confira a prévia em Fica com e clique em Adicionar ao saldo para salvar a correção.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 17.98611111111111,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum28byt0c8cqmfh6bmy2kmz",
+              "image": "/media/31cf11b82858ea47.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e79cda29049a064e.mp3",
+              "captions": "/media/200d561e73c892c0.vtt",
+              "narration": "Pronto: a correção foi salva. Clique em Fechar, no canto do painel, para voltar à lista.",
+              "duration": 5.668571428571428,
+              "hotspot": {
+                "x": 97.04861111111111,
+                "y": 5.818414322250639,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Pronto: a correção foi salva. Clique em Fechar, no canto do painel, para voltar à lista.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum28daa0c8fqmfhff5pw1ro",
+              "image": "/media/6b65fb0c787da177.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c5bbf8fe78becdb0.mp3",
+              "captions": "/media/98e30c6147ccaaa9.vtt",
+              "narration": "Em Histórico, no menu lateral, você acompanha tudo o que passou pelo balcão.",
+              "duration": 5.668571428571428,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 41.30434782608695,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Em Histórico, no menu lateral, você acompanha tudo o que passou pelo balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum28fve0c8lqmfh4ufs214z",
+              "image": "/media/5ef5cac34b4148b7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fe1b4bd3b6213f2a.mp3",
+              "captions": "/media/47a35aec66978f48.vtt",
+              "narration": "Filtre por Selos para ver só os selos dados no período escolhido.",
+              "duration": 4.205714285714286,
+              "hotspot": {
+                "x": 28.177083333333336,
+                "y": 24.93606138107417,
+                "w": 4.548611111111111,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Filtre por Selos para ver só os selos dados no período escolhido.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum28icv0c8oqmfhe2ui5y0t",
+              "image": "/media/bf6bd36b25e35db8.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/831c1a2f48b2f27f.mp3",
+              "captions": "/media/97afa3b7ad024903.vtt",
+              "narration": "Clique em Correções para ver só os ajustes de saldo, como a cortesia que você acabou de dar.",
+              "duration": 5.616326530612245,
+              "hotspot": {
+                "x": 51.145833333333336,
+                "y": 24.93606138107417,
+                "w": 6.736111111111111,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Clique em Correções para ver só os ajustes de saldo, como a cortesia que você acabou de dar.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 9.513888888888893,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            }
+          ],
+          "slug": "corrigir-o-saldo-de-um-cliente",
+          "navTitle": "Corrigir o saldo de um cliente"
+        },
+        {
+          "id": "cmum29vxt0ccxqmfhzzwuv4vy",
+          "title": "Plano e dados da empresa",
+          "description": "Veja as opções de plano e ciclo em Plano e cobrança e atualize os contatos que o cliente vê no app e os dados fiscais da nota da assinatura.",
+          "steps": [
+            {
+              "id": "cmum2bgys0chcqmfh62oswisx",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Plano e dados da empresa na Gestão",
+                "description": "Veja as opções de plano e ciclo em Plano e cobrança e atualize os contatos que o cliente vê no app e os dados fiscais da nota da assinatura.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum29z0i0cd2qmfhat68lfd4"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum29z0i0cd2qmfhat68lfd4",
+              "image": "/media/dc17fb89df7411ff.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/908aeb7aa5c68eae.mp3",
+              "captions": "/media/ec4eb5239cecc30c.vtt",
+              "narration": "Tudo sobre a assinatura da sua loja fica em Plano e cobrança, no menu lateral.",
+              "duration": 5.433469387755102,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 53.069053708439895,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Tudo sobre a assinatura da sua loja fica em Plano e cobrança, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2a02z0cd5qmfha7egiatf",
+              "image": "/media/050a598b8eceb7a2.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c373ed6593f7ad44.mp3",
+              "captions": "/media/1a39efeaecbaa82c.vtt",
+              "narration": "Quer mudar de plano ou de ciclo? Clique em Trocar de plano.",
+              "duration": 4.12734693877551,
+              "hotspot": {
+                "x": 27.65625,
+                "y": 61.189258312020456,
+                "w": 10.3125,
+                "h": 5.88235294117647,
+                "tip": "right",
+                "text": "Quer mudar de plano ou de ciclo? Clique em Trocar de plano.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2a1bp0cdbqmfhq3a2c0za",
+              "image": "/media/9e8d4e01141a333b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8bfa8ed12c5bc8fb.mp3",
+              "captions": "/media/a8239de39a2f924a.vtt",
+              "narration": "Compare os planos lado a lado. No ciclo anual, cada plano sai com vinte por cento de desconto.",
+              "duration": 7.340408163265306,
+              "hotspot": {
+                "x": 40.88541666666667,
+                "y": 29.987212276214837,
+                "w": 8.020833333333334,
+                "h": 4.731457800511509,
+                "tip": "bottom",
+                "text": "Compare os planos lado a lado. Anual · −20% mostra o preço de cada um no ciclo anual.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2a33z0cdkqmfh4k9ruwt2",
+              "image": "/media/bacbd3818e426ec5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a6defede9b0d849e.mp3",
+              "captions": "/media/52129afbf0b27bb5.vtt",
+              "narration": "Só estava conferindo? Clique em Cancelar para fechar sem trocar nada.",
+              "duration": 4.54530612244898,
+              "hotspot": {
+                "x": 65.83333333333333,
+                "y": 81.52173913043478,
+                "w": 7.291666666666667,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Só estava conferindo? Clique em Cancelar para fechar sem trocar nada.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2a42e0cdtqmfhrxzx4pmn",
+              "image": null,
+              "video": "/media/36a794ef3efbff2d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.749,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2a5c50cdyqmfhd362y42l",
+              "image": "/media/f0774af1e6196e64.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2883f4826049f88b.mp3",
+              "captions": "/media/dce95281a07d9498.vtt",
+              "narration": "Os dados da nota vêm do cadastro da loja. Clique em Editar em Dados da empresa para preenchê-los.",
+              "duration": 8.019591836734694,
+              "hotspot": {
+                "x": 69.39236111111111,
+                "y": 66.87979539641944,
+                "w": 12.8125,
+                "h": 2.429667519181586,
+                "tip": "left",
+                "text": "Os dados da nota vêm do cadastro da loja. Clique em Editar em Dados da empresa para preenchê-los.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2a9s60ce7qmfhrv292h5w",
+              "image": "/media/c8f17e667684720f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/358c1b2c1ee21ade.mp3",
+              "captions": "/media/1836f1ade08604f5.vtt",
+              "narration": "Preencha o Telefone. É obrigatório e aparece para o cliente no app da Fidz.",
+              "duration": 4.963265306122449,
+              "hotspot": {
+                "x": 69.60069444444444,
+                "y": 53.70843989769821,
+                "w": 21.14583333333333,
+                "h": 2.429667519181586,
+                "tip": "left",
+                "text": "Preencha o Telefone. É obrigatório e aparece para o cliente no app da Fidz.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2ae200cegqmfhnu1qyorm",
+              "image": null,
+              "video": "/media/8ddf692468dec09d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 5.3,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2af980ceiqmfha41phfuk",
+              "image": "/media/265a6992614e93fd.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ea62868b09785aa1.mp3",
+              "captions": "/media/930846a27a8a505d.vtt",
+              "narration": "Tem Instagram? Informe o @perfil para ele aparecer na página da sua loja no app.",
+              "duration": 5.433469387755102,
+              "hotspot": {
+                "x": 70.27777777777777,
+                "y": 64.3222506393862,
+                "w": 22.5,
+                "h": 2.429667519181586,
+                "tip": "left",
+                "text": "Tem Instagram? Informe o @perfil para ele aparecer na página da sua loja no app.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2ai6g0cerqmfhgfrujznf",
+              "image": null,
+              "video": "/media/8f5bfd408425e172.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 3.576,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2ajhj0cetqmfhf6u0crus",
+              "image": "/media/8e89b2608384f200.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2e7a8a4c0d0d9759.mp3",
+              "captions": "/media/948c7d280a6ef52d.vtt",
+              "narration": "Site é opcional. Se a loja tiver um, informe o endereço aqui.",
+              "duration": 4.83265306122449,
+              "hotspot": {
+                "x": 70.27777777777777,
+                "y": 74.93606138107417,
+                "w": 22.5,
+                "h": 2.429667519181586,
+                "tip": "top",
+                "text": "Site é opcional. Se a loja tiver um, informe o endereço aqui.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2am990cf2qmfhl99sgs8a",
+              "image": null,
+              "video": "/media/fbfc69ff8ec6893d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 4.282,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2apdl0cfaqmfhzk8xhygo",
+              "image": null,
+              "video": "/media/c388e3d3f1dab89a.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 3.747,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2ar9y0cffqmfh2d633aq7",
+              "image": "/media/55a6cbb6a8b34a54.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/00aca897a1c14f8b.mp3",
+              "captions": "/media/e1dfb4303cbcb9ca.vtt",
+              "narration": "Pronto: clique em Salvar alterações para guardar os contatos da loja.",
+              "duration": 5.328979591836735,
+              "hotspot": {
+                "x": 83.33333333333334,
+                "y": 90.66496163682865,
+                "w": 11.18055555555556,
+                "h": 5.88235294117647,
+                "tip": "top",
+                "text": "Pronto: clique em Salvar alterações para guardar os contatos da loja.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2auft0cfoqmfh1euvtcoe",
+              "image": null,
+              "video": "/media/74b1641474e1e73a.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 3.328,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2avny0cfqqmfh1wewa8s2",
+              "image": "/media/47a13bad648ebbfe.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/044be8111735f5f3.mp3",
+              "captions": "/media/2f73dbfe3e1a1861.vtt",
+              "narration": "Informe a Razão social, o nome da empresa como está no CNPJ. Ela vai na nota da assinatura Fidz.",
+              "duration": 9.09061224489796,
+              "hotspot": {
+                "x": 55.486111111111114,
+                "y": 41.49616368286445,
+                "w": 63.74999999999999,
+                "h": 2.941176470588235,
+                "tip": "right",
+                "text": "Informe a Razão social, o nome da empresa como está no CNPJ. Ela vai na nota da assinatura Fidz.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2b3sb0cg5qmfhf9ddddgl",
+              "image": null,
+              "video": "/media/6e2ae49a5e4a4fb8.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 10.237,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2bcd00ch4qmfhevs7gqud",
+              "image": null,
+              "video": "/media/a07c43b36f234507.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 0.606,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2bdfq0ch6qmfhizgbpxpl",
+              "image": "/media/1fb93b245c05b0c3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5fb60cf0224f0fdd.mp3",
+              "captions": "/media/28c950666e6f6a69.vtt",
+              "narration": "Confira os dados fiscais e clique em Salvar alterações. A nota da assinatura sai com eles.",
+              "duration": 6.817959183673469,
+              "hotspot": {
+                "x": 83.33333333333334,
+                "y": 90.66496163682865,
+                "w": 11.18055555555556,
+                "h": 5.88235294117647,
+                "tip": "top",
+                "text": "Confira os dados fiscais e clique em Salvar alterações. A nota da assinatura sai com eles.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "plano-e-dados-da-empresa",
+          "navTitle": "Plano e dados da empresa"
+        },
+        {
+          "id": "cmum2by7i0chrqmfhusatn18w",
+          "title": "Abrir e encerrar um chamado de suporte",
+          "description": "Veja como pedir ajuda à equipe da Fidz pela Gestão: escolha o assunto, descreva o problema e acompanhe a resposta até encerrar o chamado.",
+          "steps": [
+            {
+              "id": "cmum2cqqm0cimqmfh8puyhb01",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Abrir e encerrar um chamado de suporte",
+                "description": "Veja como pedir ajuda à equipe da Fidz pela Gestão: escolha o assunto, descreva o problema e acompanhe a resposta até encerrar o chamado.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum2c16x0chtqmfh1nmwzaog"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum2c16x0chtqmfh1nmwzaog",
+              "image": "/media/962d81bbbf57285a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/465657c5bf563576.mp3",
+              "captions": "/media/5ea4deb8d0442aeb.vtt",
+              "narration": "Tudo o que você conversa com a equipe da Fidz fica em Suporte, no menu lateral.",
+              "duration": 4.83265306122449,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 64.83375959079284,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Tudo o que você conversa com a equipe da Fidz fica em Suporte, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2c2o10chwqmfh1z6tblbx",
+              "image": "/media/c59953b5d0ab4782.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3ba9b236b7749186.mp3",
+              "captions": "/media/9cc1cf326308ca4b.vtt",
+              "narration": "Algo no balcão, na fidelidade ou na cobrança não está certo? Clique em Abrir chamado.",
+              "duration": 7.601632653061224,
+              "hotspot": {
+                "x": 92.8125,
+                "y": 16.624040920716112,
+                "w": 10.27777777777778,
+                "h": 5.88235294117647,
+                "tip": "left",
+                "text": "Algo no balcão, na fidelidade ou na cobrança não está certo? Clique em Abrir chamado.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2c6b80chzqmfhrvpwod8h",
+              "image": "/media/eceff587f145bbc9.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/04524467bbfa2538.mp3",
+              "captions": "/media/f9db8487fd76784f.vtt",
+              "narration": "Escolha o assunto. Cobrança é para dúvidas sobre plano, fatura ou pagamento.",
+              "duration": 6.817959183673469,
+              "hotspot": {
+                "x": 47.58680555555556,
+                "y": 37.65984654731458,
+                "w": 6.631944444444445,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Escolha o assunto. Cobrança é para dúvidas sobre plano, fatura ou pagamento.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 8.125,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2carj0ci2qmfhaumskwwy",
+              "image": "/media/a9c3188bf2ab8b63.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1f26c3c1c6cd9714.mp3",
+              "captions": "/media/5e1ece1d9d547c80.vtt",
+              "narration": "Acesso é para problemas de login na Gestão ou no tablet do balcão. Marque o assunto que mais combina com o seu caso.",
+              "duration": 9.142857142857142,
+              "hotspot": {
+                "x": 54.14930555555556,
+                "y": 37.65984654731458,
+                "w": 5.381944444444445,
+                "h": 4.987212276214834,
+                "tip": "bottom",
+                "text": "Acesso é para problemas de login na Gestão ou no tablet do balcão. Marque o assunto que mais combina com o seu caso.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 9.479166666666664,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2cc3v0ci5qmfh5efqwk5x",
+              "image": "/media/c2f55304a8e8db7a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f0aa016c0d1e10e5.mp3",
+              "captions": "/media/aa2284696a84c08b.vtt",
+              "narration": "Resuma o problema em uma linha. É a primeira coisa que a equipe da Fidz lê.",
+              "duration": 5.381224489795918,
+              "hotspot": {
+                "x": 50,
+                "y": 48.72122762148338,
+                "w": 35.27777777777778,
+                "h": 2.941176470588235,
+                "tip": "right",
+                "text": "Resuma o problema em uma linha. É a primeira coisa que a equipe da Fidz lê.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 8.368055555555557,
+                "y": 9.680306905370841,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2chly0cieqmfhlpy262kc",
+              "image": null,
+              "video": "/media/10a4aa98fb30daed.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 7.294,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2cior0cigqmfhlccm1g9e",
+              "image": "/media/375c8aff76b8c3ba.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/04484df22c2afce0.mp3",
+              "captions": "/media/d89648202c02b787.vtt",
+              "narration": "Clique em Enviar chamado. A resposta da Fidz aparece aqui mesmo, em Suporte.",
+              "duration": 5.98204081632653,
+              "hotspot": {
+                "x": 45.989583333333336,
+                "y": 75.44757033248082,
+                "w": 29.47916666666667,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Clique em Enviar chamado. A resposta da Fidz aparece aqui mesmo, em Suporte.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2cnru0cijqmfhxngztnhj",
+              "image": "/media/7fec51ead4f9f3ca.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d746b50355a20744.mp3",
+              "captions": "/media/551be8e56692e738.vtt",
+              "narration": "Problema resolvido? Clique em Encerrar chamado para fechar o atendimento.",
+              "duration": 5.877551020408164,
+              "hotspot": {
+                "x": 76.59722222222223,
+                "y": 64.00255754475704,
+                "w": 23.75,
+                "h": 5.754475703324808,
+                "tip": "left",
+                "text": "Problema resolvido? Clique em Encerrar chamado para fechar o atendimento.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "abrir-e-encerrar-um-chamado-de-suporte",
+          "navTitle": "Abrir e encerrar um chamado de suporte"
+        }
+      ]
+    },
+    {
+      "id": "5dc9f874-3faf-44f0-8e92-3984915db7c5",
+      "title": "Fidelidades",
+      "slug": "fidelidades",
+      "demos": [
+        {
+          "id": "cmum20uza0bogqmfhaa3u3zrb",
+          "title": "Criar um cupom de desconto",
+          "description": "Veja como criar um cupom na Gestão: defina o desconto, as datas, os limites e os dias de uso, e publique para o cliente pegar no app.",
+          "steps": [
+            {
+              "id": "cmum22m650bw1qmfh27l5sgav",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Criar um cupom de desconto",
+                "description": "Veja como criar um cupom na Gestão: defina o desconto, as datas, os limites e os dias de uso, e publique para o cliente pegar no app.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum2119l0boxqmfhpnn8p9tm"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum2119l0boxqmfhpnn8p9tm",
+              "image": "/media/99d1bcc3c36b9e06.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/72ae14a2e6067fd9.mp3",
+              "captions": "/media/9208337de5d72ef2.vtt",
+              "narration": "Os cupons da sua loja ficam em Cupons, no menu lateral.",
+              "duration": 3.604897959183674,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 23.657289002557544,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "Os cupons da sua loja ficam em Cupons, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum21wfj0bqrqmfhe35v0f1w",
+              "image": "/media/1afcd3054595b9dd.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/27a9400c8425481e.mp3",
+              "captions": "/media/5390ba4eeeaf5c0b.vtt",
+              "narration": "Clique em Criar cupom. O cliente pega o cupom no app da Fidz e usa no balcão.",
+              "duration": 5.328979591836735,
+              "hotspot": {
+                "x": 93.55902777777779,
+                "y": 15.728900255754475,
+                "w": 8.784722222222221,
+                "h": 5.88235294117647,
+                "tip": "left",
+                "text": "Clique em Criar cupom. O cliente pega o cupom no app da Fidz e usa no balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum21x3d0br0qmfhbmzais3c",
+              "image": null,
+              "video": "/media/b5289593e1b0e3ee.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.077,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum21z8v0br5qmfhbydm07kh",
+              "image": "/media/503149a35b5f1559.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/36bd310fe7f8cae9.mp3",
+              "captions": "/media/2c7045a3ccf2a9f8.vtt",
+              "narration": "Digite o Percentual de desconto. É quanto o cliente economiza ao usar o cupom.",
+              "duration": 6.034285714285715,
+              "hotspot": {
+                "x": 31.5625,
+                "y": 41.911764705882355,
+                "w": 17.98611111111111,
+                "h": 5.562659846547315,
+                "tip": "right",
+                "text": "Digite o Percentual de desconto. É quanto o cliente economiza ao usar o cupom.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum21zqp0breqmfhfff1p37x",
+              "image": null,
+              "video": "/media/ddf18aef0ff0ea59.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.18,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum220nq0brpqmfh4bbhj394",
+              "image": null,
+              "video": "/media/481d469c4ac0eef8.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.252,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum221t90brrqmfhu47w5u64",
+              "image": "/media/6e9456f7cdb4574d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5b5ee13821a6717c.mp3",
+              "captions": "/media/66d1ae2f394d3cc7.vtt",
+              "narration": "Defina quando o cupom começa: clique em Começa em. Nesse dia ele aparece no app.",
+              "duration": 6.530612244897959,
+              "hotspot": {
+                "x": 34.270833333333336,
+                "y": 45.076726342711,
+                "w": 23.54166666666667,
+                "h": 5.626598465473146,
+                "tip": "right",
+                "text": "Defina quando o cupom começa: clique em Começa em. Nesse dia ele aparece no app.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2233t0bruqmfhf9yrbi8a",
+              "image": "/media/b65e5fd977a89b15.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0badd4025fe274bc.mp3",
+              "captions": "/media/e19e5cf5623adf74.vtt",
+              "narration": "Escolha o dia 30 no calendário como início do cupom.",
+              "duration": 4.075102040816327,
+              "hotspot": {
+                "x": 32.53472222222222,
+                "y": 82.54475703324809,
+                "w": null,
+                "h": null,
+                "tip": "top",
+                "text": "Escolha o dia 30 no calendário como início do cupom.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum223gl0bs0qmfhsjxue4v4",
+              "image": "/media/826ee114e2d37662.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0ec37400bbd1bff5.mp3",
+              "captions": "/media/6065ca7bdc049fb8.vtt",
+              "narration": "Clique em Termina em. No último dia, o cupom some do app sozinho.",
+              "duration": 5.851428571428571,
+              "hotspot": {
+                "x": 58.64583333333333,
+                "y": 45.076726342711,
+                "w": 23.54166666666667,
+                "h": 5.626598465473146,
+                "tip": "bottom",
+                "text": "Clique em Termina em. No último dia, o cupom some do app sozinho.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 9.756944444444443,
+                "y": 0.1406649616368298,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum225780bscqmfhmgw1uqbk",
+              "image": "/media/ab559ca2e3d8a117.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/61bd17eee8e873d6.mp3",
+              "captions": "/media/e04c5029929ece46.vtt",
+              "narration": "Vai durar mais de um mês? Use a seta para avançar no calendário.",
+              "duration": 4.41469387755102,
+              "hotspot": {
+                "x": 65.3125,
+                "y": 53.32480818414322,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Vai durar mais de um mês? Use a seta para avançar no calendário.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 10.82480818414322,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2254e0bs9qmfhbujox7er",
+              "image": "/media/8ad283e9522b39af.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4786d8375e91e57f.mp3",
+              "captions": "/media/bf4df3643bbb3240.vtt",
+              "narration": "Escolha o dia 30 para encerrar o cupom.",
+              "duration": 3.160816326530612,
+              "hotspot": {
+                "x": 62.01388888888889,
+                "y": 80.9462915601023,
+                "w": null,
+                "h": null,
+                "tip": "top",
+                "text": "Escolha o dia 30 para encerrar o cupom.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum225rw0bstqmfho5hrcct0",
+              "image": null,
+              "video": "/media/c984c0aebc7f8619.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.275,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum227on0bt1qmfh89kgppfg",
+              "image": "/media/7e9dcac07dcdd449.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/86f81aec78fe0832.mp3",
+              "captions": "/media/9045b734dad357c8.vtt",
+              "narration": "Ative o Limite de usos. Quando acabar, o cupom aparece como esgotado para quem ainda não usou.",
+              "duration": 7.131428571428572,
+              "hotspot": {
+                "x": 25.34722222222222,
+                "y": 40.984654731457795,
+                "w": null,
+                "h": null,
+                "tip": "right",
+                "text": "Ative o Limite de usos. Quando acabar, o cupom aparece como esgotado para quem ainda não usou.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2285b0bt4qmfh3wbkrl6p",
+              "image": "/media/4b025909dcb9be5d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6fe7d65eec9a4da3.mp3",
+              "captions": "/media/6018c82a932f7fae.vtt",
+              "narration": "Escolha 100: o cupom vale para os 100 primeiros que usarem no balcão.",
+              "duration": 5.015510204081632,
+              "hotspot": {
+                "x": 46.78819444444444,
+                "y": 51.470588235294116,
+                "w": 3.854166666666667,
+                "h": 5.626598465473146,
+                "tip": "right",
+                "text": "Escolha 100: o cupom vale para os 100 primeiros que usarem no balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 4.201388888888893,
+                "y": 9.09846547314578,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum22aau0btxqmfh8ka8xs1m",
+              "image": "/media/e22534e43ef562c4.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/dee5b001c07f1acb.mp3",
+              "captions": "/media/b772d6d5561a18f3.vtt",
+              "narration": "Ative Desconto máximo. Em compras grandes, o desconto para nesse valor.",
+              "duration": 5.381224489795918,
+              "hotspot": {
+                "x": 25.590277777777775,
+                "y": 61.828644501278774,
+                "w": null,
+                "h": null,
+                "tip": "right",
+                "text": "Ative Desconto máximo. Em compras grandes, o desconto para nesse valor.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum22edf0bupqmfh65kfmk4d",
+              "image": "/media/14c1f537a6bd08fc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6813a57711429c95.mp3",
+              "captions": "/media/27029954838ebc14.vtt",
+              "narration": "Quer exigir uma compra mínima? Ative Valor mínimo da compra.",
+              "duration": 4.25795918367347,
+              "hotspot": {
+                "x": 25.763888888888886,
+                "y": 78.38874680306905,
+                "w": null,
+                "h": null,
+                "tip": "top",
+                "text": "Quer exigir uma compra mínima? Ative Valor mínimo da compra.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum22f150buyqmfh6wa5f5b2",
+              "image": null,
+              "video": "/media/63a93fb3707be13d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 2.002,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum22hck0bv6qmfhw7sc8xto",
+              "image": "/media/9d06c81db80c5a42.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/517e66105afc35ae.mp3",
+              "captions": "/media/8335b5afdb7d3238.vtt",
+              "narration": "Use o botão de menos para ajustar o valor mínimo. Abaixo dele, o balcão não deixa aplicar o cupom.",
+              "duration": 6.635102040816326,
+              "hotspot": {
+                "x": 28.541666666666664,
+                "y": 65.92071611253198,
+                "w": null,
+                "h": null,
+                "tip": "right",
+                "text": "Use o botão de menos para ajustar o valor mínimo. Abaixo dele, o balcão não deixa aplicar o cupom.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum22hjv0bv9qmfhmxg7vng5",
+              "image": "/media/b183f74355a06191.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c394905bfd58c06a.mp3",
+              "captions": "/media/25029bdf300cb042.vtt",
+              "narration": "Ative Dias e horários de uso. Serve para encher a loja nos dias parados.",
+              "duration": 5.616326530612245,
+              "hotspot": {
+                "x": 25.48611111111111,
+                "y": 73.33759590792839,
+                "w": null,
+                "h": null,
+                "tip": "right",
+                "text": "Ative Dias e horários de uso. Serve para encher a loja nos dias parados.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum22i5h0bvcqmfh05ws2l7e",
+              "image": "/media/06dba70506112cd0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/eee2d8343734508a.mp3",
+              "captions": "/media/87cf5ad2b6245e32.vtt",
+              "narration": "Marque Ter para o cupom valer às terças-feiras.",
+              "duration": 3.343673469387755,
+              "hotspot": {
+                "x": 39.045138888888886,
+                "y": 82.1611253196931,
+                "w": 3.784722222222222,
+                "h": 5.626598465473146,
+                "tip": "top",
+                "text": "Marque Ter para o cupom valer às terças-feiras.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum22iuq0bvlqmfhntnv87b8",
+              "image": null,
+              "video": "/media/4480ee3e7d33aa24.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.096,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum22k3b0bvvqmfh3ektmt71",
+              "image": "/media/d1b4ec92827519ca.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b47a4e6cea6309ff.mp3",
+              "captions": "/media/95aebe8ff3edfeaa.vtt",
+              "narration": "Pronto: clique em Publicar cupom. Ele aparece no app a partir do primeiro dia.",
+              "duration": 5.69469387755102,
+              "hotspot": {
+                "x": 26.770833333333332,
+                "y": 92.90281329923273,
+                "w": 12.01388888888889,
+                "h": 6.521739130434782,
+                "tip": "top",
+                "text": "Pronto: clique em Publicar cupom. Ele aparece no app a partir do primeiro dia.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "criar-um-cupom-de-desconto",
+          "navTitle": "Criar um cupom de desconto"
+        },
+        {
+          "id": "cmum2ez7u0cn2qmfhntrvle2s",
+          "title": "Criar uma fidelidade de selos",
+          "description": "Veja como montar uma cartela de selos na Gestão: nome, regra de acúmulo, dia de bônus, entrega da recompensa e unidades, até ativar o programa.",
+          "steps": [
+            {
+              "id": "cmum2fwuw0cqjqmfhc616cd4m",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Criar uma fidelidade de selos",
+                "description": "Veja como montar uma cartela de selos na Gestão: nome, regra de acúmulo, dia de bônus, entrega da recompensa e unidades, até ativar o programa.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum2f25h0cn4qmfh18uq9txv"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum2f25h0cn4qmfh18uq9txv",
+              "image": "/media/7f9b4c3d9b332616.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e7316acc15f6a77c.mp3",
+              "captions": "/media/5d69515f135c9ea9.vtt",
+              "narration": "A fidelidade da sua loja fica em Fidelidade, no menu lateral.",
+              "duration": 4.25795918367347,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 17.774936061381077,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "A fidelidade da sua loja fica em Fidelidade, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2f3hu0cn7qmfhn988pay2",
+              "image": "/media/5f2a88c7a0d98430.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/99e45aa153f1f330.mp3",
+              "captions": "/media/4235ee84fa0394cd.vtt",
+              "narration": "Escolha Selos: o cliente junta selos numa cartela e, ao bater a meta, leva a recompensa.",
+              "duration": 7.549387755102041,
+              "hotspot": {
+                "x": 30.90277777777778,
+                "y": 37.81969309462916,
+                "w": 20.27777777777778,
+                "h": 19.37340153452686,
+                "tip": "right",
+                "text": "Escolha Selos: o cliente junta selos numa cartela e, ao bater a meta, leva a recompensa.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2f3pm0cnaqmfh6h0z7k0r",
+              "image": "/media/1a3c75beea59b659.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fc3343f0cfc0ab2e.mp3",
+              "captions": "/media/3b56ddabb931e79a.vtt",
+              "narration": "Tipo escolhido. Clique em Criar fidelidade de Selos para montar a sua cartela.",
+              "duration": 6.164897959183674,
+              "hotspot": {
+                "x": 27.95138888888889,
+                "y": 52.74936061381074,
+                "w": 14.375,
+                "h": 5.88235294117647,
+                "tip": "right",
+                "text": "Tipo escolhido. Clique em Criar fidelidade de Selos para montar a sua cartela.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 11.46419437340153,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2f4ha0cndqmfhv2im1gjx",
+              "image": "/media/ebf5fcf0dd56475b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/41be4f08550ed498.mp3",
+              "captions": "/media/e985ebfe6b10e8f9.vtt",
+              "narration": "Comece pelo nome da cartela. Prefira algo curto e fácil de reconhecer.",
+              "duration": 5.093877551020408,
+              "hotspot": {
+                "x": 45.763888888888886,
+                "y": 46.48337595907928,
+                "w": 44.30555555555556,
+                "h": 2.941176470588235,
+                "tip": "right",
+                "text": "Comece pelo nome da cartela. Prefira algo curto e fácil de reconhecer.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 6.994884910485936,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2f9ug0cnpqmfhy31sch88",
+              "image": null,
+              "video": "/media/334672ff4d4cbb73.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 7.495,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2far60cnxqmfh3xnscdf6",
+              "image": null,
+              "video": "/media/65d2ec259e55488e.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 0.968,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fc150cnzqmfh3eh9ket1",
+              "image": "/media/d443bbe25e7a88f9.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/eee435b97b9ce60c.mp3",
+              "captions": "/media/eb06a9b66f5bb3d0.vtt",
+              "narration": "Quer premiar quem gasta mais? Escolha A cada valor gasto: o balcão informa o valor e a Fidz calcula os selos.",
+              "duration": 8.724897959183673,
+              "hotspot": {
+                "x": 45.763888888888886,
+                "y": 71.54731457800511,
+                "w": 46.52777777777778,
+                "h": 8.05626598465473,
+                "tip": "top",
+                "text": "Quer premiar quem gasta mais? Escolha A cada valor gasto: o balcão informa o valor e a Fidz calcula os selos.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fc9h0coaqmfhbkup3a6p",
+              "image": "/media/c5b590b8e604700e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/79edbe36b77ea8e2.mp3",
+              "captions": "/media/b136b048bbd25d46.vtt",
+              "narration": "Defina quanto vale um selo. Com R$ 20,00, uma compra de R$ 60,00 rende 3 selos.",
+              "duration": 6.922448979591837,
+              "hotspot": {
+                "x": 30.90277777777778,
+                "y": 85.48593350383632,
+                "w": 8.402777777777779,
+                "h": 2.941176470588235,
+                "tip": "top",
+                "text": "Defina quanto vale um selo. Com R$ 20,00, uma compra de R$ 60,00 rende 3 selos.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2fc530co8qmfhu85bokz2",
+              "image": null,
+              "video": "/media/b36b63592c40cb04.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 0.723,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fddh0cojqmfh5r3bxdqe",
+              "image": null,
+              "video": "/media/0c79609727b460af.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.401,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fegi0colqmfhgquxi9ji",
+              "image": "/media/6c075782895f3c8e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a24fe293c4b9d4e7.mp3",
+              "captions": "/media/b044a2d3d82d01d7.vtt",
+              "narration": "Tudo certo nesta etapa? Clique em Continuar.",
+              "duration": 3.239183673469388,
+              "hotspot": {
+                "x": 24.56597222222222,
+                "y": 94.30946291560103,
+                "w": 7.604166666666666,
+                "h": 5.88235294117647,
+                "tip": "top",
+                "text": "Tudo certo nesta etapa? Clique em Continuar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fffb0couqmfhrcb0hiz3",
+              "image": null,
+              "video": "/media/365dd4368a256e2e.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.518,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fgra0cowqmfhmiubayga",
+              "image": "/media/c4b6e4cbb705abdd.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0b4fe72ad2228867.mp3",
+              "captions": "/media/544e4924569a1856.vtt",
+              "narration": "Escolha um dia de bônus, como Ter. Nesse dia o cliente ganha selo em dobro ou um selo extra.",
+              "duration": 8.202448979591837,
+              "hotspot": {
+                "x": 39.09722222222222,
+                "y": 55.9462915601023,
+                "w": 6.319444444444445,
+                "h": 5.626598465473146,
+                "tip": "right",
+                "text": "Escolha um dia de bônus, como Ter. Nesse dia o cliente ganha selo em dobro ou um selo extra.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fjtv0cp5qmfh3135yme3",
+              "image": null,
+              "video": "/media/74fe2de2fd4a3242.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 4.899,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fl1b0cpfqmfhc79dt3aq",
+              "image": "/media/f5398e5e1c2bb16b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ef9daa5d9d2a4eef.mp3",
+              "captions": "/media/b1dd20644ea6570e.vtt",
+              "narration": "Na opção Sem autorização, o balcão entrega a recompensa na hora e o cliente nem precisa do app.",
+              "duration": 7.235918367346938,
+              "hotspot": {
+                "x": 45.763888888888886,
+                "y": 50.19181585677749,
+                "w": 46.52777777777778,
+                "h": 8.05626598465473,
+                "tip": "right",
+                "text": "Na opção Sem autorização, o balcão entrega a recompensa na hora e o cliente nem precisa do app.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fmux0cplqmfh9sluhcny",
+              "image": "/media/07f4e8b1b2269793.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ffbbcbedd84e5f06.mp3",
+              "captions": "/media/f6517b14ab79b305.vtt",
+              "narration": "Prefere mais controle? Com O cliente autoriza no app, ele confirma a entrega no celular.",
+              "duration": 5.851428571428571,
+              "hotspot": {
+                "x": 45.763888888888886,
+                "y": 41.04859335038363,
+                "w": 46.52777777777778,
+                "h": 8.05626598465473,
+                "tip": "right",
+                "text": "Prefere mais controle? Com O cliente autoriza no app, ele confirma a entrega no celular.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2fqey0cpuqmfhboz5ofe6",
+              "image": null,
+              "video": "/media/152e52a640a639a4.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 4.89,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2frjz0cpwqmfhdla3w1mt",
+              "image": "/media/a33050f5d67bde4c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ff2d523153f2efab.mp3",
+              "captions": "/media/e2cd10e47ba62d46.vtt",
+              "narration": "Marque as unidades onde a cartela vale. Aqui, Loja Centro.",
+              "duration": 4.362448979591837,
+              "hotspot": {
+                "x": 37.829861111111114,
+                "y": 79.98721227621483,
+                "w": 7.534722222222221,
+                "h": 5.626598465473146,
+                "tip": "top",
+                "text": "Marque as unidades onde a cartela vale. Aqui, Loja Centro.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2fsfa0cq7qmfhgs9k53ro",
+              "image": "/media/0ee5ef3654fff4c1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6150eb085903ff3e.mp3",
+              "captions": "/media/5bc180dbee92baac.vtt",
+              "narration": "Unidades escolhidas? Siga em Continuar.",
+              "duration": 2.925714285714286,
+              "hotspot": {
+                "x": 24.56597222222222,
+                "y": 94.37340153452686,
+                "w": 7.604166666666666,
+                "h": 5.88235294117647,
+                "tip": "top",
+                "text": "Unidades escolhidas? Siga em Continuar.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2fts80cqdqmfh8uoqua3k",
+              "image": "/media/93bdb189d9607edb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a76ea43ead12db22.mp3",
+              "captions": "/media/6fd03e1e695de18c.vtt",
+              "narration": "Pronto: clique em Ativar programa e a cartela passa a valer no balcão.",
+              "duration": 5.381224489795918,
+              "hotspot": {
+                "x": 26.145833333333336,
+                "y": 89.51406649616368,
+                "w": 10.76388888888889,
+                "h": 5.88235294117647,
+                "tip": "top",
+                "text": "Pronto: clique em Ativar programa e a cartela passa a valer no balcão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            }
+          ],
+          "slug": "criar-uma-fidelidade-de-selos",
+          "navTitle": "Criar uma fidelidade de selos"
+        },
+        {
+          "id": "cmum2yg6k0dsrqmfhqrybv0w2",
+          "title": "Criar uma fidelidade de pontos",
+          "description": "Veja como montar a régua de pontos, a validade, o dia de bônus e o catálogo de trocas antes de colocar a fidelidade de pontos da sua loja no ar.",
+          "steps": [
+            {
+              "id": "cmum2zbw80dwdqmfhaqq7ukb8",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Criar uma fidelidade de pontos",
+                "description": "Veja como montar a régua de pontos, a validade, o dia de bônus e o catálogo de trocas antes de colocar a fidelidade de pontos da sua loja no ar.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum2yjos0dstqmfhjcutnfbt"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum2yjos0dstqmfhjcutnfbt",
+              "image": "/media/cd5c764d14985c96.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b3e4c08c54cfb599.mp3",
+              "captions": "/media/8633c3e61b0e11d9.vtt",
+              "narration": "A fidelidade da sua loja se configura em Fidelidade, no menu lateral.",
+              "duration": 4.493061224489796,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 17.774936061381077,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "A fidelidade da sua loja se configura em Fidelidade, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yl6p0dswqmfhn2jou3i0",
+              "image": "/media/f6208a68616d3625.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e8251eaacc4c63b0.mp3",
+              "captions": "/media/4cd11645bbcc4f93.vtt",
+              "narration": "Escolha Pontos: o cliente ganha pontos por real gasto e troca por recompensas do seu catálogo.",
+              "duration": 7.235918367346938,
+              "hotspot": {
+                "x": 52.01388888888889,
+                "y": 37.81969309462916,
+                "w": 20.27777777777778,
+                "h": 19.37340153452686,
+                "tip": "bottom",
+                "text": "Escolha Pontos: o cliente ganha pontos por real gasto e troca por recompensas do seu catálogo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 5.729166666666671,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2ylb40dszqmfhh0qjtsgb",
+              "image": "/media/d4cbc469395b2f9a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/eb05c6ea1d67efc9.mp3",
+              "captions": "/media/1c42640f40a34427.vtt",
+              "narration": "Clique em Criar fidelidade de Pontos. As regras abrem em rascunho e nada vai ao ar ainda.",
+              "duration": 8.071836734693878,
+              "hotspot": {
+                "x": 28.315972222222225,
+                "y": 52.74936061381074,
+                "w": 15.10416666666667,
+                "h": 5.88235294117647,
+                "tip": "right",
+                "text": "Clique em Criar fidelidade de Pontos. As regras abrem em rascunho e nada vai ao ar ainda.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 11.08056265984654,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2ynqa0dtiqmfhabvqf23q",
+              "image": "/media/a3186ef382877116.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7dee535f45bbff61.mp3",
+              "captions": "/media/34128463c70ac4d2.vtt",
+              "narration": "Monte a régua: quantos pontos o cliente ganha a cada R$ gasto. Aqui, 1 ponto a cada R$ 1.",
+              "duration": 8.907755102040817,
+              "hotspot": {
+                "x": 55.43402777777777,
+                "y": 38.77877237851662,
+                "w": 13.64583333333333,
+                "h": 3.516624040920716,
+                "tip": "bottom",
+                "text": "Monte a régua: quantos pontos o cliente ganha a cada R$ gasto. Aqui, 1 ponto a cada R$ 1.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 8.055555555555557,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2ymjg0dt8qmfh7yxwuin5",
+              "image": null,
+              "video": "/media/4d80242c64352eb1.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 0.875,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yn8k0dtgqmfhn2cpip3k",
+              "image": null,
+              "video": "/media/a45bec6ad1fe32b0.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 0.62,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yof40dtlqmfhrx1povtc",
+              "image": "/media/882a9b79e67935c9.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9a516442b758c120.mp3",
+              "captions": "/media/cd35fd9a67d60b37.vtt",
+              "narration": "Quer que os pontos vençam? Escolha 6 meses. O cliente é avisado 7 dias antes do vencimento.",
+              "duration": 7.758367346938775,
+              "hotspot": {
+                "x": 34.14930555555556,
+                "y": 35.77365728900256,
+                "w": 6.076388888888888,
+                "h": 5.051150895140665,
+                "tip": "right",
+                "text": "Quer que os pontos vençam? Escolha 6 meses. O cliente é avisado 7 dias antes do vencimento.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2ypap0dtoqmfhbzpuyrgu",
+              "image": "/media/1c8d91b4b4381bf7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/21842d517442abcf.mp3",
+              "captions": "/media/a2e1f71c38f1806d.vtt",
+              "narration": "Defina como o resgate é validado. Com O cliente autoriza no app, o saldo só sai depois do aceite no celular.",
+              "duration": 7.523265306122449,
+              "hotspot": {
+                "x": 59.34027777777777,
+                "y": 56.45780051150895,
+                "w": 73.68055555555556,
+                "h": 8.05626598465473,
+                "tip": "right",
+                "text": "Defina como o resgate é validado. Com O cliente autoriza no app, o saldo só sai depois do aceite no celular.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2ypbq0dtxqmfh51uar66t",
+              "image": null,
+              "video": "/media/a55dddea8ff842c1.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.177,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yquu0dtzqmfhp4itwnwl",
+              "image": "/media/5ace3bd3bc1b8854.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/742b1caaa53c92b9.mp3",
+              "captions": "/media/76d46796b89ecffe.vtt",
+              "narration": "Ligue o Dia de bônus: num dia da semana à sua escolha, cada real vale mais pontos.",
+              "duration": 7.053061224489796,
+              "hotspot": {
+                "x": 94.23611111111111,
+                "y": 62.0843989769821,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Ligue o Dia de bônus: num dia da semana à sua escolha, cada real vale mais pontos.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yr8y0du2qmfhnixa8els",
+              "image": "/media/4a9db1f253336815.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/39961fbeabe08d0f.mp3",
+              "captions": "/media/8ebacefbb8af4d05.vtt",
+              "narration": "Escolha o dia. Aqui, Ter: toda terça-feira vira dia de bônus.",
+              "duration": 6.452244897959184,
+              "hotspot": {
+                "x": 48.767361111111114,
+                "y": 68.09462915601023,
+                "w": 10.17361111111111,
+                "h": 5.626598465473146,
+                "tip": "top",
+                "text": "Escolha o dia. Aqui, Ter: toda terça-feira vira dia de bônus.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10.52083333333334,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2yruz0du5qmfh9z3cfcgt",
+              "image": "/media/13693da76702dcf5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/bf652d3f335e886b.mp3",
+              "captions": "/media/10fc91098fd29c29.vtt",
+              "narration": "Diga quantos pontos cada real vale nesse dia. Na terça, esse valor substitui a régua normal.",
+              "duration": 6.922448979591837,
+              "hotspot": {
+                "x": 37.447916666666664,
+                "y": 75.28772378516624,
+                "w": 5.3125,
+                "h": 3.516624040920716,
+                "tip": "top",
+                "text": "Diga quantos pontos cada real vale nesse dia. Na terça, esse valor substitui a régua normal.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum2ysxx0dueqmfhheyjzfxw",
+              "image": null,
+              "video": "/media/737ffe699bd10251.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.624,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yu810dugqmfhwebepa49",
+              "image": "/media/643b3776acc2abbe.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c1fc89a4399c8349.mp3",
+              "captions": "/media/d65139f46456bc9a.vtt",
+              "narration": "Clique em Nova troca para montar o catálogo. Você precisa de pelo menos uma troca para criar a fidelidade.",
+              "duration": 7.000816326530612,
+              "hotspot": {
+                "x": 59.34027777777777,
+                "y": 80.43478260869566,
+                "w": 73.68055555555556,
+                "h": 6.905370843989769,
+                "tip": "top",
+                "text": "Clique em Nova troca para montar o catálogo. Você precisa de pelo menos uma troca para criar a fidelidade.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yw9h0dupqmfh78lgjob2",
+              "image": null,
+              "video": "/media/b4bb382bec13e443.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.538,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yxla0durqmfhtdjf8ghh",
+              "image": "/media/506be667739db5bd.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/caa03f8486d382c1.mp3",
+              "captions": "/media/d6ef2b28a7914d7b.vtt",
+              "narration": "Em Custa quantos pontos, informe o preço da troca. Aqui, quanto custa o desconto de 10%.",
+              "duration": 6.948571428571428,
+              "hotspot": {
+                "x": 40,
+                "y": 68.03069053708441,
+                "w": 16.66666666666666,
+                "h": 2.941176470588235,
+                "tip": "top",
+                "text": "Em Custa quantos pontos, informe o preço da troca. Aqui, quanto custa o desconto de 10%.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yxzv0dv0qmfhko3p52sl",
+              "image": null,
+              "video": "/media/6e4328e949daf22a.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.609,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yz5y0dv2qmfhuy6rrxjd",
+              "image": "/media/c5a34a1ea0b99bc1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b193df234dadae7a.mp3",
+              "captions": "/media/f8ba5c6cc9565b55.vtt",
+              "narration": "Compra mínima é opcional. Deixe vazio para a troca valer em qualquer compra.",
+              "duration": 4.858775510204081,
+              "hotspot": {
+                "x": 60.97222222222223,
+                "y": 68.03069053708441,
+                "w": 14.79166666666667,
+                "h": 2.941176470588235,
+                "tip": "top",
+                "text": "Compra mínima é opcional. Deixe vazio para a troca valer em qualquer compra.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2yzhq0dvbqmfhezx7dvsk",
+              "image": null,
+              "video": "/media/a35b15569c152504.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.214,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z0rm0dvdqmfh30nxlt7v",
+              "image": "/media/fc225445591ba299.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/780c2061f6ba3b64.mp3",
+              "captions": "/media/641697ca4a8c5f48.vtt",
+              "narration": "Clique em Salvar troca. Ela entra no catálogo do app quando você criar a fidelidade.",
+              "duration": 5.877551020408164,
+              "hotspot": {
+                "x": 59.947916666666664,
+                "y": 76.98209718670077,
+                "w": 19.0625,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Clique em Salvar troca. Ela entra no catálogo do app quando você criar a fidelidade.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z0wz0dvmqmfhvlmpjfzx",
+              "image": null,
+              "video": "/media/49fc36a4c39c0a51.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.071,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z2120dvoqmfh5dz55ujl",
+              "image": "/media/a797d3e98c066bcd.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/71a911a21af14d0a.mp3",
+              "captions": "/media/4cf0034afebf0f08.vtt",
+              "narration": "Quer dar mais opções? Clique em Nova troca de novo. O cliente escolhe qualquer troca que couber no saldo.",
+              "duration": 7.183673469387755,
+              "hotspot": {
+                "x": 93.78472222222223,
+                "y": 65.72890025575447,
+                "w": 4.861111111111112,
+                "h": 2.429667519181586,
+                "tip": "left",
+                "text": "Quer dar mais opções? Clique em Nova troca de novo. O cliente escolhe qualquer troca que couber no saldo.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z5tg0dvxqmfhu4w7ua5t",
+              "image": null,
+              "video": "/media/ece0813a7d380fad.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 4.176,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z79v0dvzqmfhsjvl2wcj",
+              "image": "/media/bd0ece4290a68860.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5d4e2d685a896647.mp3",
+              "captions": "/media/c04b8c96fc27f85e.vtt",
+              "narration": "Salve a segunda troca em Salvar troca. Depois dá para editar ou remover cada uma.",
+              "duration": 5.668571428571428,
+              "hotspot": {
+                "x": 59.947916666666664,
+                "y": 76.98209718670077,
+                "w": 19.0625,
+                "h": 6.138107416879795,
+                "tip": "top",
+                "text": "Salve a segunda troca em Salvar troca. Depois dá para editar ou remover cada uma.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z7ei0dw8qmfh9az6tbvw",
+              "image": null,
+              "video": "/media/589d24ade26c55dc.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.411,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum2z8m10dwaqmfhhlfod5xd",
+              "image": "/media/ca21edd1ff13c558.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/dc740e5c253090b6.mp3",
+              "captions": "/media/fdd4bd6e08a4a080.vtt",
+              "narration": "Tudo pronto? Clique em Criar fidelidade para colocar os pontos no ar. Cancelar volta à escolha do tipo.",
+              "duration": 8.855510204081632,
+              "hotspot": {
+                "x": 25.868055555555557,
+                "y": 92.51918158567774,
+                "w": 10.20833333333333,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Tudo pronto? Clique em Criar fidelidade para colocar os pontos no ar. Cancelar volta à escolha do tipo.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "criar-uma-fidelidade-de-pontos",
+          "navTitle": "Criar uma fidelidade de pontos"
+        },
+        {
+          "id": "cmum31isq0dzrqmfhrdgoug52",
+          "title": "Criar uma fidelidade de cashback",
+          "description": "Veja como montar o cashback da sua loja na Gestão: quanto volta por compra, teto de uso, validade do saldo, como o resgate é validado e o dia de bônus.",
+          "steps": [
+            {
+              "id": "cmum327kk0e1vqmfhvmn1ewo8",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Criar uma fidelidade de cashback",
+                "description": "Veja como montar o cashback da sua loja na Gestão: quanto volta por compra, teto de uso, validade do saldo, como o resgate é validado e o dia de bônus.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum31lk50dztqmfh6kg7fi8u"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum31lk50dztqmfh6kg7fi8u",
+              "image": "/media/3562c2a817c3fdc1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/27b1a12cd4947176.mp3",
+              "captions": "/media/b167bf5b5c2a836d.vtt",
+              "narration": "A fidelidade da sua loja fica em Fidelidade, no menu lateral.",
+              "duration": 3.526530612244898,
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 17.774936061381077,
+                "w": 16.38888888888889,
+                "h": 5.370843989769821,
+                "tip": "right",
+                "text": "A fidelidade da sua loja fica em Fidelidade, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum31mhw0dzwqmfhcp2vz4s5",
+              "image": "/media/48a9a6289a942a95.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/89af6ebf59eba212.mp3",
+              "captions": "/media/917352c6eb515ae5.vtt",
+              "narration": "Escolha Cashback: parte de cada compra volta como saldo para o cliente usar na próxima.",
+              "duration": 7.10530612244898,
+              "hotspot": {
+                "x": 73.125,
+                "y": 37.81969309462916,
+                "w": 20.27777777777778,
+                "h": 19.37340153452686,
+                "tip": "left",
+                "text": "Escolha Cashback: parte de cada compra volta como saldo para o cliente usar na próxima.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum31nls0dzzqmfhcz0zb6ej",
+              "image": "/media/f91838d70a887680.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e63485c6710b2bff.mp3",
+              "captions": "/media/c7af860ef6776151.vtt",
+              "narration": "Clique em Criar fidelidade de Cashback para abrir as regras. Nada fica valendo até você confirmar no fim.",
+              "duration": 8.777142857142858,
+              "hotspot": {
+                "x": 29.131944444444446,
+                "y": 52.74936061381074,
+                "w": 16.73611111111111,
+                "h": 5.88235294117647,
+                "tip": "right",
+                "text": "Clique em Criar fidelidade de Cashback para abrir as regras. Nada fica valendo até você confirmar no fim.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 8.005115089514064,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum31oey0e02qmfhdacw7jxc",
+              "image": "/media/048855b846601eb1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2589bd81ebb55379.mp3",
+              "captions": "/media/60c8688d71960290.vtt",
+              "narration": "Defina em Quanto volta por compra o percentual que vira saldo para o cliente.",
+              "duration": 5.328979591836735,
+              "hotspot": {
+                "x": 40.12152777777778,
+                "y": 38.13938618925831,
+                "w": 33.02083333333334,
+                "h": 3.516624040920716,
+                "tip": "right",
+                "text": "Defina em Quanto volta por compra o percentual que vira saldo para o cliente.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum31p3n0e0bqmfhhv8pk6n0",
+              "image": null,
+              "video": "/media/1332fd6450f42f1e.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.693,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum31qdn0e0dqmfhyc0xbu00",
+              "image": "/media/723ff74a570029aa.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/81c2d596c694e299.mp3",
+              "captions": "/media/f7f9064dac8c2871.vtt",
+              "narration": "Quer exigir um valor mínimo? Ligue Compra mínima para usar e informe o valor em reais.",
+              "duration": 6.086530612244898,
+              "hotspot": {
+                "x": 94.96527777777779,
+                "y": 32.73657289002558,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Quer exigir um valor mínimo? Ligue Compra mínima para usar e informe o valor em reais.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum31r2v0e0gqmfhxk8e0hb6",
+              "image": "/media/4a5ab366946e0197.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/30ad91f950d15137.mp3",
+              "captions": "/media/9242f3fa98700a7e.vtt",
+              "narration": "Ligue Teto de uso na compra para limitar quanto da venda pode ser pago com saldo.",
+              "duration": 4.963265306122449,
+              "hotspot": {
+                "x": 57.08333333333333,
+                "y": 45.71611253196931,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Ligue Teto de uso na compra para limitar quanto da venda pode ser pago com saldo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 14.58333333333333,
+                "y": 3.216112531969308,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum31rq30e0jqmfh6vala1ht",
+              "image": "/media/761c92f5a87b6cc6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2563a066755bc035.mp3",
+              "captions": "/media/6351f45dcb62f78a.vtt",
+              "narration": "Informe o teto em percentual. É a parte máxima da compra que o saldo pode cobrir.",
+              "duration": 5.015510204081632,
+              "hotspot": {
+                "x": 40.12152777777778,
+                "y": 50.92710997442455,
+                "w": 33.02083333333334,
+                "h": 3.516624040920716,
+                "tip": "top",
+                "text": "Informe o teto em percentual. É a parte máxima da compra que o saldo pode cobrir.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 5.347222222222221,
+                "y": 6.023017902813294,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum31x8r0e0sqmfhg4itm9pr",
+              "image": null,
+              "video": "/media/f8bf2873c484721d.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 8.466,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum31zii0e0xqmfhr9h3xjo5",
+              "image": "/media/9456d7de5a6aab9a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a055eb5ff05be71a.mp3",
+              "captions": "/media/a24d5b1c081479b3.vtt",
+              "narration": "Escolha 3 meses. O cliente é avisado 7 dias antes de o saldo vencer.",
+              "duration": 7.183673469387755,
+              "hotspot": {
+                "x": 33.19444444444444,
+                "y": 64.92966751918159,
+                "w": 6.041666666666667,
+                "h": 5.051150895140665,
+                "tip": "right",
+                "text": "Escolha 3 meses. O cliente é avisado 7 dias antes de o saldo vencer.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum3207e0e10qmfh03u0wnjh",
+              "image": "/media/6972f9697b78763f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/19d4e51bce04532f.mp3",
+              "captions": "/media/48850f3aa1cf5ca0.vtt",
+              "narration": "Com O cliente autoriza no app, o saldo só sai depois que o cliente aceita o desconto no celular.",
+              "duration": 6.217142857142857,
+              "hotspot": {
+                "x": 59.34027777777777,
+                "y": 85.61381074168798,
+                "w": 73.68055555555556,
+                "h": 8.05626598465473,
+                "tip": "top",
+                "text": "Com O cliente autoriza no app, o saldo só sai depois que o cliente aceita o desconto no celular.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum320u10e19qmfhp51dc7k4",
+              "image": null,
+              "video": "/media/9f08ff2baf2e3a06.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.843,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum321yy0e1bqmfhwmjnurlp",
+              "image": "/media/7512118f171cff1d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c891aacac59a154b.mp3",
+              "captions": "/media/4ce8a025f4b921ec.vtt",
+              "narration": "Quer movimentar um dia fraco? Ligue Dia de bônus para dar mais cashback num dia da semana.",
+              "duration": 7.235918367346938,
+              "hotspot": {
+                "x": 94.86111111111111,
+                "y": 71.9309462915601,
+                "w": null,
+                "h": null,
+                "tip": "left",
+                "text": "Quer movimentar um dia fraco? Ligue Dia de bônus para dar mais cashback num dia da semana.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum324dc0e1pqmfheh30dy3q",
+              "image": "/media/c29fe35d773e2196.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3fcb7d79f9966ac7.mp3",
+              "captions": "/media/eab8ae00e9bd509e.vtt",
+              "narration": "Escolha o dia do bônus. Aqui, Dom deixa o domingo com cashback maior.",
+              "duration": 5.511836734693878,
+              "hotspot": {
+                "x": 27.586805555555554,
+                "y": 78.77237851662404,
+                "w": 10.17361111111111,
+                "h": 5.626598465473146,
+                "tip": "top",
+                "text": "Escolha o dia do bônus. Aqui, Dom deixa o domingo com cashback maior.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum3237t0e1eqmfhf2mwnj67",
+              "image": "/media/31721c4d3dcbbb36.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d409273335aee627.mp3",
+              "captions": "/media/a7ab77fab3b47605.vtt",
+              "narration": "Em Quanto volta nesse dia, informe o percentual do bônus. Ele precisa ser maior que o de todo dia.",
+              "duration": 7.235918367346938,
+              "hotspot": {
+                "x": 36.97916666666667,
+                "y": 85.96547314578005,
+                "w": 6.041666666666667,
+                "h": 3.516624040920716,
+                "tip": "top",
+                "text": "Em Quanto volta nesse dia, informe o percentual do bônus. Ele precisa ser maior que o de todo dia.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum3241o0e1nqmfhivewpdu1",
+              "image": null,
+              "video": "/media/8f173507245fb4c4.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 1.244,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum325am0e1sqmfhtwk1tklm",
+              "image": "/media/1a7f62dc65a8c2ff.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0a577edb88058610.mp3",
+              "captions": "/media/8acb77be14fb6de2.vtt",
+              "narration": "Pronto: clique em Criar fidelidade para colocar o cashback no ar.",
+              "duration": 7.053061224489796,
+              "hotspot": {
+                "x": 25.868055555555557,
+                "y": 92.51918158567774,
+                "w": 10.20833333333333,
+                "h": 6.265984654731457,
+                "tip": "top",
+                "text": "Pronto: clique em Criar fidelidade para colocar o cashback no ar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ],
+          "slug": "criar-uma-fidelidade-de-cashback",
+          "navTitle": "Criar uma fidelidade de cashback"
+        }
+      ]
+    },
+    {
+      "id": "6bcedf90-d333-4679-b9b3-04a4e9d03806",
+      "title": "Balcão",
+      "slug": "balcao",
+      "demos": [
+        {
+          "id": "cmum33mn40e2aqmfhmxygs9v8",
+          "title": "Lançar cashback no balcão",
+          "description": "Veja como a atendente escolhe o próprio nome, encontra o cliente pelo celular e lança o cashback informando o valor da compra.",
+          "steps": [
+            {
+              "id": "cmum34tfn0e53qmfhkklt6s6p",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Cashback no balcão",
+                "description": "Veja como a atendente escolhe o próprio nome, encontra o cliente pelo celular e lança o cashback informando o valor da compra.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#554be7",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cmum33q8o0e2cqmfh16sj3ryn"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cmum33q8o0e2cqmfh16sj3ryn",
+              "image": "/media/3e5f5dc22e96cc26.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e3ae2ef182141c63.mp3",
+              "captions": "/media/2e00c53c68318f4d.vtt",
+              "narration": "Toque no seu nome, aqui Ana Paula. Tudo o que você lançar no balcão fica no nome de quem atendeu.",
+              "duration": 6.817959183673469,
+              "hotspot": {
+                "x": 37.22222222222222,
+                "y": 53.196930946291566,
+                "w": 4.444444444444445,
+                "h": 8.184143222506394,
+                "tip": "right",
+                "text": "Toque no seu nome, aqui Ana Paula. Tudo o que você lançar no balcão fica no nome de quem atendeu.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum33vu30e2hqmfhxrlaj2if",
+              "image": "/media/75dc391a080ca369.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/66c4d48a38d385bd.mp3",
+              "captions": "/media/eeb019a86dbc77f0.vtt",
+              "narration": "Quem foi atendido há pouco aparece na lista ao lado. Toque em Renata Vilela para abrir o cadastro dela.",
+              "duration": 6.922448979591837,
+              "hotspot": {
+                "x": 88.40277777777777,
+                "y": 21.547314578005114,
+                "w": 12.5,
+                "h": 4.859335038363171,
+                "tip": "left",
+                "text": "Quem foi atendido há pouco aparece na lista ao lado. Toque em Renata Vilela para abrir o cadastro dela.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 20,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum33xma0e2kqmfhdapn6lml",
+              "image": "/media/c6d9905a96c1d5d1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2079a3f24a7b2571.mp3",
+              "captions": "/media/cb56f03bb9ecfc3f.vtt",
+              "narration": "Informe o valor da compra em Valor da venda. A Fidz calcula na hora o cashback que a cliente vai ganhar.",
+              "duration": 7.10530612244898,
+              "hotspot": {
+                "x": 34.77430555555556,
+                "y": 58.66368286445013,
+                "w": 54.40972222222222,
+                "h": 4.156010230179028,
+                "tip": "right",
+                "text": "Informe o valor da compra em Valor da venda. A Fidz calcula na hora o cashback que a cliente vai ganhar.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 10,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum341m00e2tqmfhy5q4kbv2",
+              "image": null,
+              "video": "/media/cdaafea93a77658f.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 5.33,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum343zg0e2vqmfh52ua030f",
+              "image": "/media/17f9eb2d756f22d5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4d54434fa30b5302.mp3",
+              "captions": "/media/998e246ddc6425e6.vtt",
+              "narration": "Confira o cashback gerado ao lado e toque em Registrar venda de R$ 100,00 para lançar o crédito da Renata.",
+              "duration": 8.124081632653061,
+              "hotspot": {
+                "x": 36.11111111111111,
+                "y": 79.28388746803068,
+                "w": 64.02777777777777,
+                "h": 7.672634271099745,
+                "tip": "top",
+                "text": "Confira o cashback gerado ao lado e toque em Registrar venda de R$ 100,00 para lançar o crédito da Renata.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum344qt0e2yqmfhtcr97xst",
+              "image": "/media/b4485e89d6a16668.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a01284e8ebe8fb94.mp3",
+              "captions": "/media/ce4a122598193984.vtt",
+              "narration": "Pronto: Renata tem R$ 10,00 de cashback para a próxima compra. Toque em Próximo cliente para seguir atendendo.",
+              "duration": 8.855510204081632,
+              "hotspot": {
+                "x": 41.857638888888886,
+                "y": 70.84398976982096,
+                "w": 13.99305555555556,
+                "h": 7.672634271099745,
+                "tip": "top",
+                "text": "Pronto: Renata tem R$ 10,00 de cashback para a próxima compra. Toque em Próximo cliente para seguir atendendo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 15,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum3466n0e34qmfh2goopnzq",
+              "image": "/media/fca671cf427a5b41.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/baec01283017ab24.mp3",
+              "captions": "/media/4895319525dab089.vtt",
+              "narration": "Aline Barros está com o Cartão Doce Vida completo, 10 de 10. Toque no nome dela para abrir o cartão.",
+              "duration": 6.504489795918367,
+              "hotspot": {
+                "x": 88.24652777777777,
+                "y": 34.78260869565217,
+                "w": 12.1875,
+                "h": 2.173913043478261,
+                "tip": "left",
+                "text": "Aline Barros está com o Cartão Doce Vida completo, 10 de 10. Toque no nome dela para abrir o cartão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 15,
+                "y": 0,
+                "w": 85,
+                "h": 85
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum347ps0e37qmfh2p40uj75",
+              "image": "/media/57ae4784fefe27a3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c62d38a04d00f66a.mp3",
+              "captions": "/media/59608c562bdc0c30.vtt",
+              "narration": "Com a cartela completa, a recompensa aparece em destaque no topo. Para voltar sem lançar nada, toque na seta.",
+              "duration": 7.96734693877551,
+              "hotspot": {
+                "x": 2.951388888888889,
+                "y": 17.007672634271103,
+                "w": null,
+                "h": null,
+                "tip": "right",
+                "text": "Com a cartela completa, a recompensa aparece em destaque no topo. Para voltar sem lançar nada, toque na seta.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0,
+                "y": 0,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum3483a0e3aqmfhjcom0ibz",
+              "image": "/media/604ee2a61dec84ce.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e5c9cd8223142517.mp3",
+              "captions": "/media/4b8fa355f60121eb.vtt",
+              "narration": "Toque em Beatriz Nunes para atendê-la. Ela tem 9 de 10 selos no Cartão Doce Vida.",
+              "duration": 5.668571428571428,
+              "hotspot": {
+                "x": 88.24652777777777,
+                "y": 44.75703324808184,
+                "w": 12.1875,
+                "h": 2.173913043478261,
+                "tip": "left",
+                "text": "Toque em Beatriz Nunes para atendê-la. Ela tem 9 de 10 selos no Cartão Doce Vida.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 10,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum349ok0e3gqmfh9tj4axke",
+              "image": "/media/09d1b5702c208db7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b8032f2f7e8df62d.mp3",
+              "captions": "/media/c802d7cbc85fcd5e.vtt",
+              "narration": "Digite o valor da compra da Beatriz em Valor da venda. O cashback aparece quando a compra chega a R$ 30,00.",
+              "duration": 8.124081632653061,
+              "hotspot": {
+                "x": 34.77430555555556,
+                "y": 41.33631713554987,
+                "w": 54.40972222222222,
+                "h": 4.156010230179028,
+                "tip": "bottom",
+                "text": "Digite o valor da compra da Beatriz em Valor da venda. O cashback aparece quando a compra chega a R$ 30,00.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 0.4861111111111072,
+                "y": 0,
+                "w": 90,
+                "h": 90
+              },
+              "chapter": null
+            },
+            {
+              "id": "cmum34bhc0e3pqmfhun9uncqe",
+              "image": null,
+              "video": "/media/13ea8292bc1563d0.mp4",
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": 2.472,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum34ct80e3rqmfho97ngl4a",
+              "image": "/media/8a16b200d1420dea.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b5e4dc0e7e7d13ce.mp3",
+              "captions": "/media/9ecd7cf74cb4558f.vtt",
+              "narration": "O cashback gerado, R$ 23,00, já aparece ao lado. Toque em Registrar venda de R$ 230,00 para confirmar.",
+              "duration": 10.63183673469388,
+              "hotspot": {
+                "x": 36.11111111111111,
+                "y": 55.49872122762148,
+                "w": 64.02777777777777,
+                "h": 7.672634271099745,
+                "tip": "top",
+                "text": "O cashback gerado, R$ 23,00, já aparece ao lado. Toque em Registrar venda de R$ 230,00 para confirmar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cmum34dvu0e3xqmfhigv0tg1e",
+              "image": "/media/596aceab8d075639.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2e02e9d2fd2f65df.mp3",
+              "captions": "/media/a5717c38a2bef037.vtt",
+              "narration": "Cashback lançado para a Beatriz. Toque em Próximo cliente para voltar à busca.",
+              "duration": 6.295510204081633,
+              "hotspot": {
+                "x": 41.857638888888886,
+                "y": 70.84398976982096,
+                "w": 13.99305555555556,
+                "h": 7.672634271099745,
+                "tip": "top",
+                "text": "Cashback lançado para a Beatriz. Toque em Próximo cliente para voltar à busca.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 3.506944444444443,
+                "y": 20,
+                "w": 80,
+                "h": 80
+              },
+              "chapter": null
+            }
+          ],
+          "slug": "lancar-cashback-no-balcao",
+          "navTitle": "Lançar cashback no balcão"
+        }
+      ]
+    }
+  ],
+  "exportedAt": "2026-11-03T13:38:39.604Z",
+  "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd"
+}
