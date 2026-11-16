@@ -1,7 +1,7 @@
 // Exploração de tela para escrever roteiros: entra, executa cliques e salva o print com a lista
 // de botões, links e campos visíveis.
 //
-//   node capture/peek.mjs <email|balcao:slug:senha> "clique:Configurações" "clique:Unidades" "print:unidades" …
+//   node capture/peek.mjs <email|balcao:slug:senha|app:email[:rota]> "clique:Configurações" "clique:Unidades" "print:unidades" …
 //
 // Ações: clique:<nome do botão>, texto:<texto a clicar>, digita:<valor> (no campo focado),
 // tecla:<Escape>, espera:<ms>, rola:<px>, print:<nome> (salva e lista o que está na tela).
@@ -10,11 +10,22 @@ import { loginGestao } from './run.mjs';
 import { mockGooglePlaces } from './google-mock.mjs';
 
 const [who, ...actions] = process.argv.slice(2);
+const app = who.startsWith('app:');
 const b = await chromium.launch();
-const ctx = await b.newContext({ viewport: { width: 1440, height: 782 }, locale: 'pt-BR', timezoneId: 'America/Sao_Paulo' });
+const ctx = await b.newContext({
+  viewport: app ? { width: 390, height: 844 } : { width: 1440, height: 782 },
+  locale: 'pt-BR',
+  timezoneId: 'America/Sao_Paulo',
+  ...(app ? { isMobile: true, hasTouch: true, permissions: ['geolocation'], geolocation: { latitude: -27.5954, longitude: -48.548 } } : {}),
+});
+await ctx.route(/\.supabase\.co\//, (route) => route.abort());
 await mockGooglePlaces(ctx);
 const p = await ctx.newPage();
-if (who.startsWith('balcao:')) {
+if (app) {
+  const { loginApp } = await import('./run.mjs');
+  const [, email, rota] = who.split(':');
+  await loginApp(p, email, { path: rota || '/' });
+} else if (who.startsWith('balcao:')) {
   const { loginBalcao } = await import('./run.mjs');
   const [, slug, senha] = who.split(':');
   await loginBalcao(p, slug, senha);

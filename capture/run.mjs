@@ -26,10 +26,20 @@ const VOICE = path.join(ROOT, 'capture', 'voices', 'pt_BR-faber-medium.onnx');
 export const GESTAO_URL = process.env.GESTAO_URL ?? 'http://localhost:5181';
 export const BALCAO_URL = process.env.BALCAO_URL ?? 'http://localhost:5182';
 const DB_CONTAINER = process.env.DB_CONTAINER ?? 'supabase_db_fidz-local';
+const LOCAL_API = process.env.LOCAL_API ?? 'http://127.0.0.1:54421';
 
 // Padrão de todos os prints do guia: 2880×1564 (1440×782 em tela 2x).
 const VIEWPORT = { width: 1440, height: 782 };
 const SCALE = 2;
+
+// App do cliente: tela de celular, centralizada numa moldura do mesmo tamanho dos outros prints.
+const PHONE = { width: 390, height: 844 };
+const PHONE_FRAME = (() => {
+  const height = 702; // altura do celular na moldura, em px da janela de 1440×782
+  const width = (height * PHONE.width) / PHONE.height;
+  return { width, height, left: (VIEWPORT.width - width) / 2, top: (VIEWPORT.height - height) / 2 };
+})();
+export const APP_URL = process.env.APP_URL ?? 'http://localhost:5184';
 
 // ---------- banco ----------
 
@@ -64,6 +74,59 @@ export async function loginBalcao(page, slug, senha, { preencher = true } = {}) 
   await page.getByPlaceholder('Senha que o dono passou').fill(senha);
   await page.locator('button[type="submit"]').click();
   await page.waitForLoadState('networkidle');
+}
+
+/**
+ * Entra no app do cliente (build web, capture/.out/app-web) com a conta do seed: pega a sessão no
+ * fidz-local e a deixa no armazenamento antes de o app carregar, como quem já tinha entrado.
+ */
+export async function loginApp(page, email, { path: route = '/' } = {}) {
+  const key = execFileSync('supabase', ['status', '-o', 'env', '--workdir', path.join(ROOT, '..', 'fidz-client-admin')], {
+    stdio: ['ignore', 'pipe', 'ignore'],
+  }).toString().match(/^PUBLISHABLE_KEY="([^"]+)"/m)[1];
+  const res = await fetch(`${LOCAL_API}/auth/v1/token?grant_type=password`, {
+    method: 'POST',
+    headers: { apikey: key, 'content-type': 'application/json' },
+    body: JSON.stringify({ email, password: 'Fidz-guia-2026' }),
+  });
+  const session = await res.json();
+  if (!session.access_token) throw new Error(`login no app falhou: ${JSON.stringify(session)}`);
+  await page.context().addInitScript(([k, v]) => localStorage.setItem(k, v), ['sb-127-auth-token', JSON.stringify(session)]);
+  await page.goto(`${APP_URL}${route}`);
+  await page.waitForLoadState('networkidle');
+}
+
+/** Moldura do print do celular: fundo lilás, cantos arredondados e sombra, em 2880×1564. */
+async function framePhone(browser, png) {
+  const f = PHONE_FRAME;
+  const page = await browser.newPage({ viewport: VIEWPORT, deviceScaleFactor: SCALE });
+  await page.setContent(`<style>
+    html,body{margin:0;width:${VIEWPORT.width}px;height:${VIEWPORT.height}px;background:#EFEAF8;overflow:hidden}
+    img{position:absolute;left:${f.left}px;top:${f.top}px;width:${f.width}px;height:${f.height}px;
+        border-radius:34px;box-shadow:0 0 0 7px #1E1530,0 24px 60px rgba(60,30,110,.28)}
+  </style><img src="data:image/png;base64,${png.toString('base64')}">`);
+  await page.locator('img').evaluate((img) => img.decode());
+  const jpg = await page.screenshot({ type: 'jpeg', quality: 88 });
+  await page.close();
+  return jpg;
+}
+
+/**
+ * Câmera do player nos guias do app: aproxima o celular (56% da moldura, mesma proporção) e
+ * acompanha o hotspot na vertical, para a tela do app ficar legível sem mudar o tamanho do print.
+ */
+function phoneZoom(hotspot) {
+  const size = 56;
+  const y = Math.min(Math.max((hotspot?.y ?? 50) - size / 2, 0), 100 - size);
+  return { x: 50 - size / 2, y, w: size, h: size };
+}
+
+/** Caixa do elemento na tela do celular → caixa na moldura. */
+function phoneToFrame(box) {
+  if (!box) return box;
+  const f = PHONE_FRAME;
+  const s = f.height / PHONE.height;
+  return { x: f.left + box.x * s, y: f.top + box.y * s, width: box.width * s, height: box.height * s };
 }
 
 // ---------- mídia ----------
@@ -152,13 +215,20 @@ async function capture(roteiro) {
   if (roteiro.seed !== false) await seed();
   if (roteiro.prepare) sql(roteiro.prepare);
 
+  const phone = roteiro.device === 'phone';
+  const screen = phone ? PHONE : VIEWPORT;
   const browser = await chromium.launch();
   const context = await browser.newContext({
-    viewport: VIEWPORT,
+    viewport: screen,
     deviceScaleFactor: SCALE,
     locale: 'pt-BR',
     timezoneId: 'America/Sao_Paulo',
+    ...(phone
+      ? { isMobile: true, hasTouch: true, permissions: ['geolocation'], geolocation: { latitude: -27.5954, longitude: -48.548 } }
+      : {}),
   });
+  // Nada da captura chega à produção: só o fidz-local responde.
+  await context.route(/\.supabase\.co\//, (route) => route.abort());
   await mockGooglePlaces(context, roteiro.googlePlaces);
   const page = await context.newPage();
   await roteiro.login(page);
@@ -171,18 +241,26 @@ async function capture(roteiro) {
       await settle(page, step.wait ?? 450);
       // Aviso de um passo anterior não fica no print, a menos que o passo seja a confirmação dele.
       if (!step.toast) await dismissToasts(page);
-      const loc = step.target(page).first();
+      // Só o que está visível: o app web guarda as telas anteriores escondidas na pilha.
+      const loc = step.target(page).filter({ visible: true }).first();
       await loc.waitFor({ state: 'visible', timeout: 15_000 });
       await loc.scrollIntoViewIfNeeded();
       // Alvo colado na borda fica cortado no print: traz para o meio da tela.
       let box = await loc.boundingBox();
-      if (box && (box.y < 90 || box.y + box.height > VIEWPORT.height - 140)) {
+      if (box && (box.y < 90 || box.y + box.height > screen.height - (phone ? 100 : 140))) {
         await loc.evaluate((el) => el.scrollIntoView({ block: 'center' }));
       }
       await settle(page, 250);
       box = await loc.boundingBox();
       await page.addStyleTag({ content: HIDE_CARET });
-      const jpg = await page.screenshot({ type: 'jpeg', quality: 88 });
+      let jpg;
+      if (phone) {
+        const png = await page.screenshot({ type: 'png' });
+        jpg = await framePhone(browser, png);
+        box = phoneToFrame(box);
+      } else {
+        jpg = await page.screenshot({ type: 'jpeg', quality: 88 });
+      }
       shots.push({ jpg, hotspot: hotspotOf(box, step.tip), text: step.text, displayOnly: step.act === 'none' });
       process.stdout.write(`  passo ${i + 1}/${roteiro.steps.length}\r`);
 
@@ -231,7 +309,7 @@ async function build(roteiro, shots) {
       ...voices[i],
       narration: s.text,
       hotspot: { ...s.hotspot, text: s.text, displayOnly: s.displayOnly },
-      zoom: null,
+      zoom: roteiro.device === 'phone' ? phoneZoom(s.hotspot) : null,
       chapter: null,
     });
   }

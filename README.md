@@ -81,6 +81,24 @@ npm run capture:contato -- gerenciar-unidades-e-equipe   # folha de revisão em 
 - Depois de cada captura, `public/media` perde o que o `guide.json` não usa mais.
 - `node capture/peek.mjs <email> "clique:Fidelidade" "print:nome"` ajuda a escrever roteiros.
 
+### Guias do app do cliente
+
+Roteiros com `device: 'phone'`: o app roda no build web (o mesmo dos testes do fidz-app), em tela de
+celular 390×844, centralizada na moldura de 2880×1564. A câmera do player aproxima o celular em
+cada passo. A conta é a da Beatriz Nunes (seed), que entra sem digitar código: a sessão do
+fidz-local é posta no armazenamento antes de o app abrir.
+
+```bash
+# build web apontando para o fidz-local (--clear: sem ele o Metro pode reaproveitar o .env de produção)
+cd ../fidz-app && EXPO_NO_DOTENV=1 EXPO_PUBLIC_SUPABASE_URL=http://127.0.0.1:54421 \
+  EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY=<chave de supabase status> \
+  npx expo export --platform web --clear --output-dir ../fidz-guide/capture/.out/app-web
+cd ../fidz-guide && E2E_DIST=capture/.out/app-web E2E_PORT=5184 node ../fidz-app/e2e/serve.mjs
+```
+
+A captura bloqueia qualquer chamada a `*.supabase.co`: nada sai do fidz-local. A aba Descobrir usa
+o mapa nativo e não roda no build web; esse guia precisa do simulador.
+
 ## Deploy
 
 `vercel.json` já tem o rewrite de SPA e o cache longo para `/media`.

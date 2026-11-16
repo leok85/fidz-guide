@@ -24,6 +24,8 @@ delete from public.loyalty_events where card_id in (
 delete from public.loyalty_cards where program_id in (select id from public.loyalty_programs where company_id between 950 and 952);
 delete from public.loyalty_rewards where program_id in (select id from public.loyalty_programs where company_id between 950 and 952);
 delete from public.loyalty_programs where company_id between 950 and 952;
+delete from public.coupon_redemptions where coupon_id in (select id from public.coupons where company_id between 950 and 952);
+delete from public.coupon_claims where coupon_id in (select id from public.coupons where company_id between 950 and 952);
 delete from public.merchant_support_ticket_messages where ticket_id in (select id from public.merchant_support_tickets where company_id between 950 and 952);
 delete from public.merchant_support_tickets where company_id between 950 and 952;
 delete from public.team_members where company_id between 950 and 952;
@@ -90,6 +92,10 @@ update public.company_units set google_place_id = 'ChIJGuiaFidzDoceVidaCentr1', 
 update public.company_units
    set opening_hours = '{"1":[["09:00","19:00"]],"2":[["09:00","19:00"]],"3":[["09:00","19:00"]],"4":[["09:00","19:00"]],"5":[["09:00","19:00"]],"6":[["09:00","14:00"]]}'
  where id in (950, 951);
+-- Coordenadas no centro de Florianópolis: a aba Descobrir e os cupons do app usam a distância.
+update public.company_units set lat = -27.5969, lng = -48.5495 where id in (950, 952);
+update public.company_units set lat = -27.5925, lng = -48.5530 where id = 951;
+update public.company_units set lat = -27.5960, lng = -48.5520 where id = 953;
 update public.company_units set google_place_id = 'ChIJGuiaFidzDoceVidaShopp1', maps_url = 'https://maps.google.com/?cid=ChIJGuiaFidzDoceVidaShopp1' where id = 951;
 
 insert into public.team_members (id, company_id, unit_id, name)
@@ -191,6 +197,46 @@ select k.id, k.unit_id, case when x.n % 2 = 0 then 953 else 954 end, 'cashback_e
        date_trunc('day', now() at time zone 'America/Sao_Paulo') at time zone 'America/Sao_Paulo' + make_interval(hours => 8, mins => x.n * 47)
 from (select k.*, row_number() over (order by k.id desc) n from public.loyalty_cards k where k.program_id = 952) k
 join (values (1, 8650), (2, 4200), (3, 12900), (4, 3100), (5, 6400)) x(n, v) on x.n = k.n;
+
+-- Cupons da Doce Vida no app (o guia de criar cupom apaga e cria o dele).
+delete from public.coupons where company_id between 950 and 952;
+insert into public.coupons (company_id, kind, percent_off, gift_text, starts_on, ends_on, quantity_limit, min_purchase_cents, earns_loyalty)
+values (950, 'percent', 15, null, current_date - 2, current_date + 25, 100, 3000, true),
+       (950, 'gift', null, 'Um brigadeiro gourmet', current_date - 5, current_date + 10, 40, null, false);
+
+-- Cliente com conta no app (guias do app do cliente): Beatriz Nunes, com cartão na Doce Vida e no
+-- Empório Bom Gosto. A conta fica de uma rodada para a outra (o aceite dos termos não se apaga).
+insert into auth.users (id, instance_id, aud, role, email, encrypted_password, email_confirmed_at,
+                        raw_app_meta_data, raw_user_meta_data, created_at, updated_at,
+                        confirmation_token, recovery_token, email_change_token_new, email_change,
+                        email_change_token_current, phone_change, phone_change_token, reauthentication_token)
+values ('9e1a0000-0000-4000-8000-0000000c0001', '00000000-0000-0000-0000-000000000000', 'authenticated', 'authenticated',
+        'beatriz.nunes@fidz.test', extensions.crypt('Fidz-guia-2026', extensions.gen_salt('bf')), now(),
+        '{"provider":"email","providers":["email"]}', '{"name":"Beatriz Nunes"}',
+        now() - interval '150 days', now(), '', '', '', '', '', '', '', '')
+on conflict (id) do update set encrypted_password = excluded.encrypted_password;
+insert into auth.identities (provider_id, user_id, identity_data, provider, created_at, updated_at)
+values ('9e1a0000-0000-4000-8000-0000000c0001', '9e1a0000-0000-4000-8000-0000000c0001',
+        '{"sub":"9e1a0000-0000-4000-8000-0000000c0001","email":"beatriz.nunes@fidz.test","email_verified":true}', 'email', now(), now())
+on conflict do nothing;
+
+insert into public.customer_profiles (id, name, email, phone_e164, phone_country, age_group, age_declared_at, language, marketing_asked_at)
+values ('9e1a0000-0000-4000-8000-0000000c0001', 'Beatriz Nunes', 'beatriz.nunes@fidz.test', '+5511900095003', 'BR',
+        'adult', now() - interval '150 days', 'pt', now() - interval '150 days')
+on conflict (id) do update set phone_e164 = excluded.phone_e164, name = excluded.name;
+
+insert into public.legal_acceptances (user_id, party, document_id, version, channel)
+select '9e1a0000-0000-4000-8000-0000000c0001', 'customer', d.id, d.current_version, 'app'
+from public.legal_documents d
+where d.audience in ('customer', 'both')
+  and not exists (select 1 from public.legal_acceptances a
+                  where a.user_id = '9e1a0000-0000-4000-8000-0000000c0001' and a.document_id = d.id and a.version = d.current_version);
+
+-- O cartão do Empório Bom Gosto que o semeador deu a outra "Beatriz Nunes" passa para ela.
+update public.loyalty_cards k
+   set customer_id = (select id from public.loyalty_customers where phone_e164 = '+5511900095003')
+ where k.program_id = 952
+   and k.customer_id = (select id from public.loyalty_customers where phone_e164 = '+5511900095203');
 
 insert into public.invoices (company_id, amount, status, due_date, paid_at, created_at) values
   (950, 199, 'paid', current_date - 18, now() - interval '18 days', now() - interval '23 days'),

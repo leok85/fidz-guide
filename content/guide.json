@@ -3690,9 +3690,799 @@
           "navTitle": "Atender com cashback no balcão"
         }
       ]
+    },
+    {
+      "id": "app-do-cliente",
+      "slug": "app-do-cliente",
+      "title": "App do cliente",
+      "demos": [
+        {
+          "id": "app-acompanhar-fidelidades",
+          "slug": "app-acompanhar-fidelidades",
+          "title": "Acompanhar suas fidelidades no app",
+          "navTitle": "Acompanhar suas fidelidades no app",
+          "description": "Veja como a carteira do app da Fidz mostra os selos, os pontos e o cashback de cada loja, e o que tem na ficha de cada cartão.",
+          "steps": [
+            {
+              "id": "app-acompanhar-fidelidades-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Acompanhar suas fidelidades no app",
+                "description": "Veja como a carteira do app da Fidz mostra os selos, os pontos e o cashback de cada loja, e o que tem na ficha de cada cartão.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-acompanhar-fidelidades-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-acompanhar-fidelidades-01",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/184cf74be0c07fa7.mp3",
+              "captions": "/media/24a8035b31e6cc74.vtt",
+              "duration": 5.712109,
+              "narration": "Na Carteira ficam todas as suas fidelidades, de todas as lojas onde você deu o celular no caixa.",
+              "hotspot": {
+                "x": 50,
+                "y": 16.97449121828826,
+                "w": 20.81852290679305,
+                "h": 5.2572090035272305,
+                "tip": null,
+                "text": "Na Carteira ficam todas as suas fidelidades, de todas as lojas onde você deu o celular no caixa.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-02",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b891605cbe74d7cc.mp3",
+              "captions": "/media/cfac73432041b378.vtt",
+              "duration": 5.781769,
+              "narration": "Cada cartão mostra quanto falta. Aqui, 8 de 10 selos: faltam 2 para a recompensa.",
+              "hotspot": {
+                "x": 50.065883256812796,
+                "y": 35.90698900619387,
+                "w": 12.170668567338074,
+                "h": 3.342686755312057,
+                "tip": null,
+                "text": "Cada cartão mostra quanto falta. Aqui, 8 de 10 selos: faltam 2 para a recompensa.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 7.906989006193868,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-03",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7bf2ef50d7864ac8.mp3",
+              "captions": "/media/f39133d09913a241.vtt",
+              "duration": 3.181134,
+              "narration": "Use os filtros para ver só selos, pontos ou cashback.",
+              "hotspot": {
+                "x": 50.08122593305687,
+                "y": 28.036175319087043,
+                "w": 5.827825705963665,
+                "h": 5.0444843092811,
+                "tip": null,
+                "text": "Use os filtros para ver só selos, pontos ou cashback.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0.03617531908704308,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-04",
+              "image": "/media/006ca85a2b86fac3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/866dbb2e24c53c29.mp3",
+              "captions": "/media/11f333c36b76f639.vtt",
+              "duration": 6.942766,
+              "narration": "O cashback mostra quanto você tem para usar como desconto na próxima compra nessa loja. Não é dinheiro: só vale voltando.",
+              "hotspot": {
+                "x": 49.34432621815759,
+                "y": 34.36473497290942,
+                "w": 10.727554490027646,
+                "h": 3.555411449558187,
+                "tip": null,
+                "text": "O cashback mostra quanto você tem para usar como desconto na próxima compra nessa loja. Não é dinheiro: só vale voltando.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 6.364734972909417,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-05",
+              "image": "/media/006ca85a2b86fac3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/322dbbf9f08f7c6a.mp3",
+              "captions": "/media/bd5fcfda7336bf7f.vtt",
+              "duration": 2.565805,
+              "narration": "Volte para Tudo para ver todos os cartões.",
+              "hotspot": {
+                "x": 41.645461529917064,
+                "y": 28.036175319087043,
+                "w": 4.109445966627172,
+                "h": 5.0444843092811,
+                "tip": null,
+                "text": "Volte para Tudo para ver todos os cartões.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0.03617531908704308,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-06",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4dc854fcf6772579.mp3",
+              "captions": "/media/8008c1f500ccf254.vtt",
+              "duration": 2.426485,
+              "narration": "Toque num cartão para abrir a ficha da loja.",
+              "hotspot": {
+                "x": 50.065883256812796,
+                "y": 33.88610441085563,
+                "w": 12.170668567338074,
+                "h": 3.555411449558187,
+                "tip": null,
+                "text": "Toque num cartão para abrir a ficha da loja.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 5.88610441085563,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-07",
+              "image": "/media/003d57644da7147e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8d84846facdf5b06.mp3",
+              "captions": "/media/c52cb46dcb4c038f.vtt",
+              "duration": 4.551111,
+              "narration": "No topo estão o seu prêmio e a cartela. Cada selo marcado é uma visita.",
+              "hotspot": {
+                "x": 49.59973665210308,
+                "y": 33.194749154555694,
+                "w": 12.855673936117693,
+                "h": 3.449049102435122,
+                "tip": null,
+                "text": "No topo estão o seu prêmio e a cartela. Cada selo marcado é uma visita.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 5.194749154555694,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-08",
+              "image": "/media/3eac1e53469996bb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7c799fd67f9fa476.mp3",
+              "captions": "/media/218e60765c17eb6f.vtt",
+              "duration": 3.494603,
+              "narration": "Em Atividade você confere cada selo que ganhou, com a data.",
+              "hotspot": {
+                "x": 49.27979672689574,
+                "y": 59.4662488939528,
+                "w": 14.988305934044233,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Em Atividade você confere cada selo que ganhou, com a data.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 31.466248893952802,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-09",
+              "image": "/media/a1e73ee777cca88d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/96483a82f467a16d.mp3",
+              "captions": "/media/14ca1c03dcd7a553.vtt",
+              "duration": 4.109932,
+              "narration": "Mais abaixo estão as unidades da loja, com o horário, Como chegar e Ligar.",
+              "hotspot": {
+                "x": 45.35026658767772,
+                "y": 71.6979188131053,
+                "w": 9.555193522906793,
+                "h": 5.576296044896425,
+                "tip": null,
+                "text": "Mais abaixo estão as unidades da loja, com o horário, Como chegar e Ligar.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 43.697918813105304,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-10",
+              "image": "/media/a275089cb4e5a9e8.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7c92dfffd0433c96.mp3",
+              "captions": "/media/602ca29a44d50d3f.vtt",
+              "duration": 2.345215,
+              "narration": "Toque em voltar para retornar à carteira.",
+              "hotspot": {
+                "x": 41.278139810426545,
+                "y": 8.09323523351232,
+                "w": 3.3748025276461298,
+                "h": 6.214470127634817,
+                "tip": null,
+                "text": "Toque em voltar para retornar à carteira.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-11",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4a37e29cf4377faf.mp3",
+              "captions": "/media/fe718d02d3ecdb70.vtt",
+              "duration": 5.10839,
+              "narration": "Em Histórico, na barra de baixo, fica tudo o que você ganhou e usou, em todas as lojas.",
+              "hotspot": {
+                "x": 54.50488049837085,
+                "y": 92.70448236991065,
+                "w": 3.502056489435229,
+                "h": 2.917237366819796,
+                "tip": null,
+                "text": "Em Histórico, na barra de baixo, fica tudo o que você ganhou e usou, em todas as lojas.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-acompanhar-fidelidades-12",
+              "image": "/media/0c0d1140db922795.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b738d36c5c294fde.mp3",
+              "captions": "/media/a9b63a4583f2822c.vtt",
+              "duration": 6.745397,
+              "narration": "Pronto. Lembre: quem registra o selo, o ponto ou o cashback é a loja. No caixa, é só dar o seu celular.",
+              "hotspot": {
+                "x": 50.04196673207939,
+                "y": 43.19280978412383,
+                "w": 13.855655423084517,
+                "h": 3.449049102435122,
+                "tip": null,
+                "text": "Pronto. Lembre: quem registra o selo, o ponto ou o cashback é a loja. No caixa, é só dar o seu celular.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 15.192809784123831,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "app-pegar-um-cupom",
+          "slug": "app-pegar-um-cupom",
+          "title": "Pegar e usar um cupom no app",
+          "navTitle": "Pegar e usar um cupom no app",
+          "description": "Veja onde ficam os cupons das lojas perto de você, como conferir as regras, resgatar o cupom no app e usar no caixa.",
+          "steps": [
+            {
+              "id": "app-pegar-um-cupom-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Pegar e usar um cupom no app",
+                "description": "Veja onde ficam os cupons das lojas perto de você, como conferir as regras, resgatar o cupom no app e usar no caixa.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-pegar-um-cupom-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-pegar-um-cupom-01",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d07718675afe6f72.mp3",
+              "captions": "/media/ab6790344403350d.vtt",
+              "duration": 3.935782,
+              "narration": "Os cupons das lojas perto de você ficam em Cupons, na barra de baixo.",
+              "hotspot": {
+                "x": 45.494216991261844,
+                "y": 92.70448236991065,
+                "w": 3.211448151165087,
+                "h": 2.917237366819796,
+                "tip": null,
+                "text": "Os cupons das lojas perto de você ficam em Cupons, na barra de baixo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-02",
+              "image": "/media/1efc6f2e88962e7f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2881fa4227ac4eac.mp3",
+              "captions": "/media/3addbf28d172292d.vtt",
+              "duration": 5.433469,
+              "narration": "Os filtros separam os cupons disponíveis, os que você já resgatou, os esgotados e os usados.",
+              "hotspot": {
+                "x": 47.29968898104266,
+                "y": 15.325874837880752,
+                "w": 6.701455741508688,
+                "h": 5.363571350650295,
+                "tip": null,
+                "text": "Os filtros separam os cupons disponíveis, os que você já resgatou, os esgotados e os usados.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-03",
+              "image": "/media/1efc6f2e88962e7f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d9b3c227c4af4369.mp3",
+              "captions": "/media/055f7217be618ac0.vtt",
+              "duration": 5.654059,
+              "narration": "Toque num cupom para ver as regras. Aqui, 15% de desconto na Doce Vida Confeitaria.",
+              "hotspot": {
+                "x": 50,
+                "y": 33.99246675797869,
+                "w": 20.81852290679305,
+                "h": 11.85167452515727,
+                "tip": null,
+                "text": "Toque num cupom para ver as regras. Aqui, 15% de desconto na Doce Vida Confeitaria.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 5.99246675797869,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-04",
+              "image": "/media/d53c667ceb66094a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/097f46666a2078ed.mp3",
+              "captions": "/media/6979b4e31b8929c8.vtt",
+              "duration": 4.435011,
+              "narration": "Resgatar não garante o desconto: o cupom vale para os primeiros que usarem no caixa.",
+              "hotspot": {
+                "x": 44.162562944312796,
+                "y": 50,
+                "w": 6.9487435821484995,
+                "h": 3.449049102435122,
+                "tip": null,
+                "text": "Resgatar não garante o desconto: o cupom vale para os primeiros que usarem no caixa.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 22,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-05",
+              "image": "/media/d53c667ceb66094a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1677bdfff40e8054.mp3",
+              "captions": "/media/6506b05c7cd81639.vtt",
+              "duration": 5.12,
+              "narration": "Confira as regras: compra mínima, validade, unidades e se a compra também rende selo.",
+              "hotspot": {
+                "x": 50,
+                "y": 63.5711707282336,
+                "w": 18.623617693522906,
+                "h": 3.449049102435122,
+                "tip": null,
+                "text": "Confira as regras: compra mínima, validade, unidades e se a compra também rende selo.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 35.5711707282336,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-06",
+              "image": "/media/d53c667ceb66094a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0793479da744e956.mp3",
+              "captions": "/media/5c9c2fb258d341c1.vtt",
+              "duration": 3.599093,
+              "narration": "Gostou? Toque em Resgatar cupom para guardar o cupom no app.",
+              "hotspot": {
+                "x": 50,
+                "y": 43.19280978412383,
+                "w": 20.81852290679305,
+                "h": 7.065368904619337,
+                "tip": null,
+                "text": "Gostou? Toque em Resgatar cupom para guardar o cupom no app.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 15.192809784123831,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-pegar-um-cupom-07",
+              "image": "/media/f54cfbee7ff12dcb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/705629f889470c0e.mp3",
+              "captions": "/media/91c043b607e4e235.vtt",
+              "duration": 5.746939,
+              "narration": "Pronto, o cupom está guardado. No caixa, informe o seu celular e o atendente aplica o desconto.",
+              "hotspot": {
+                "x": 51.2707345971564,
+                "y": 43.08644743700077,
+                "w": 16.197669826224327,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Pronto, o cupom está guardado. No caixa, informe o seu celular e o atendente aplica o desconto.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 15.086447437000771,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "app-autorizar-o-uso-do-saldo",
+          "slug": "app-autorizar-o-uso-do-saldo",
+          "title": "Autorizar o uso do cashback no app",
+          "navTitle": "Autorizar o uso do cashback no app",
+          "description": "Veja o que acontece no app quando o caixa pede para usar o seu cashback: conferir o desconto, autorizar ou recusar e ver o comprovante.",
+          "steps": [
+            {
+              "id": "app-autorizar-o-uso-do-saldo-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Autorizar o uso do cashback no app",
+                "description": "Veja o que acontece no app quando o caixa pede para usar o seu cashback: conferir o desconto, autorizar ou recusar e ver o comprovante.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-autorizar-o-uso-do-saldo-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-01",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1558929e38e33f9a.mp3",
+              "captions": "/media/6f72edcf8bf0c7dc.vtt",
+              "duration": 7.349116,
+              "narration": "A Beatriz tem 62 reais de cashback no Empório Bom Gosto. Na loja, ela dá o celular no caixa e pede para usar o saldo.",
+              "hotspot": {
+                "x": 49.34432621815759,
+                "y": 44.575520296723674,
+                "w": 10.727554490027646,
+                "h": 3.555411449558187,
+                "tip": null,
+                "text": "A Beatriz tem 62 reais de cashback no Empório Bom Gosto. Na loja, ela dá o celular no caixa e pede para usar o saldo.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 16.575520296723674,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-02",
+              "image": "/media/4a65445eb7f4b209.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f29c1aca28085106.mp3",
+              "captions": "/media/c96f967108fad5fc.vtt",
+              "duration": 5.735329,
+              "narration": "Quando a loja pede autorização, esta tela abre sozinha no celular, onde quer que você esteja no app.",
+              "hotspot": {
+                "x": 50,
+                "y": 22.718057962933784,
+                "w": 8.470376061413901,
+                "h": 3.555411449558187,
+                "tip": null,
+                "text": "Quando a loja pede autorização, esta tela abre sozinha no celular, onde quer que você esteja no app.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-03",
+              "image": "/media/4a65445eb7f4b209.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/bbeb71d7ac9db38f.mp3",
+              "captions": "/media/f01232375dba489d.vtt",
+              "duration": 4.318912,
+              "narration": "Confira o desconto, quanto você paga e quanto sobra de saldo depois.",
+              "hotspot": {
+                "x": 43.269077680687204,
+                "y": 42.23554866001624,
+                "w": 4.8152090738546605,
+                "h": 3.449049102435122,
+                "tip": null,
+                "text": "Confira o desconto, quanto você paga e quanto sobra de saldo depois.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 14.235548660016242,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-04",
+              "image": "/media/4a65445eb7f4b209.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0cffd2304ea33f25.mp3",
+              "captions": "/media/5a6a9895b71199ff.vtt",
+              "duration": 4.167982,
+              "narration": "Não reconhece o pedido? Toque em Recusar e nada é descontado.",
+              "hotspot": {
+                "x": 50,
+                "y": 58.72171246409135,
+                "w": 20.81852290679305,
+                "h": 7.278093598865468,
+                "tip": null,
+                "text": "Não reconhece o pedido? Toque em Recusar e nada é descontado.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 30.721712464091347,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-05",
+              "image": "/media/4a65445eb7f4b209.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/911d502739c47f8d.mp3",
+              "captions": "/media/6b68eec0cc6803d1.vtt",
+              "duration": 5.398639,
+              "narration": "Está tudo certo? Toque em Autorizar desconto. O caixa vê a confirmação na hora.",
+              "hotspot": {
+                "x": 50,
+                "y": 52.97814571944583,
+                "w": 20.81852290679305,
+                "h": 7.278093598865468,
+                "tip": null,
+                "text": "Está tudo certo? Toque em Autorizar desconto. O caixa vê a confirmação na hora.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 24.978145719445827,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-autorizar-o-uso-do-saldo-06",
+              "image": "/media/32a893ea442b61ed.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e116028e43acc6e7.mp3",
+              "captions": "/media/d9bf0dc36077d233.vtt",
+              "duration": 7.012426,
+              "narration": "Pronto: o desconto foi usado e o comprovante fica no app. O cashback novo da compra entra sobre o valor que você pagou.",
+              "hotspot": {
+                "x": 49.99954874481636,
+                "y": 32.290669204009646,
+                "w": 7.0778025646721945,
+                "h": 4.8317596150349695,
+                "tip": null,
+                "text": "Pronto: o desconto foi usado e o comprovante fica no app. O cashback novo da compra entra sobre o valor que você pagou.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 4.290669204009646,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "exportedAt": "2026-11-03T13:38:39.604Z",
   "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd",
-  "capturedAt": "2026-11-16T19:24:56.792Z"
+  "capturedAt": "2026-11-16T19:38:57.667Z"
 }
