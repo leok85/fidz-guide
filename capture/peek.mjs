@@ -29,6 +29,9 @@ if (who === 'app:anonimo') {
   const { loginApp } = await import('./run.mjs');
   const [, email, rota] = who.split(':');
   await loginApp(p, email, { path: rota || '/' });
+} else if (who.startsWith('afiliado:')) {
+  const { loginAfiliado } = await import('./run.mjs');
+  await loginAfiliado(p, who.slice('afiliado:'.length));
 } else if (who.startsWith('balcao:')) {
   const { loginBalcao } = await import('./run.mjs');
   const [, slug, senha] = who.split(':');

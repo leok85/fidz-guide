@@ -42,6 +42,7 @@ const PHONE_FRAME = (() => {
   return { width, height, left: (VIEWPORT.width - width) / 2, top: (VIEWPORT.height - height) / 2 };
 })();
 export const APP_URL = process.env.APP_URL ?? 'http://localhost:5184';
+export const AFILIADOS_URL = process.env.AFILIADOS_URL ?? 'http://localhost:5185';
 
 // ---------- banco ----------
 
@@ -101,6 +102,24 @@ export async function loginApp(page, email, { path: route = '/' } = {}) {
   if (!session.access_token) throw new Error(`login no app falhou: ${JSON.stringify(session)}`);
   await page.context().addInitScript(([k, v]) => localStorage.setItem(k, v), ['sb-127-auth-token', JSON.stringify(session)]);
   await page.goto(`${APP_URL}${route}`);
+  await page.waitForLoadState('networkidle');
+}
+
+/**
+ * Entra no painel de afiliados pelo código de e-mail, que no fidz-local cai no Mailpit.
+ * `preencher: false` só abre a tela de login (guia de primeiro acesso).
+ */
+export async function loginAfiliado(page, email, { preencher = true } = {}) {
+  await limparEmails(email);
+  await page.goto(`${AFILIADOS_URL}/login`);
+  await page.waitForLoadState('networkidle');
+  if (!preencher) return;
+  await page.getByLabel('E-mail').fill(email);
+  await page.getByRole('button', { name: 'Receber código' }).click();
+  const codigo = await codigoDoEmail(email);
+  await page.getByLabel('Código de 6 dígitos').fill(codigo);
+  await page.getByRole('button', { name: 'Entrar', exact: true }).click();
+  await page.waitForURL((url) => !url.pathname.startsWith('/login'), { timeout: 15_000 });
   await page.waitForLoadState('networkidle');
 }
 

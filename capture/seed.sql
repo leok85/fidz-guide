@@ -29,6 +29,9 @@ delete from public.coupon_claims where coupon_id in (select id from public.coupo
 delete from public.merchant_support_ticket_messages where ticket_id in (select id from public.merchant_support_tickets where company_id between 950 and 952);
 delete from public.merchant_support_tickets where company_id between 950 and 952;
 delete from public.team_members where company_id between 950 and 952;
+delete from public.affiliate_commissions where affiliate_id = 950 or company_id between 950 and 952;
+delete from public.affiliate_withdrawals where affiliate_id = 950;
+delete from public.company_referrals where affiliate_id = 950 or company_id between 950 and 952;
 delete from public.invoices where company_id between 950 and 952;
 delete from public.merchant_users where company_id between 950 and 952;
 delete from public.company_units where company_id between 950 and 952;
@@ -241,5 +244,48 @@ update public.loyalty_cards k
 insert into public.invoices (company_id, amount, status, due_date, paid_at, created_at) values
   (950, 199, 'paid', current_date - 18, now() - interval '18 days', now() - interval '23 days'),
   (950, 199, 'paid', current_date - 48, now() - interval '48 days', now() - interval '53 days');
+
+-- Afiliado do guia (painel de afiliados): Lucas Andrade, PJ, que indicou as três lojas de
+-- demonstração. Comissões já liberadas (disponível para saque) e em carência.
+insert into auth.users (id, instance_id, aud, role, email, encrypted_password, email_confirmed_at,
+                        raw_app_meta_data, raw_user_meta_data, created_at, updated_at,
+                        confirmation_token, recovery_token, email_change_token_new, email_change,
+                        email_change_token_current, phone_change, phone_change_token, reauthentication_token)
+values ('9e1a0000-0000-4000-8000-0000000a0950', '00000000-0000-0000-0000-000000000000', 'authenticated', 'authenticated',
+        'afiliado.guia@fidz.test', extensions.crypt('Fidz-guia-2026', extensions.gen_salt('bf')), now(),
+        '{"provider":"email","providers":["email"]}', '{"app":"affiliate","name":"Lucas Andrade"}',
+        now() - interval '120 days', now(), '', '', '', '', '', '', '', '')
+on conflict (id) do nothing;
+insert into auth.identities (provider_id, user_id, identity_data, provider, created_at, updated_at)
+values ('9e1a0000-0000-4000-8000-0000000a0950', '9e1a0000-0000-4000-8000-0000000a0950',
+        '{"sub":"9e1a0000-0000-4000-8000-0000000a0950","email":"afiliado.guia@fidz.test","email_verified":true}', 'email', now(), now())
+on conflict do nothing;
+
+insert into public.affiliates (id, user_id, person_type, name, legal_name, cnpj, cnae, city, whatsapp, email, pix_key, code, status, terms_version, terms_accepted_at, created_at)
+overriding system value
+values (950, '9e1a0000-0000-4000-8000-0000000a0950', 'PJ', 'Lucas Andrade', 'Andrade Consultoria em Marketing LTDA',
+        '36958124000121', '7319002', 'Florianópolis', '48999990950', 'afiliado.guia@fidz.test', 'afiliado.guia@fidz.test',
+        'LUCAS10', 'active', (select max(terms_version) from public.affiliates), now() - interval '120 days', now() - interval '120 days')
+on conflict (id) do nothing;
+
+insert into public.company_referrals (company_id, affiliate_id, via, created_at) values
+  (950, 950, 'link', now() - interval '200 days'),
+  (951, 950, 'code', now() - interval '45 days'),
+  (952, 950, 'link', now() - interval '20 days');
+
+insert into public.invoices (company_id, amount, status, due_date, paid_at, created_at) values
+  (951, 99, 'paid', current_date - 40, now() - interval '40 days', now() - interval '45 days'),
+  (952, 99, 'paid', current_date - 10, now() - interval '10 days', now() - interval '15 days');
+
+-- 1ª mensalidade inteira, depois 10% das seguintes; libera 30 dias depois do pagamento. As faturas
+-- da Doce Vida entraram antes da indicação, então a comissão delas vem daqui.
+insert into public.affiliate_commissions (affiliate_id, company_id, invoice_id, kind, installments, first_installment, base_amount, amount, releases_at, created_at)
+select 950, i.company_id, i.id, x.kind, 1, x.parcela, i.amount, x.valor, i.paid_at + interval '30 days', i.paid_at
+from public.invoices i
+join (values (950, 48, 'first', 1, 199.00), (950, 18, 'recurring', 2, 19.90),
+             (951, 40, 'first', 1, 99.00), (952, 10, 'first', 1, 99.00)) x(empresa, dias, kind, parcela, valor)
+  on x.empresa = i.company_id and i.due_date = current_date - x.dias
+-- as faturas novas já ganham a comissão pelo gatilho do banco
+where not exists (select 1 from public.affiliate_commissions c where c.invoice_id = i.id);
 
 commit;

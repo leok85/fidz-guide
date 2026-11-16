@@ -5,8 +5,8 @@ import { allDemos, type Demo, type DemoRef, type Section } from './guide';
 import type { DemoProgress } from './progress';
 
 /** Para quem é o assunto. Agrupa os assuntos no menu lateral. */
-export type Perfil = 'Dono da loja' | 'Equipe do balcão' | 'Cliente da loja';
-export const PERFIS: Perfil[] = ['Dono da loja', 'Equipe do balcão', 'Cliente da loja'];
+export type Perfil = 'Dono da loja' | 'Equipe do balcão' | 'Cliente da loja' | 'Afiliado';
+export const PERFIS: Perfil[] = ['Dono da loja', 'Equipe do balcão', 'Cliente da loja', 'Afiliado'];
 
 type Assunto = { nome: string; perfil: Perfil; descricao: string };
 
@@ -31,6 +31,11 @@ const ASSUNTOS: Record<string, Assunto> = {
     nome: 'Atendimento no balcão',
     perfil: 'Equipe do balcão',
     descricao: 'O dia a dia de quem atende: entrar no balcão, encontrar o cliente pelo celular e registrar a venda.',
+  },
+  afiliados: {
+    nome: 'Programa de afiliados',
+    perfil: 'Afiliado',
+    descricao: 'Para quem indica lojas para a Fidz: entrar no painel, divulgar o link, acompanhar as comissões e sacar.',
   },
   'app-do-cliente': {
     nome: 'App do cliente',

@@ -6887,9 +6887,586 @@
           ]
         }
       ]
+    },
+    {
+      "id": "afiliados",
+      "slug": "afiliados",
+      "title": "Programa de afiliados",
+      "demos": [
+        {
+          "id": "afiliado-entrar-e-divulgar",
+          "slug": "afiliado-entrar-e-divulgar",
+          "title": "Entrar no painel e divulgar o seu link",
+          "navTitle": "Entrar no painel e divulgar o seu link",
+          "description": "Veja como o afiliado entra no painel com o código que chega por e-mail e onde estão o link e o código de indicação para mandar às lojas.",
+          "steps": [
+            {
+              "id": "afiliado-entrar-e-divulgar-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Entrar no painel e divulgar o seu link",
+                "description": "Veja como o afiliado entra no painel com o código que chega por e-mail e onde estão o link e o código de indicação para mandar às lojas.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "afiliado-entrar-e-divulgar-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-01",
+              "image": "/media/af3ff42cd7a7b923.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/60ddb5ac854208af.mp3",
+              "captions": "/media/e37921e145ccc619.vtt",
+              "duration": 6.582857,
+              "narration": "O painel de afiliados abre no navegador, no computador ou no celular. Digite o e-mail do seu cadastro de afiliado.",
+              "hotspot": {
+                "x": 77.5,
+                "y": 51.436620843989765,
+                "w": 31.38888888888889,
+                "h": 8.184143222506394,
+                "tip": null,
+                "text": "O painel de afiliados abre no navegador, no computador ou no celular. Digite o e-mail do seu cadastro de afiliado.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-02",
+              "image": "/media/c3e1658308e8d573.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/35464198d5f8b7bf.mp3",
+              "captions": "/media/f71576fc7eb3c47e.vtt",
+              "duration": 4.609161,
+              "narration": "Clique em Receber código. Não tem senha: chegam 6 números no seu e-mail.",
+              "hotspot": {
+                "x": 77.5,
+                "y": 61.66679987212276,
+                "w": 31.38888888888889,
+                "h": 9.207161125319693,
+                "tip": null,
+                "text": "Clique em Receber código. Não tem senha: chegam 6 números no seu e-mail.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-03",
+              "image": "/media/d8c48f486c63eae5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/97c31f61a671b061.mp3",
+              "captions": "/media/8b07848e5ffe08e0.vtt",
+              "duration": 5.990748,
+              "narration": "Digite o código. Ele vale por uma hora. Não chegou? Confira o spam ou peça outro.",
+              "hotspot": {
+                "x": 77.5,
+                "y": 48.59335038363171,
+                "w": 31.38888888888889,
+                "h": 9.718670076726342,
+                "tip": null,
+                "text": "Digite o código. Ele vale por uma hora. Não chegou? Confira o spam ou peça outro.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-04",
+              "image": "/media/7938273ad011eae9.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a82fbc3eb8b3ff41.mp3",
+              "captions": "/media/a0b6412f5a5f39a9.vtt",
+              "duration": 1.219048,
+              "narration": "Clique em Entrar.",
+              "hotspot": {
+                "x": 77.5,
+                "y": 59.590792838874684,
+                "w": 31.38888888888889,
+                "h": 9.207161125319693,
+                "tip": null,
+                "text": "Clique em Entrar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-05",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/67e34b78c9652b43.mp3",
+              "captions": "/media/96d8a53dafa19b64.vtt",
+              "duration": 5.28254,
+              "narration": "No Início está o seu link de indicação. A loja que se cadastra por ele fica ligada a você.",
+              "hotspot": {
+                "x": 46.28797743055556,
+                "y": 16.624040920716112,
+                "w": 51.18706597222222,
+                "h": 3.8363171355498724,
+                "tip": null,
+                "text": "No Início está o seu link de indicação. A loja que se cadastra por ele fica ligada a você.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-06",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/926a379a6306ef2b.mp3",
+              "captions": "/media/273fde79f9c40c60.vtt",
+              "duration": 4.539501,
+              "narration": "Clique em Copiar link para colar onde quiser, ou em Enviar no WhatsApp para mandar direto.",
+              "hotspot": {
+                "x": 77.53309461805556,
+                "y": 20.766064578005114,
+                "w": 9.080946180555555,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Clique em Copiar link para colar onde quiser, ou em Enviar no WhatsApp para mandar direto.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-07",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a2fdda69f89b3b81.mp3",
+              "captions": "/media/43572d447a08692b.vtt",
+              "duration": 4.818141,
+              "narration": "Se a loja preferir, ela digita o seu código no cadastro. Vale do mesmo jeito.",
+              "hotspot": {
+                "x": 46.28797743055556,
+                "y": 24.731257992327365,
+                "w": 51.18706597222222,
+                "h": 4.19397378516624,
+                "tip": null,
+                "text": "Se a loja preferir, ela digita o seu código no cadastro. Vale do mesmo jeito.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-entrar-e-divulgar-08",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/584514a2f3e508d4.mp3",
+              "captions": "/media/2ffc662b55508176.vtt",
+              "duration": 6.931156,
+              "narration": "Logo abaixo, os seus números: o que está disponível para saque, o que está em carência, as lojas ativas e o total ganho.",
+              "hotspot": {
+                "x": 28.55902777777778,
+                "y": 35.90752877237852,
+                "w": 16.84027777777778,
+                "h": 3.8363171355498724,
+                "tip": null,
+                "text": "Logo abaixo, os seus números: o que está disponível para saque, o que está em carência, as lojas ativas e o total ganho.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "afiliado-indicacoes-e-ganhos",
+          "slug": "afiliado-indicacoes-e-ganhos",
+          "title": "Acompanhar indicações e comissões",
+          "navTitle": "Acompanhar indicações e comissões",
+          "description": "Veja como o afiliado acompanha as lojas indicadas e entende as comissões: a primeira mensalidade inteira, 10% por dois anos e a carência de 30 dias.",
+          "steps": [
+            {
+              "id": "afiliado-indicacoes-e-ganhos-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Acompanhar indicações e comissões",
+                "description": "Veja como o afiliado acompanha as lojas indicadas e entende as comissões: a primeira mensalidade inteira, 10% por dois anos e a carência de 30 dias.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "afiliado-indicacoes-e-ganhos-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-01",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/48e4931697f9f28e.mp3",
+              "captions": "/media/fb374441350a7eff.vtt",
+              "duration": 2.217506,
+              "narration": "Abra Indicações, no menu lateral.",
+              "hotspot": {
+                "x": 8.194444444444445,
+                "y": 19.327445652173914,
+                "w": 15,
+                "h": 6.905370843989769,
+                "tip": null,
+                "text": "Abra Indicações, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-02",
+              "image": "/media/7f0a0c1cba0713e0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/87d3990a08de15c8.mp3",
+              "captions": "/media/42beb14a1ffe6c3b.vtt",
+              "duration": 5.0039,
+              "narration": "Aqui estão as lojas que se cadastraram pelo seu link ou código, com o plano e quando entraram.",
+              "hotspot": {
+                "x": 32.24989149305556,
+                "y": 41.49616368286445,
+                "w": 23.944227430555557,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "Aqui estão as lojas que se cadastraram pelo seu link ou código, com o plano e quando entraram.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-03",
+              "image": "/media/7f0a0c1cba0713e0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/120c562af4508f93.mp3",
+              "captions": "/media/5052668bf762ee47.vtt",
+              "duration": 4.95746,
+              "narration": "A Situação mostra se a loja está em teste, ativa, atrasada ou se cancelou.",
+              "hotspot": {
+                "x": 55.09874131944444,
+                "y": 25.703324808184142,
+                "w": 4.253472222222222,
+                "h": 4.499680306905371,
+                "tip": null,
+                "text": "A Situação mostra se a loja está em teste, ativa, atrasada ou se cancelou.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-04",
+              "image": "/media/7f0a0c1cba0713e0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4c97c6bea2ed5a81.mp3",
+              "captions": "/media/d703aae6470f5b54.vtt",
+              "duration": 6.861497,
+              "narration": "Você ganha a primeira mensalidade inteira e depois 10% de cada mensalidade, por 24 meses enquanto a loja pagar.",
+              "hotspot": {
+                "x": 74.88878038194444,
+                "y": 41.87979539641944,
+                "w": 21.055772569444446,
+                "h": 3.8363171355498724,
+                "tip": null,
+                "text": "Você ganha a primeira mensalidade inteira e depois 10% de cada mensalidade, por 24 meses enquanto a loja pagar.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-05",
+              "image": "/media/7f0a0c1cba0713e0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ead16d15f05f90c7.mp3",
+              "captions": "/media/05b0df4d767944c1.vtt",
+              "duration": 1.753107,
+              "narration": "Agora abra Ganhos e saque.",
+              "hotspot": {
+                "x": 8.194444444444445,
+                "y": 25.209798593350385,
+                "w": 15,
+                "h": 6.905370843989769,
+                "tip": null,
+                "text": "Agora abra Ganhos e saque.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-06",
+              "image": "/media/f1ee8fafa2ebea12.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/90d8d7fd49898923.mp3",
+              "captions": "/media/b4982a9d956e10d3.vtt",
+              "duration": 6.536417,
+              "narration": "Cada comissão fica em carência por 30 dias depois do pagamento da loja. Depois, vira disponível para saque.",
+              "hotspot": {
+                "x": 61.653645833333336,
+                "y": 16.11253196930946,
+                "w": 20.84201388888889,
+                "h": 3.8363171355498724,
+                "tip": null,
+                "text": "Cada comissão fica em carência por 30 dias depois do pagamento da loja. Depois, vira disponível para saque.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-indicacoes-e-ganhos-07",
+              "image": "/media/f1ee8fafa2ebea12.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/b0b4b116ca3e3484.mp3",
+              "captions": "/media/ee663f4b7dd6519e.vtt",
+              "duration": 4.736871,
+              "narration": "No extrato, cada comissão mostra a loja, a mensalidade e a data em que libera.",
+              "hotspot": {
+                "x": 61.653645833333336,
+                "y": 24.36061381074169,
+                "w": 20.84201388888889,
+                "h": 3.70843989769821,
+                "tip": null,
+                "text": "No extrato, cada comissão mostra a loja, a mensalidade e a data em que libera.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "afiliado-sacar",
+          "slug": "afiliado-sacar",
+          "title": "Sacar as comissões no Pix",
+          "navTitle": "Sacar as comissões no Pix",
+          "description": "Veja como o afiliado PJ saca o saldo disponível: emite a nota fiscal de serviço com os dados do tomador, anexa e acompanha a análise.",
+          "steps": [
+            {
+              "id": "afiliado-sacar-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Sacar as comissões no Pix",
+                "description": "Veja como o afiliado PJ saca o saldo disponível: emite a nota fiscal de serviço com os dados do tomador, anexa e acompanha a análise.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "afiliado-sacar-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "afiliado-sacar-01",
+              "image": "/media/769d1f3dc73ab11a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4678229414d34df4.mp3",
+              "captions": "/media/5bff0b169cf1fe0a.vtt",
+              "duration": 4.852971,
+              "narration": "Com pelo menos 100 reais disponíveis, dá para sacar. Abra Ganhos e saque.",
+              "hotspot": {
+                "x": 8.194444444444445,
+                "y": 25.209798593350385,
+                "w": 15,
+                "h": 6.905370843989769,
+                "tip": null,
+                "text": "Com pelo menos 100 reais disponíveis, dá para sacar. Abra Ganhos e saque.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-sacar-02",
+              "image": "/media/f1ee8fafa2ebea12.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9e844aef4ed79557.mp3",
+              "captions": "/media/dfe26bb12ec3c111.vtt",
+              "duration": 1.764717,
+              "narration": "Clique em Sacar no Pix.",
+              "hotspot": {
+                "x": 43.02354600694444,
+                "y": 20.78005115089514,
+                "w": 9.751519097222221,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Clique em Sacar no Pix.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-sacar-03",
+              "image": "/media/bc2ec92d937ee7d4.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f90ff964269ca54c.mp3",
+              "captions": "/media/4113ad44bcfb8567.vtt",
+              "duration": 9.276372,
+              "narration": "O saque é do saldo disponível inteiro, na chave Pix do seu cadastro. Emita a nota fiscal de serviço com o tomador, o CNPJ e o valor mostrados aqui.",
+              "hotspot": {
+                "x": 50,
+                "y": 43.14657928388747,
+                "w": 27.22222222222222,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "O saque é do saldo disponível inteiro, na chave Pix do seu cadastro. Emita a nota fiscal de serviço com o tomador, o CNPJ e o valor mostrados aqui.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-sacar-04",
+              "image": "/media/bc2ec92d937ee7d4.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5f259eabe30bf11f.mp3",
+              "captions": "/media/15a4e48872bfe8c8.vtt",
+              "duration": 5.456689,
+              "narration": "Clique em Anexar nota fiscal e escolha o PDF ou o XML da nota, até 5 MB.",
+              "hotspot": {
+                "x": 51.66666666666667,
+                "y": 62.200287723785166,
+                "w": 21.805555555555557,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "Clique em Anexar nota fiscal e escolha o PDF ou o XML da nota, até 5 MB.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-sacar-05",
+              "image": "/media/0f7f0f05e588321f.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1db5dab6137290b1.mp3",
+              "captions": "/media/edef90550c11b86c.vtt",
+              "duration": 1.950476,
+              "narration": "Clique em Enviar nota e sacar.",
+              "hotspot": {
+                "x": 56.770833333333336,
+                "y": 79.87132352941177,
+                "w": 13.680555555555557,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Clique em Enviar nota e sacar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "afiliado-sacar-06",
+              "image": "/media/65457c6e81a786b1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3cd38b5c849ef610.mp3",
+              "captions": "/media/5ddb66b01ade9b24.vtt",
+              "duration": 9.380862,
+              "narration": "Pronto: a nota vai para análise. Aprovada, o Pix cai em até 2 dias úteis. Se a nota for recusada, aparece o motivo e dá para enviar outra.",
+              "hotspot": {
+                "x": 78.45377604166667,
+                "y": 41.63602941176471,
+                "w": 8.57421875,
+                "h": 4.499680306905371,
+                "tip": null,
+                "text": "Pronto: a nota vai para análise. Aprovada, o Pix cai em até 2 dias úteis. Se a nota for recusada, aparece o motivo e dá para enviar outra.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "exportedAt": "2026-11-03T13:38:39.604Z",
   "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd",
-  "capturedAt": "2026-11-16T20:04:00.272Z"
+  "capturedAt": "2026-11-16T20:09:19.446Z"
 }
