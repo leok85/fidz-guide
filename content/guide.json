@@ -4112,6 +4112,518 @@
           ],
           "slug": "lancar-cashback-no-balcao",
           "navTitle": "Atender com cashback no balcão"
+        },
+        {
+          "id": "dar-selo-e-entregar-recompensa",
+          "slug": "dar-selo-e-entregar-recompensa",
+          "title": "Dar selo e entregar a recompensa no balcão",
+          "navTitle": "Dar selo e entregar a recompensa no balcão",
+          "description": "Veja como a equipe dá o selo de cada venda e, com a cartela completa, pede a autorização do cliente no app e entrega a recompensa.",
+          "steps": [
+            {
+              "id": "dar-selo-e-entregar-recompensa-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Dar selo e entregar a recompensa no balcão",
+                "description": "Veja como a equipe dá o selo de cada venda e, com a cartela completa, pede a autorização do cliente no app e entrega a recompensa.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "dar-selo-e-entregar-recompensa-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-01",
+              "image": "/media/ec29f77d95a981a6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/691ba3afbd5fe27c.mp3",
+              "captions": "/media/60c00eba7536086e.vtt",
+              "duration": 2.182676,
+              "narration": "Toque no seu nome para começar a atender.",
+              "hotspot": {
+                "x": 43.611111111111114,
+                "y": 58.63171355498721,
+                "w": 10.13888888888889,
+                "h": 4.475703324808184,
+                "tip": null,
+                "text": "Toque no seu nome para começar a atender.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-02",
+              "image": "/media/10e1bf58b9a752ca.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/81ea6f75e189f327.mp3",
+              "captions": "/media/d4bcb86f1829e9a3.vtt",
+              "duration": 2.484535,
+              "narration": "Digite o celular da cliente, com DDD.",
+              "hotspot": {
+                "x": 88.7109375,
+                "y": 28.516624040920718,
+                "w": 15.772569444444445,
+                "h": 8.184143222506394,
+                "tip": null,
+                "text": "Digite o celular da cliente, com DDD.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-03",
+              "image": "/media/c53e9191e290540c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e756f4a336677e64.mp3",
+              "captions": "/media/33a80eacabb852fe.vtt",
+              "duration": 1.613787,
+              "narration": "Toque em Buscar cliente.",
+              "hotspot": {
+                "x": 84.86111111111111,
+                "y": 83.37595907928389,
+                "w": 23.75,
+                "h": 8.695652173913043,
+                "tip": null,
+                "text": "Toque em Buscar cliente.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-04",
+              "image": "/media/fb999233718538bc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fad8574c040aaf80.mp3",
+              "captions": "/media/dd9987e5a1a1fa1c.vtt",
+              "duration": 8.498503,
+              "narration": "A ficha mostra a cartela: a Beatriz tem 8 de 10 selos. Toque em Adicionar selo. O valor da venda é opcional e serve só para o relatório.",
+              "hotspot": {
+                "x": 25.763888888888886,
+                "y": 66.94373401534527,
+                "w": 44.44444444444444,
+                "h": 9.335038363171355,
+                "tip": null,
+                "text": "A ficha mostra a cartela: a Beatriz tem 8 de 10 selos. Toque em Adicionar selo. O valor da venda é opcional e serve só para o relatório.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-05",
+              "image": "/media/414a8063953184c5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5b82a9660199cf1b.mp3",
+              "captions": "/media/5568310b12be452b.vtt",
+              "duration": 4.783311,
+              "narration": "Selo registrado, no nome de quem atendeu. A cliente vê o selo no app na hora.",
+              "hotspot": {
+                "x": 49.99945746527778,
+                "y": 55.24296675191815,
+                "w": 17.25151909722222,
+                "h": 7.672634271099745,
+                "tip": null,
+                "text": "Selo registrado, no nome de quem atendeu. A cliente vê o selo no app na hora.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-06",
+              "image": "/media/414a8063953184c5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/77520981db359f79.mp3",
+              "captions": "/media/14b310fbd3da10cc.vtt",
+              "duration": 1.660227,
+              "narration": "Toque em Próximo cliente.",
+              "hotspot": {
+                "x": 41.87879774305556,
+                "y": 70.9079283887468,
+                "w": 14.814453124999998,
+                "h": 9.07928388746803,
+                "tip": null,
+                "text": "Toque em Próximo cliente.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-07",
+              "image": "/media/bbba0b4b68553c9b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1f54cc75ff62f21b.mp3",
+              "captions": "/media/ceac3150393d6480.vtt",
+              "duration": 2.647075,
+              "narration": "Agora a Aline, que está com a cartela completa.",
+              "hotspot": {
+                "x": 88.7109375,
+                "y": 28.516624040920718,
+                "w": 15.772569444444445,
+                "h": 8.184143222506394,
+                "tip": null,
+                "text": "Agora a Aline, que está com a cartela completa.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-08",
+              "image": "/media/1c0c06a16f8a82fc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e808544d82c58893.mp3",
+              "captions": "/media/0378a6e9721cf55d.vtt",
+              "duration": 1.625397,
+              "narration": "Toque em Buscar cliente.",
+              "hotspot": {
+                "x": 84.86111111111111,
+                "y": 83.37595907928389,
+                "w": 23.75,
+                "h": 8.695652173913043,
+                "tip": null,
+                "text": "Toque em Buscar cliente.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-09",
+              "image": "/media/023bead191f289f6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5ccd3deb70924784.mp3",
+              "captions": "/media/a317c5159faf276a.vtt",
+              "duration": 7.476825,
+              "narration": "A recompensa aparece em destaque no topo. Nesta loja, a entrega pede o aceite do cliente: toque em Pedir autorização no app.",
+              "hotspot": {
+                "x": 87.52170138888889,
+                "y": 28.708439897698213,
+                "w": 18.01215277777778,
+                "h": 8.567774936061381,
+                "tip": null,
+                "text": "A recompensa aparece em destaque no topo. Nesta loja, a entrega pede o aceite do cliente: toque em Pedir autorização no app.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-10",
+              "image": "/media/ecb35aaf20c668d8.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/5677a261d09758a6.mp3",
+              "captions": "/media/5d6ad3fbbfb5a06e.vtt",
+              "duration": 8.626213,
+              "narration": "Chega uma tela no celular da Aline. O balcão aguarda até ela aceitar. Sem bateria ou sem sinal? Há o caminho para liberar sem confirmação.",
+              "hotspot": {
+                "x": 50,
+                "y": 17.07161125319693,
+                "w": 36.94444444444444,
+                "h": 6.521739130434782,
+                "tip": null,
+                "text": "Chega uma tela no celular da Aline. O balcão aguarda até ela aceitar. Sem bateria ou sem sinal? Há o caminho para liberar sem confirmação.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "dar-selo-e-entregar-recompensa-11",
+              "image": "/media/cf08915350c1be95.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d8d83e70deaadf78.mp3",
+              "captions": "/media/db6ab2f934dc041d.vtt",
+              "duration": 5.3522,
+              "narration": "Pronto: a Aline aceitou e a recompensa foi entregue. A cartela dela recomeça do zero.",
+              "hotspot": {
+                "x": 49.99945746527778,
+                "y": 74.87212276214834,
+                "w": 14.814453124999998,
+                "h": 9.07928388746803,
+                "tip": null,
+                "text": "Pronto: a Aline aceitou e a recompensa foi entregue. A cartela dela recomeça do zero.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "cliente-novo-e-cartao-de-papel",
+          "slug": "cliente-novo-e-cartao-de-papel",
+          "title": "Cadastrar cliente novo e trazer o cartão de papel",
+          "navTitle": "Cadastrar cliente novo e trazer o cartão de papel",
+          "description": "Veja como o balcão cadastra um cliente só com o celular e como somar no cartão digital os selos que ele já tinha no cartão de papel.",
+          "steps": [
+            {
+              "id": "cliente-novo-e-cartao-de-papel-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Cadastrar cliente novo e trazer o cartão de papel",
+                "description": "Veja como o balcão cadastra um cliente só com o celular e como somar no cartão digital os selos que ele já tinha no cartão de papel.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "cliente-novo-e-cartao-de-papel-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-01",
+              "image": "/media/ec29f77d95a981a6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f590866bc92231fc.mp3",
+              "captions": "/media/3f7681bf39a1028e.vtt",
+              "duration": 2.298776,
+              "narration": "Toque no seu nome para começar a atender.",
+              "hotspot": {
+                "x": 43.611111111111114,
+                "y": 58.63171355498721,
+                "w": 10.13888888888889,
+                "h": 4.475703324808184,
+                "tip": null,
+                "text": "Toque no seu nome para começar a atender.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-02",
+              "image": "/media/05d3a6ca45412068.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/53c14a7cacc7ef53.mp3",
+              "captions": "/media/570d041776408dc7.vtt",
+              "duration": 3.773243,
+              "narration": "Cliente novo entra só com o celular. Digite o número com DDD.",
+              "hotspot": {
+                "x": 88.7109375,
+                "y": 28.516624040920718,
+                "w": 15.772569444444445,
+                "h": 8.184143222506394,
+                "tip": null,
+                "text": "Cliente novo entra só com o celular. Digite o número com DDD.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-03",
+              "image": "/media/b5da76d2d26845c6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/aa8d3c1ba8b0f3de.mp3",
+              "captions": "/media/33a80eacabb852fe.vtt",
+              "duration": 1.613787,
+              "narration": "Toque em Buscar cliente.",
+              "hotspot": {
+                "x": 84.86111111111111,
+                "y": 83.37595907928389,
+                "w": 23.75,
+                "h": 8.695652173913043,
+                "tip": null,
+                "text": "Toque em Buscar cliente.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-04",
+              "image": "/media/b7d2142368af85c3.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/70e27dd137659006.mp3",
+              "captions": "/media/e292baed87b5a23b.vtt",
+              "duration": 6.362268,
+              "narration": "O número ainda não está na Fidz, então abre uma ficha nova. O nome é opcional: pergunte como ele quer ser chamado.",
+              "hotspot": {
+                "x": 25.763888888888886,
+                "y": 29.283887468030688,
+                "w": 47.91666666666667,
+                "h": 8.184143222506394,
+                "tip": null,
+                "text": "O número ainda não está na Fidz, então abre uma ficha nova. O nome é opcional: pergunte como ele quer ser chamado.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-05",
+              "image": "/media/2e4de71c104bed8c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1be944bbbac5b6aa.mp3",
+              "captions": "/media/4b748c840dcbb774.vtt",
+              "duration": 4.284082,
+              "narration": "Ele tinha um cartão de papel da loja? Toque em Migrar cartão de papel.",
+              "hotspot": {
+                "x": 24.65060763888889,
+                "y": 80.05115089514067,
+                "w": 34.30121527777778,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "Ele tinha um cartão de papel da loja? Toque em Migrar cartão de papel.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-06",
+              "image": "/media/213c5843ed782ae5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3260fdb63f4d3d23.mp3",
+              "captions": "/media/1f9cca0c16fc22c3.vtt",
+              "duration": 6.408707,
+              "narration": "Conte os selos do papel e ajuste com o menos e o mais. A loja define o máximo que aceita do papel.",
+              "hotspot": {
+                "x": 39.09722222222222,
+                "y": 55.286924552429674,
+                "w": 7.083333333333333,
+                "h": 4.859335038363171,
+                "tip": null,
+                "text": "Conte os selos do papel e ajuste com o menos e o mais. A loja define o máximo que aceita do papel.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-07",
+              "image": "/media/213c5843ed782ae5.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e61f656b84b387a3.mp3",
+              "captions": "/media/37e42ae16af8a55a.vtt",
+              "duration": 4.852971,
+              "narration": "Toque em Migrar. Fica registrado no seu nome e o cliente recebe um aviso no app.",
+              "hotspot": {
+                "x": 45.42860243055556,
+                "y": 75.11588874680307,
+                "w": 27.801649305555554,
+                "h": 9.07928388746803,
+                "tip": null,
+                "text": "Toque em Migrar. Fica registrado no seu nome e o cliente recebe um aviso no app.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-08",
+              "image": "/media/68de794d29326a86.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/91e21eaff7f4907c.mp3",
+              "captions": "/media/f58ca056351ca2d1.vtt",
+              "duration": 5.01551,
+              "narration": "Os selos do papel já estão no cartão. Agora registre a compra de hoje em Adicionar selo.",
+              "hotspot": {
+                "x": 25.763888888888886,
+                "y": 75.89514066496163,
+                "w": 44.44444444444444,
+                "h": 9.335038363171355,
+                "tip": null,
+                "text": "Os selos do papel já estão no cartão. Agora registre a compra de hoje em Adicionar selo.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "cliente-novo-e-cartao-de-papel-09",
+              "image": "/media/582b2b4ffd3d0b04.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/005c438737a441e1.mp3",
+              "captions": "/media/c2370a732966f2d0.vtt",
+              "duration": 6.896327,
+              "narration": "Pronto: o Otávio já tem cartão digital, com os selos do papel e o de hoje. Na próxima compra, basta o celular.",
+              "hotspot": {
+                "x": 49.99945746527778,
+                "y": 55.24296675191815,
+                "w": 17.25151909722222,
+                "h": 7.672634271099745,
+                "tip": null,
+                "text": "Pronto: o Otávio já tem cartão digital, com os selos do papel e o de hoje. Na próxima compra, basta o celular.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
         }
       ]
     },
@@ -6379,5 +6891,5 @@
   ],
   "exportedAt": "2026-11-03T13:38:39.604Z",
   "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd",
-  "capturedAt": "2026-11-16T19:59:46.307Z"
+  "capturedAt": "2026-11-16T20:04:00.272Z"
 }
