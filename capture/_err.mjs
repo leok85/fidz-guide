@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+import { loginApp } from './run.mjs';
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, permissions: ['geolocation'], geolocation: { latitude: -27.5954, longitude: -48.548 } });
+await ctx.route(/\.supabase\.co\//, (r) => r.abort());
+const p = await ctx.newPage();
+p.on('pageerror', e => console.log('PAGEERROR', e.message.slice(0, 300)));
+p.on('console', m => { if (m.type() === 'error') console.log('console:', m.text().slice(0, 200)); });
+await loginApp(p, 'beatriz.nunes@fidz.test', { path: '/discover' });
+await p.waitForTimeout(4000);
+await p.screenshot({ path: 'capture/.out/a-disc2.png' });
+await b.close();

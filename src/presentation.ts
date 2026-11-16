@@ -1,16 +1,16 @@
 // Camada de apresentação do guia: assuntos, perfis e estado de cada guia.
-// Fica fora de content/guide.json para não ser sobrescrita pelo export do Supademo.
+// Fica fora de content/guide.json, que é regravado pela captura (capture/run.mjs).
 
 import { allDemos, type Demo, type DemoRef, type Section } from './guide';
 import type { DemoProgress } from './progress';
 
 /** Para quem é o assunto. Agrupa os assuntos no menu lateral. */
-export type Perfil = 'Dono da loja' | 'Equipe do balcão';
-export const PERFIS: Perfil[] = ['Dono da loja', 'Equipe do balcão'];
+export type Perfil = 'Dono da loja' | 'Equipe do balcão' | 'Cliente da loja' | 'Afiliado';
+export const PERFIS: Perfil[] = ['Dono da loja', 'Equipe do balcão', 'Cliente da loja', 'Afiliado'];
 
 type Assunto = { nome: string; perfil: Perfil; descricao: string };
 
-/** Seção nova do Supademo sem entrada aqui aparece com o título dela, no grupo do dono. */
+/** Seção nova sem entrada aqui aparece com o título dela, no grupo do dono. */
 const ASSUNTOS: Record<string, Assunto> = {
   introducao: {
     nome: 'Primeiros passos',
@@ -22,10 +22,25 @@ const ASSUNTOS: Record<string, Assunto> = {
     perfil: 'Dono da loja',
     descricao: 'Monte o programa da sua loja: cupom, selos, pontos ou cashback.',
   },
+  clientes: {
+    nome: 'Clientes e comunicações',
+    perfil: 'Dono da loja',
+    descricao: 'Fale com os clientes por push e e-mail, traga a base que você já tinha e acompanhe as avaliações.',
+  },
   balcao: {
     nome: 'Atendimento no balcão',
     perfil: 'Equipe do balcão',
-    descricao: 'O dia a dia de quem atende: encontrar o cliente pelo CPF e lançar no balcão.',
+    descricao: 'O dia a dia de quem atende: entrar no balcão, encontrar o cliente pelo celular e registrar a venda.',
+  },
+  afiliados: {
+    nome: 'Programa de afiliados',
+    perfil: 'Afiliado',
+    descricao: 'Para quem indica lojas para a Fidz: entrar no painel, divulgar o link, acompanhar as comissões e sacar.',
+  },
+  'app-do-cliente': {
+    nome: 'App do cliente',
+    perfil: 'Cliente da loja',
+    descricao: 'Para quem compra na loja: acompanhar as fidelidades no app da Fidz, pegar cupons e autorizar o uso do saldo.',
   },
 };
 
