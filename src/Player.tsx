@@ -43,7 +43,7 @@ function useElementSize<T extends HTMLElement>() {
   return [ref, size] as const;
 }
 
-/** Passo sintético de encerramento (a página pública do Supademo não exporta o outro). */
+/** Passo sintético de encerramento, gerado pelo player (não fica no guide.json). */
 type Frame = { kind: 'step'; step: Step } | { kind: 'end' };
 
 export default function Player({ demoRef }: { demoRef: DemoRef }) {

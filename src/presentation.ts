@@ -1,5 +1,5 @@
 // Camada de apresentação do guia: assuntos, perfis e estado de cada guia.
-// Fica fora de content/guide.json para não ser sobrescrita pelo export do Supademo.
+// Fica fora de content/guide.json, que é regravado pela captura (capture/run.mjs).
 
 import { allDemos, type Demo, type DemoRef, type Section } from './guide';
 import type { DemoProgress } from './progress';
@@ -10,7 +10,7 @@ export const PERFIS: Perfil[] = ['Dono da loja', 'Equipe do balcão'];
 
 type Assunto = { nome: string; perfil: Perfil; descricao: string };
 
-/** Seção nova do Supademo sem entrada aqui aparece com o título dela, no grupo do dono. */
+/** Seção nova sem entrada aqui aparece com o título dela, no grupo do dono. */
 const ASSUNTOS: Record<string, Assunto> = {
   introducao: {
     nome: 'Primeiros passos',
@@ -25,7 +25,7 @@ const ASSUNTOS: Record<string, Assunto> = {
   balcao: {
     nome: 'Atendimento no balcão',
     perfil: 'Equipe do balcão',
-    descricao: 'O dia a dia de quem atende: encontrar o cliente pelo CPF e lançar no balcão.',
+    descricao: 'O dia a dia de quem atende: entrar no balcão, encontrar o cliente pelo celular e registrar a venda.',
   },
 };
 

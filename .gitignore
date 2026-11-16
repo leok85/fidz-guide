@@ -28,3 +28,8 @@ dist-ssr
 .omc
 .vercel
 .env*
+
+# Captura dos guias (voz e venv do Piper ficam fora do git)
+capture/.venv
+capture/voices
+capture/.out

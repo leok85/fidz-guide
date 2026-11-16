@@ -1,6 +1,6 @@
 # fidz-guide
 
-Guia interativo da Fidz (substitui o showcase do Supademo em guia.fidz.com.br).
+Guia interativo da Fidz (guia.fidz.com.br).
 
 Site estático em Vite + React. Cada demo é uma sequência de passos com screenshot ou vídeo,
 um hotspot clicável, um texto e a narração em áudio.
@@ -43,22 +43,43 @@ andamento, concluídos).
 - `/:secao/:guia`: o player
 - `?busca=`: a busca fica na URL, dá para compartilhar
 
-Cada seção do Supademo é um assunto. Nome, perfil e descrição de cada assunto ficam em
-`src/presentation.ts`, fora do `guide.json`, para não serem sobrescritos pelo export. Seção nova
-sem entrada lá aparece com o título do Supademo, no grupo do dono. O progresso de cada pessoa
+Nome, perfil e descrição de cada assunto ficam em `src/presentation.ts`. Assunto novo sem
+entrada lá aparece com o título da seção, no grupo do dono. O progresso de cada pessoa
 fica só no navegador dela (`localStorage`).
 
 Visual: tokens do Fidz Design System (Poppins, roxo `#6B2EBA`, botões e etiquetas em cápsula,
 amarelo só para "concluído").
 
-## Reimportar do Supademo
+## Capturar os guias
+
+As telas, os hotspots e a narração saem das telas reais da Gestão e do balcão, rodando contra o
+fidz-local (supabase local). Cada guia tem um roteiro em `capture/roteiros/<slug>.mjs`.
+
+Uma vez por máquina:
 
 ```bash
-npm run export   # node scripts/export-supademo.mjs [showcaseId]
+python3.12 -m venv capture/.venv && capture/.venv/bin/pip install piper-tts
+# voz pt_BR faber (fica fora do git)
+curl -L -o capture/voices/pt_BR-faber-medium.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx
+curl -L -o capture/voices/pt_BR-faber-medium.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json
 ```
 
-Lê o showcase público, regrava `content/guide.json` e baixa as mídias que faltam.
-Só é necessário enquanto o conteúdo ainda for editado no Supademo.
+Antes de capturar, suba a Gestão na 5181 e o balcão na 5182 apontando para o fidz-local
+(`VITE_SUPABASE_URL` e `VITE_SUPABASE_PUBLISHABLE_KEY` de `supabase status`, analytics vazios).
+
+```bash
+npm run capture -- gerenciar-unidades-e-equipe   # um guia (ou vários slugs, ou --all)
+npm run capture:contato -- gerenciar-unidades-e-equipe   # folha de revisão em capture/.out/
+```
+
+- `capture/seed.sql`: lojas de demonstração (Doce Vida Confeitaria, Café Grão da Serra, Empório
+  Bom Gosto). Cada captura recria tudo antes de começar.
+- Prints sempre em 2880×1564 (janela 1440×782, escala 2x). O hotspot é medido no elemento real.
+- Narração: Piper, voz pt_BR faber. O texto do passo é também o do balão.
+- A busca de lojas no Google responde com lojas fictícias (`capture/google-mock.mjs`), nunca
+  com uma loja real.
+- Depois de cada captura, `public/media` perde o que o `guide.json` não usa mais.
+- `node capture/peek.mjs <email> "clique:Fidelidade" "print:nome"` ajuda a escrever roteiros.
 
 ## Deploy
 
