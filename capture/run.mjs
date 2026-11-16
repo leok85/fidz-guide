@@ -14,6 +14,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { chromium } from 'playwright';
 import { mockGooglePlaces } from './google-mock.mjs';
+import { mockCustomerSession } from './customer-session-local.mjs';
 
 const ROOT = path.resolve(import.meta.dirname, '..');
 const MEDIA_DIR = path.join(ROOT, 'public', 'media');
@@ -27,6 +28,7 @@ export const GESTAO_URL = process.env.GESTAO_URL ?? 'http://localhost:5181';
 export const BALCAO_URL = process.env.BALCAO_URL ?? 'http://localhost:5182';
 const DB_CONTAINER = process.env.DB_CONTAINER ?? 'supabase_db_fidz-local';
 const LOCAL_API = process.env.LOCAL_API ?? 'http://127.0.0.1:54421';
+const MAILPIT = process.env.MAILPIT ?? 'http://127.0.0.1:54324';
 
 // Padrão de todos os prints do guia: 2880×1564 (1440×782 em tela 2x).
 const VIEWPORT = { width: 1440, height: 782 };
@@ -48,6 +50,12 @@ export function sql(text) {
     input: text,
     stdio: ['pipe', 'ignore', 'inherit'],
   });
+}
+
+/** Um valor do banco (primeira coluna da primeira linha). */
+export function sqlValue(query) {
+  return execFileSync('docker', ['exec', '-i', DB_CONTAINER, 'psql', '-U', 'postgres', '-d', 'postgres', '-At', '-c', query])
+    .toString().trim().split('\n')[0];
 }
 
 async function seed() {
@@ -94,6 +102,32 @@ export async function loginApp(page, email, { path: route = '/' } = {}) {
   await page.context().addInitScript(([k, v]) => localStorage.setItem(k, v), ['sb-127-auth-token', JSON.stringify(session)]);
   await page.goto(`${APP_URL}${route}`);
   await page.waitForLoadState('networkidle');
+}
+
+/** Abre o app sem sessão, na tela de entrada (guia de entrar e criar conta). */
+export async function abrirApp(page, rota = '/entrada') {
+  await page.goto(`${APP_URL}${rota}`);
+  await page.waitForLoadState('networkidle');
+}
+
+/** Último código de 6 dígitos enviado ao e-mail, lido do Mailpit do fidz-local. */
+export async function codigoDoEmail(email, { tentativas = 20 } = {}) {
+  for (let i = 0; i < tentativas; i++) {
+    const res = await fetch(`${MAILPIT}/api/v1/search?query=${encodeURIComponent(`to:${email}`)}&limit=1`);
+    const { messages } = await res.json();
+    if (messages?.length) {
+      const msg = await (await fetch(`${MAILPIT}/api/v1/message/${messages[0].ID}`)).json();
+      const code = (msg.Text || msg.HTML || '').match(/\b(\d{6})\b/);
+      if (code) return code[1];
+    }
+    await new Promise((r) => setTimeout(r, 500));
+  }
+  throw new Error(`nenhum código chegou para ${email}`);
+}
+
+/** Apaga do Mailpit os e-mails de um endereço (o próximo código é o único). */
+export async function limparEmails(email) {
+  await fetch(`${MAILPIT}/api/v1/search?query=${encodeURIComponent(`to:${email}`)}`, { method: 'DELETE' });
 }
 
 /** Moldura do print do celular: fundo lilás, cantos arredondados e sombra, em 2880×1564. */
@@ -230,6 +264,7 @@ async function capture(roteiro) {
   // Nada da captura chega à produção: só o fidz-local responde.
   await context.route(/\.supabase\.co\//, (route) => route.abort());
   await mockGooglePlaces(context, roteiro.googlePlaces);
+  if (roteiro.customerSession) await mockCustomerSession(context);
   const page = await context.newPage();
   await roteiro.login(page);
   await page.addStyleTag({ content: HIDE_CARET });
@@ -375,7 +410,22 @@ async function main() {
     await save(roteiro, steps);
     console.log(`✔ ${roteiro.title}: ${steps.length - 1} passos`);
   }
+  await reorder(all);
   await prune();
+}
+
+/** Ordena os guias de cada assunto pelo `order` dos roteiros (guias sem roteiro ficam no fim). */
+async function reorder(slugs) {
+  const order = {};
+  for (const slug of slugs) {
+    const { default: r } = await import(path.join(ROTEIROS, `${slug}.mjs`));
+    order[r.slug] = r.order ?? 999;
+  }
+  const guide = JSON.parse(await fs.readFile(GUIDE_FILE, 'utf8'));
+  for (const section of guide.sections) {
+    section.demos.sort((a, b) => (order[a.slug] ?? 999) - (order[b.slug] ?? 999));
+  }
+  await fs.writeFile(GUIDE_FILE, JSON.stringify(guide, null, 2) + '\n');
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

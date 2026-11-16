@@ -3697,6 +3697,393 @@
       "title": "App do cliente",
       "demos": [
         {
+          "id": "app-entrar-e-associar-o-celular",
+          "slug": "app-entrar-e-associar-o-celular",
+          "title": "Entrar no app e associar o celular",
+          "navTitle": "Entrar no app e associar o celular",
+          "description": "Veja como criar a conta no app da Fidz com o e-mail, aceitar os termos e associar o celular, que é como a loja encontra você no caixa.",
+          "steps": [
+            {
+              "id": "app-entrar-e-associar-o-celular-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Entrar no app e associar o celular",
+                "description": "Veja como criar a conta no app da Fidz com o e-mail, aceitar os termos e associar o celular, que é como a loja encontra você no caixa.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-entrar-e-associar-o-celular-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-01",
+              "image": "/media/d0de89bd73f8233a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6459d7b26df02f8b.mp3",
+              "captions": "/media/36e349bc071b3c1c.vtt",
+              "duration": 8.243084,
+              "narration": "O app da Fidz é de graça e o mesmo para todas as lojas. Para entrar, use a sua conta Google ou o seu e-mail. Aqui, Continuar com e-mail.",
+              "hotspot": {
+                "x": 50.86640995260664,
+                "y": 63.98664864668307,
+                "w": 10.03893907977883,
+                "h": 3.7681361438043175,
+                "tip": null,
+                "text": "O app da Fidz é de graça e o mesmo para todas as lojas. Para entrar, use a sua conta Google ou o seu e-mail. Aqui, Continuar com e-mail.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 35.98664864668307,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-02",
+              "image": "/media/42030c95c3271b54.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ae4f4e12060579e6.mp3",
+              "captions": "/media/937645a20e4657da.vtt",
+              "duration": 4.585941,
+              "narration": "Digite o seu e-mail. Se você ainda não tem conta, ela é criada na hora.",
+              "hotspot": {
+                "x": 50,
+                "y": 35.37517727057853,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Digite o seu e-mail. Se você ainda não tem conta, ela é criada na hora.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 7.375177270578533,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-03",
+              "image": "/media/219118bb6323fa97.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/74ae8843c9596de0.mp3",
+              "captions": "/media/47a8f909a598dad4.vtt",
+              "duration": 3.796463,
+              "narration": "Toque em Receber código. Chegam 6 números no seu e-mail.",
+              "hotspot": {
+                "x": 50,
+                "y": 83.98276990581932,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Toque em Receber código. Chegam 6 números no seu e-mail.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-04",
+              "image": "/media/af48d4f77ce747ec.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/588f3a7265ce0cb3.mp3",
+              "captions": "/media/4fade06c7cb5304b.vtt",
+              "duration": 4.632381,
+              "narration": "Digite o código que chegou no e-mail. Com os 6 números, o app confere sozinho.",
+              "hotspot": {
+                "x": 50,
+                "y": 32.76929976606343,
+                "w": 20.81852290679305,
+                "h": 7.703542987357729,
+                "tip": null,
+                "text": "Digite o código que chegou no e-mail. Com os 6 números, o app confere sozinho.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 4.769299766063433,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-05",
+              "image": "/media/25ced6fbd2340a37.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e5bfb2a7b77cc5dc.mp3",
+              "captions": "/media/45c7dfc42b09a13f.vtt",
+              "duration": 2.577415,
+              "narration": "Conta nova: escreva o seu nome completo.",
+              "hotspot": {
+                "x": 50,
+                "y": 27.291638889225585,
+                "w": 20.81852290679305,
+                "h": 6.533557169004012,
+                "tip": null,
+                "text": "Conta nova: escreva o seu nome completo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-06",
+              "image": "/media/5e0ebe5a153b270c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/106a90df20234bfa.mp3",
+              "captions": "/media/edec3eb7f7e31517.vtt",
+              "duration": 4.144762,
+              "narration": "Informe a sua idade. Menores de 13 anos não podem ter conta.",
+              "hotspot": {
+                "x": 50.80864928909953,
+                "y": 41.01238166810099,
+                "w": 19.201224328593998,
+                "h": 3.555411449558187,
+                "tip": null,
+                "text": "Informe a sua idade. Menores de 13 anos não podem ter conta.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 13.012381668100993,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-07",
+              "image": "/media/31e35dd3f3102e63.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7fde13eb72657099.mp3",
+              "captions": "/media/d13bbed42c7ee0b1.vtt",
+              "duration": 3.738413,
+              "narration": "Leia e aceite os Termos de Uso e a Política de Privacidade.",
+              "hotspot": {
+                "x": 50.80864928909953,
+                "y": 53.82904449643034,
+                "w": 19.201224328593998,
+                "h": 5.576296044896425,
+                "tip": null,
+                "text": "Leia e aceite os Termos de Uso e a Política de Privacidade.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 25.829044496430342,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-08",
+              "image": "/media/123916556f65a56b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6b0697ecc0db1250.mp3",
+              "captions": "/media/b2424e6f5bc2dd33.vtt",
+              "duration": 1.509297,
+              "narration": "Toque em Criar conta.",
+              "hotspot": {
+                "x": 50,
+                "y": 60.58305353874498,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Toque em Criar conta.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 32.58305353874498,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-09",
+              "image": "/media/8dd5c696572a35d2.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7f2f2952475a177f.mp3",
+              "captions": "/media/bd20e7d1135240af.vtt",
+              "duration": 7.174966,
+              "narration": "Falta o celular. É por ele que a loja encontra você no caixa para dar selos, pontos e cashback. Digite o número com DDD.",
+              "hotspot": {
+                "x": 53.43269818202015,
+                "y": 34.09882910510175,
+                "w": 13.953126542752765,
+                "h": 8.022630028726924,
+                "tip": null,
+                "text": "Falta o celular. É por ele que a loja encontra você no caixa para dar selos, pontos e cashback. Digite o número com DDD.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 6.09882910510175,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-10",
+              "image": "/media/af23a2b4e632407c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7b2652bad2ae4886.mp3",
+              "captions": "/media/df39789c4d94668b.vtt",
+              "duration": 2.205896,
+              "narration": "Toque em Receber código no WhatsApp.",
+              "hotspot": {
+                "x": 50,
+                "y": 84.40821929431156,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Toque em Receber código no WhatsApp.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-11",
+              "image": "/media/449de634267b6873.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4a3f1608a8a7f33e.mp3",
+              "captions": "/media/35df6790fa18d8a4.vtt",
+              "duration": 4.86458,
+              "narration": "Digite o código que chegou no WhatsApp. Com os 6 números, o app confirma sozinho.",
+              "hotspot": {
+                "x": 50,
+                "y": 32.87566211318651,
+                "w": 20.81852290679305,
+                "h": 7.703542987357729,
+                "tip": null,
+                "text": "Digite o código que chegou no WhatsApp. Com os 6 números, o app confirma sozinho.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 4.875662113186507,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-12",
+              "image": "/media/f0dec084b208e726.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d41e344433820b87.mp3",
+              "captions": "/media/cf58251b38be5901.vtt",
+              "duration": 8.394014,
+              "narration": "Pronto! Se alguma loja já tinha cadastrado o seu celular no balcão, essas fidelidades entram na sua carteira. Aqui, a da Doce Vida.",
+              "hotspot": {
+                "x": 51.50177725118483,
+                "y": 57.28582077792996,
+                "w": 13.19411532385466,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Pronto! Se alguma loja já tinha cadastrado o seu celular no balcão, essas fidelidades entram na sua carteira. Aqui, a da Doce Vida.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 29.285820777929963,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-entrar-e-associar-o-celular-13",
+              "image": "/media/f0dec084b208e726.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/edf16993b9c943e5.mp3",
+              "captions": "/media/9994a5f4a1ea40c3.vtt",
+              "duration": 6.072018,
+              "narration": "Toque em Continuar. Agora é só dar o seu celular no caixa: a loja busca o número e o selo cai no app.",
+              "hotspot": {
+                "x": 50,
+                "y": 89.5136119562187,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Toque em Continuar. Agora é só dar o seu celular no caixa: a loja busca o número e o selo cai no app.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
+        },
+        {
           "id": "app-acompanhar-fidelidades",
           "slug": "app-acompanhar-fidelidades",
           "title": "Acompanhar suas fidelidades no app",
@@ -4478,11 +4865,488 @@
               "chapter": null
             }
           ]
+        },
+        {
+          "id": "app-check-in-no-balcao",
+          "slug": "app-check-in-no-balcao",
+          "title": "Fazer check-in no balcão com o celular",
+          "navTitle": "Fazer check-in no balcão com o celular",
+          "description": "Veja como o display Fidz do balcão avisa a loja que você chegou: aproxime o celular ou leia o QR e o atendente já vê o seu nome, sem digitar nada.",
+          "steps": [
+            {
+              "id": "app-check-in-no-balcao-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Fazer check-in no balcão com o celular",
+                "description": "Veja como o display Fidz do balcão avisa a loja que você chegou: aproxime o celular ou leia o QR e o atendente já vê o seu nome, sem digitar nada.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-check-in-no-balcao-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-check-in-no-balcao-01",
+              "image": "/media/04145f842974f394.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/54ee92b63cf96ea8.mp3",
+              "captions": "/media/590c929a751a5a1a.vtt",
+              "duration": 7.383946,
+              "narration": "Na loja com o display Fidz, aproxime o celular ou leia o QR. O app abre sozinho nesta tela e avisa o balcão que você chegou.",
+              "hotspot": {
+                "x": 49.999548744816344,
+                "y": 31.28022690634053,
+                "w": 10.178828186710112,
+                "h": 4.299947879419643,
+                "tip": null,
+                "text": "Na loja com o display Fidz, aproxime o celular ou leia o QR. O app abre sozinho nesta tela e avisa o balcão que você chegou.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 3.2802269063405305,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-check-in-no-balcao-02",
+              "image": "/media/d993a132a9ab27c4.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/a86dca52ce184f31.mp3",
+              "captions": "/media/0bb0c5eafc699cd9.vtt",
+              "duration": 6.280998,
+              "narration": "O atendente já vê o seu nome na fila do balcão. É só dizer que é cliente Fidz na hora de pagar, sem dar o celular.",
+              "hotspot": {
+                "x": 50,
+                "y": 36.44877221185198,
+                "w": 18.161532385466035,
+                "h": 6.128050720597327,
+                "tip": null,
+                "text": "O atendente já vê o seu nome na fila do balcão. É só dizer que é cliente Fidz na hora de pagar, sem dar o celular.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 8.448772211851981,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-check-in-no-balcao-03",
+              "image": "/media/72b1aa8839f6c49e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1ffc6c8e70f7312d.mp3",
+              "captions": "/media/cee68cadb1674f0c.vtt",
+              "duration": 5.781769,
+              "narration": "Logo abaixo está a sua cartela naquela loja: quantos selos você tem e quanto falta para a recompensa.",
+              "hotspot": {
+                "x": 50,
+                "y": 53.37035687446213,
+                "w": 20.81852290679305,
+                "h": 21.211561071987003,
+                "tip": null,
+                "text": "Logo abaixo está a sua cartela naquela loja: quantos selos você tem e quanto falta para a recompensa.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 25.370356874462132,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-check-in-no-balcao-04",
+              "image": "/media/ee6d7576c087cff7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/accf7ce283d1b386.mp3",
+              "captions": "/media/2023aefc8a64f74c.vtt",
+              "duration": 4.829751,
+              "narration": "Sem o app, o display abre uma página para você entrar na fila com o nome e o celular.",
+              "hotspot": {
+                "x": 50,
+                "y": 90.16175750899988,
+                "w": 20.81852290679305,
+                "h": 5.449990757687785,
+                "tip": null,
+                "text": "Sem o app, o display abre uma página para você entrar na fila com o nome e o celular.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-check-in-no-balcao-05",
+              "image": "/media/5df935ad0d7ea847.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6389e00f7d94c92f.mp3",
+              "captions": "/media/9b8424780927c12d.vtt",
+              "duration": 2.252336,
+              "narration": "Toque em voltar para ir à sua carteira.",
+              "hotspot": {
+                "x": 41.0470971563981,
+                "y": 8.305959927758453,
+                "w": 2.9127172195892572,
+                "h": 5.363571350650295,
+                "tip": null,
+                "text": "Toque em voltar para ir à sua carteira.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "app-perfil-e-sugestoes",
+          "slug": "app-perfil-e-sugestoes",
+          "title": "Notificações, idioma e sugestões no app",
+          "navTitle": "Notificações, idioma e sugestões no app",
+          "description": "Veja no Perfil como escolher os avisos que você recebe, trocar o idioma do app e mandar uma sugestão ou um problema para a equipe da Fidz.",
+          "steps": [
+            {
+              "id": "app-perfil-e-sugestoes-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Notificações, idioma e sugestões no app",
+                "description": "Veja no Perfil como escolher os avisos que você recebe, trocar o idioma do app e mandar uma sugestão ou um problema para a equipe da Fidz.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "app-perfil-e-sugestoes-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "app-perfil-e-sugestoes-01",
+              "image": "/media/1c41455cefb7cd05.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/663aee1805d0c3ec.mp3",
+              "captions": "/media/d1687b894b382bfc.vtt",
+              "duration": 4.597551,
+              "narration": "No Perfil, na barra de baixo, ficam as suas preferências e o contato com a Fidz.",
+              "hotspot": {
+                "x": 59.01021225192535,
+                "y": 92.70448236991065,
+                "w": 2.323377949743286,
+                "h": 2.917237366819796,
+                "tip": null,
+                "text": "No Perfil, na barra de baixo, ficam as suas preferências e o contato com a Fidz.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 44,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-02",
+              "image": "/media/3626230f2d84fe4c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/2896ccdbf42b9437.mp3",
+              "captions": "/media/2a509a8f002d9dbd.vtt",
+              "duration": 3.378503,
+              "narration": "Toque em Notificações para escolher os avisos que você quer receber.",
+              "hotspot": {
+                "x": 50.57760663507109,
+                "y": 27.02573302141792,
+                "w": 14.349328593996841,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Toque em Notificações para escolher os avisos que você quer receber.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-03",
+              "image": "/media/dd9ce899f3ca458c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8f4eddf9aa95c9c0.mp3",
+              "captions": "/media/1cfb5b4a7998e866.vtt",
+              "duration": 5.758549,
+              "narration": "Ligue Selos, pontos e cashback para ser avisado a cada ganho e 7 dias antes de o saldo vencer.",
+              "hotspot": {
+                "x": 48.3538210900474,
+                "y": 23.09032617786451,
+                "w": 15.56230252764613,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Ligue Selos, pontos e cashback para ser avisado a cada ganho e 7 dias antes de o saldo vencer.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-04",
+              "image": "/media/dd9ce899f3ca458c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9ed0b37668e26b0d.mp3",
+              "captions": "/media/4c1de2619823e251.vtt",
+              "duration": 6.350658,
+              "narration": "Em Ofertas, escolha se quer receber as ofertas das lojas onde você tem cartão no celular, por e-mail ou no WhatsApp.",
+              "hotspot": {
+                "x": 48.3538210900474,
+                "y": 43.40553447836996,
+                "w": 15.56230252764613,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Em Ofertas, escolha se quer receber as ofertas das lojas onde você tem cartão no celular, por e-mail ou no WhatsApp.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 15.405534478369958,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-05",
+              "image": "/media/dd9ce899f3ca458c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6c805ad06e082935.mp3",
+              "captions": "/media/70e650b55e72b4c2.vtt",
+              "duration": 1.230658,
+              "narration": "Toque em voltar.",
+              "hotspot": {
+                "x": 41.0470971563981,
+                "y": 7.45506115077393,
+                "w": 2.9127172195892572,
+                "h": 5.363571350650295,
+                "tip": null,
+                "text": "Toque em voltar.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-06",
+              "image": "/media/3626230f2d84fe4c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f5b3afececab8f30.mp3",
+              "captions": "/media/4c00bbbb82c3ecdb.vtt",
+              "duration": 4.144762,
+              "narration": "O app fala português, espanhol e inglês. Troque em Idioma.",
+              "hotspot": {
+                "x": 47.28524881516588,
+                "y": 49.36182591726161,
+                "w": 7.764612954186413,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "O app fala português, espanhol e inglês. Troque em Idioma.",
+                "displayOnly": true
+              },
+              "zoom": {
+                "x": 22,
+                "y": 21.361825917261612,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-07",
+              "image": "/media/3626230f2d84fe4c.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0a2c17f76f33e8ac.mp3",
+              "captions": "/media/2a98e2a85b079483.vtt",
+              "duration": 3.726803,
+              "narration": "Tem uma ideia ou encontrou um problema? Toque em Enviar sugestão.",
+              "hotspot": {
+                "x": 50.57760663507109,
+                "y": 71.27246942461304,
+                "w": 14.464849921011059,
+                "h": 3.6617737966812522,
+                "tip": null,
+                "text": "Tem uma ideia ou encontrou um problema? Toque em Enviar sugestão.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 43.272469424613035,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-08",
+              "image": "/media/db64c098b82baabc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9b8d4bdd70004523.mp3",
+              "captions": "/media/e5a08bed218d4ea4.vtt",
+              "duration": 3.401723,
+              "narration": "Escolha o tipo: um problema, uma sugestão ou um elogio.",
+              "hotspot": {
+                "x": 44.823651788359,
+                "y": 27.55754475703325,
+                "w": 10.465826483511059,
+                "h": 5.363571350650295,
+                "tip": null,
+                "text": "Escolha o tipo: um problema, uma sugestão ou um elogio.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 0,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-09",
+              "image": "/media/658a6f00a392545d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7448efcc1c5fe58f.mp3",
+              "captions": "/media/7113470c5c2d2cec.vtt",
+              "duration": 3.297234,
+              "narration": "Conte com detalhes. A equipe da Fidz lê tudo.",
+              "hotspot": {
+                "x": 50,
+                "y": 45.21369437946207,
+                "w": 20.81852290679305,
+                "h": 14.93618259172616,
+                "tip": null,
+                "text": "Conte com detalhes. A equipe da Fidz lê tudo.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 17.21369437946207,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            },
+            {
+              "id": "app-perfil-e-sugestoes-10",
+              "image": "/media/b0ac1a71f0a764e8.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/91aadd6768d959a1.mp3",
+              "captions": "/media/69996efbaa0980ed.vtt",
+              "duration": 4.736871,
+              "narration": "Toque em Enviar sugestão. Pronto: a sua ideia chega para a equipe da Fidz.",
+              "hotspot": {
+                "x": 50,
+                "y": 70.04930243269779,
+                "w": 20.81852290679305,
+                "h": 7.597180640234664,
+                "tip": null,
+                "text": "Toque em Enviar sugestão. Pronto: a sua ideia chega para a equipe da Fidz.",
+                "displayOnly": false
+              },
+              "zoom": {
+                "x": 22,
+                "y": 42.049302432697786,
+                "w": 56,
+                "h": 56
+              },
+              "chapter": null
+            }
+          ]
         }
       ]
     }
   ],
   "exportedAt": "2026-11-03T13:38:39.604Z",
   "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd",
-  "capturedAt": "2026-11-16T19:38:57.667Z"
+  "capturedAt": "2026-11-16T19:53:07.780Z"
 }

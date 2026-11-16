@@ -20,8 +20,12 @@ const ctx = await b.newContext({
 });
 await ctx.route(/\.supabase\.co\//, (route) => route.abort());
 await mockGooglePlaces(ctx);
+if (app) await (await import('./customer-session-local.mjs')).mockCustomerSession(ctx);
 const p = await ctx.newPage();
-if (app) {
+if (who === 'app:anonimo') {
+  const { APP_URL } = await import('./run.mjs');
+  await p.goto(`${APP_URL}/entrada`);
+} else if (app) {
   const { loginApp } = await import('./run.mjs');
   const [, email, rota] = who.split(':');
   await loginApp(p, email, { path: rota || '/' });
@@ -58,13 +62,18 @@ for (const a of actions) {
   else if (kind === 'digita') await p.keyboard.type(arg, { delay: 30 });
   else if (kind === 'campo') {
     const [label, value] = arg.split('=');
-    await p.getByLabel(label).first().fill(value);
+    await p.getByLabel(label).or(p.getByPlaceholder(label)).first().fill(value);
   } else if (kind === 'tudo') {
     // Lista os textos visíveis da área principal, de cima a baixo (rolando), sem print.
     const texts = await p.evaluate(() => [...document.querySelectorAll('h1, h2, h3, label, button, [class*="title"], [class*="label"], [class*="hint"], [class*="detail"]')]
       .filter((el) => !el.closest('nav, aside, [class*="sidebar"]'))
       .map((el) => (el.innerText || '').trim().replace(/\s+/g, ' ').slice(0, 90)).filter(Boolean));
     console.log(`\n=== textos (${arg})\n` + [...new Set(texts)].join('\n'));
+  }
+  else if (kind === 'codigo') {
+    // Último código de 6 dígitos que chegou no Mailpit do fidz-local para o e-mail dado.
+    const { codigoDoEmail } = await import('./run.mjs');
+    await p.keyboard.type(await codigoDoEmail(arg), { delay: 60 });
   }
   else if (kind === 'tecla') await p.keyboard.press(arg);
   else if (kind === 'espera') await p.waitForTimeout(Number(arg));

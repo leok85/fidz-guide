@@ -4,7 +4,7 @@ export default {
   slug: 'app-pegar-um-cupom',
   section: 'app-do-cliente',
   sectionTitle: 'App do cliente',
-  order: 1,
+  order: 2,
   device: 'phone',
   title: 'Pegar e usar um cupom no app',
   description:

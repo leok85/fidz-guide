@@ -6,7 +6,7 @@ export default {
   slug: 'app-acompanhar-fidelidades',
   section: 'app-do-cliente',
   sectionTitle: 'App do cliente',
-  order: 0,
+  order: 1,
   device: 'phone',
   title: 'Acompanhar suas fidelidades no app',
   description:

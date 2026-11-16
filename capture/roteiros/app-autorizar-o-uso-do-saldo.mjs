@@ -8,7 +8,7 @@ export default {
   slug: 'app-autorizar-o-uso-do-saldo',
   section: 'app-do-cliente',
   sectionTitle: 'App do cliente',
-  order: 2,
+  order: 3,
   device: 'phone',
   title: 'Autorizar o uso do cashback no app',
   description:
