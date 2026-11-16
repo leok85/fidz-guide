@@ -22,6 +22,11 @@ const ASSUNTOS: Record<string, Assunto> = {
     perfil: 'Dono da loja',
     descricao: 'Monte o programa da sua loja: cupom, selos, pontos ou cashback.',
   },
+  clientes: {
+    nome: 'Clientes e comunicações',
+    perfil: 'Dono da loja',
+    descricao: 'Fale com os clientes por push e e-mail, traga a base que você já tinha e acompanhe as avaliações.',
+  },
   balcao: {
     nome: 'Atendimento no balcão',
     perfil: 'Equipe do balcão',

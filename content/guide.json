@@ -1602,6 +1602,218 @@
           ],
           "slug": "abrir-e-encerrar-um-chamado-de-suporte",
           "navTitle": "Abrir e encerrar um chamado de suporte"
+        },
+        {
+          "id": "encomendar-o-display-de-balcao",
+          "slug": "encomendar-o-display-de-balcao",
+          "title": "Encomendar o display de balcão",
+          "navTitle": "Encomendar o display de balcão",
+          "description": "Veja como pedir o display Fidz de uma unidade: grátis, um por unidade, com QR e etiqueta de aproximar para o cliente entrar na fila sem digitar.",
+          "steps": [
+            {
+              "id": "encomendar-o-display-de-balcao-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Encomendar o display de balcão",
+                "description": "Veja como pedir o display Fidz de uma unidade: grátis, um por unidade, com QR e etiqueta de aproximar para o cliente entrar na fila sem digitar.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "encomendar-o-display-de-balcao-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-01",
+              "image": "/media/7ccf181d630f6ff7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ceb278dafac52b00.mp3",
+              "captions": "/media/0b6818a8da3d4991.vtt",
+              "duration": 8.068934,
+              "narration": "O display Fidz fica no balcão: o cliente aproxima o celular ou lê o QR e o nome dele aparece para quem atende. Abra Configurações.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 68.54219948849105,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "O display Fidz fica no balcão: o cliente aproxima o celular ou lê o QR e o nome dele aparece para quem atende. Abra Configurações.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-02",
+              "image": "/media/b5e97f2b94312e8b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/7772bc39508c272a.mp3",
+              "captions": "/media/be8fffaea3022d03.vtt",
+              "duration": 1.451247,
+              "narration": "Clique em Unidades.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 79.28388746803068,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Clique em Unidades.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-03",
+              "image": "/media/5cad2936ece6d86b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8b0cfb1287e3635b.mp3",
+              "captions": "/media/9facf918424e0564.vtt",
+              "duration": 5.828209,
+              "narration": "Cada unidade tem o seu display. É grátis, um por unidade. Clique em Encomendar grátis.",
+              "hotspot": {
+                "x": 39.77430555555556,
+                "y": 72.13874680306905,
+                "w": 33.4375,
+                "h": 7.161125319693094,
+                "tip": null,
+                "text": "Cada unidade tem o seu display. É grátis, um por unidade. Clique em Encomendar grátis.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-04",
+              "image": "/media/760129dd531dfc77.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/16fa98800378ba84.mp3",
+              "captions": "/media/f32261c2c22d4f7e.vtt",
+              "duration": 2.449705,
+              "narration": "Diga quem vai receber a entrega na loja.",
+              "hotspot": {
+                "x": 50,
+                "y": 33.248081841432224,
+                "w": 37.5,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Diga quem vai receber a entrega na loja.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-05",
+              "image": "/media/2ef9188801599099.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0734db1b84ca30d4.mp3",
+              "captions": "/media/032cf46dc401a63e.vtt",
+              "duration": 3.680363,
+              "narration": "Comece pelo CEP: o resto do endereço se completa sozinho.",
+              "hotspot": {
+                "x": 36.75889756944444,
+                "y": 51.406649616368284,
+                "w": 11.01779513888889,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Comece pelo CEP: o resto do endereço se completa sozinho.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-06",
+              "image": "/media/db0673e1bcdf6e82.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/65baaece7bebdb9a.mp3",
+              "captions": "/media/63763a3ce379fdf6.vtt",
+              "duration": 1.915646,
+              "narration": "Confira o endereço e o número.",
+              "hotspot": {
+                "x": 56.62000868055556,
+                "y": 51.406649616368284,
+                "w": 24.25998263888889,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Confira o endereço e o número.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-07",
+              "image": "/media/db0673e1bcdf6e82.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/919f1034cd457244.mp3",
+              "captions": "/media/33da1937c842b804.vtt",
+              "duration": 6.385488,
+              "narration": "Tudo certo? Clique em Encomendar grátis. O display chega pronto, já ligado a esta unidade.",
+              "hotspot": {
+                "x": 63.49555121527778,
+                "y": 82.6086956521739,
+                "w": 12.731119791666668,
+                "h": 7.672634271099745,
+                "tip": null,
+                "text": "Tudo certo? Clique em Encomendar grátis. O display chega pronto, já ligado a esta unidade.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "encomendar-o-display-de-balcao-08",
+              "image": "/media/667f39de2aa56ce6.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ae8ab6ac6fd74f98.mp3",
+              "captions": "/media/c0ce03518173a7f8.vtt",
+              "duration": 6.164898,
+              "narration": "Pronto: o pedido aparece no card da unidade. O display passa a valer no primeiro cliente que fizer o check-in.",
+              "hotspot": {
+                "x": 31.45073784722222,
+                "y": 63.25127877237852,
+                "w": 8.734809027777777,
+                "h": 3.8363171355498724,
+                "tip": null,
+                "text": "Pronto: o pedido aparece no card da unidade. O display passa a valer no primeiro cliente que fizer o check-in.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
         }
       ]
     },
@@ -3337,6 +3549,218 @@
           ],
           "slug": "criar-uma-fidelidade-de-cashback",
           "navTitle": "Criar uma fidelidade de cashback"
+        },
+        {
+          "id": "ligar-ifood-e-anota-ai",
+          "slug": "ligar-ifood-e-anota-ai",
+          "title": "Ligar o iFood e a Anota AI",
+          "navTitle": "Ligar o iFood e a Anota AI",
+          "description": "Veja como fazer os pedidos do iFood e da Anota AI também darem fidelidade, ligando cada unidade em Integrações.",
+          "steps": [
+            {
+              "id": "ligar-ifood-e-anota-ai-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Ligar o iFood e a Anota AI",
+                "description": "Veja como fazer os pedidos do iFood e da Anota AI também darem fidelidade, ligando cada unidade em Integrações.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "ligar-ifood-e-anota-ai-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-01",
+              "image": "/media/7ccf181d630f6ff7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8caa653854aa4465.mp3",
+              "captions": "/media/b758b6f63536b111.vtt",
+              "duration": 5.421859,
+              "narration": "Pedidos de outros apps também podem dar fidelidade. Abra Configurações, no menu lateral.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 68.54219948849105,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Pedidos de outros apps também podem dar fidelidade. Abra Configurações, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-02",
+              "image": "/media/1ea299258b084cf2.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9415bd95f7aa539d.mp3",
+              "captions": "/media/f5700bf647e03884.vtt",
+              "duration": 1.613787,
+              "narration": "Clique em Integrações.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 67.90281329923273,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Clique em Integrações.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-03",
+              "image": "/media/097bbe8bb4a1d51e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/3a1401117fedaea9.mp3",
+              "captions": "/media/1c5597f7f791ea69.vtt",
+              "duration": 7.198186,
+              "narration": "No iFood, cada unidade é ligada separadamente. Clique em Ligar ao iFood na unidade e siga os passos que aparecem.",
+              "hotspot": {
+                "x": 92.00900607638889,
+                "y": 40.54907289002558,
+                "w": 9.176432291666666,
+                "h": 6.3938618925831205,
+                "tip": null,
+                "text": "No iFood, cada unidade é ligada separadamente. Clique em Ligar ao iFood na unidade e siga os passos que aparecem.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-04",
+              "image": "/media/097bbe8bb4a1d51e.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/d10b5d8d8a6cb4df.mp3",
+              "captions": "/media/a36c3046292d6aa9.vtt",
+              "duration": 5.21288,
+              "narration": "Em Conta para os selos, você vê o que entra no valor do pedido. Clique em Alterar para mudar.",
+              "hotspot": {
+                "x": 26.994900173611114,
+                "y": 59.347026854219955,
+                "w": 9.823133680555555,
+                "h": 3.70843989769821,
+                "tip": null,
+                "text": "Em Conta para os selos, você vê o que entra no valor do pedido. Clique em Alterar para mudar.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-05",
+              "image": "/media/8f75901f3cb7f094.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8a29b495d8a54402.mp3",
+              "captions": "/media/78adbe7ac25ca731.vtt",
+              "duration": 7.709025,
+              "narration": "Usa a Anota AI? Pedidos do cardápio digital, do WhatsApp e do iFood por ela também dão selos. Clique em Ligar à Anota AI.",
+              "hotspot": {
+                "x": 91.61241319444444,
+                "y": 63.38714833759591,
+                "w": 9.969618055555555,
+                "h": 6.3938618925831205,
+                "tip": null,
+                "text": "Usa a Anota AI? Pedidos do cardápio digital, do WhatsApp e do iFood por ela também dão selos. Clique em Ligar à Anota AI.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-06",
+              "image": "/media/d67d9e767a8ccee0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fe61c79c7e99e3fc.mp3",
+              "captions": "/media/845e7d69eeb75ffc.vtt",
+              "duration": 6.350658,
+              "narration": "Siga os três passos: entre no admin da Anota AI, abra Configurações gerais e depois Outras Integrações.",
+              "hotspot": {
+                "x": 49.48350694444444,
+                "y": 40.52509590792839,
+                "w": 31.825086805555557,
+                "h": 4.295875959079284,
+                "tip": null,
+                "text": "Siga os três passos: entre no admin da Anota AI, abra Configurações gerais e depois Outras Integrações.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-07",
+              "image": "/media/d67d9e767a8ccee0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/0f9c9cb8199e732f.mp3",
+              "captions": "/media/90d13a9c1997ff4e.vtt",
+              "duration": 5.828209,
+              "narration": "Copie a Chave de integração e cole aqui. A Fidz usa a chave só para ligar a loja e não a guarda.",
+              "hotspot": {
+                "x": 50,
+                "y": 61.82664641943734,
+                "w": 33.05555555555556,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Copie a Chave de integração e cole aqui. A Fidz usa a chave só para ligar a loja e não a guarda.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "ligar-ifood-e-anota-ai-08",
+              "image": "/media/d67d9e767a8ccee0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ed2b657f2f977be2.mp3",
+              "captions": "/media/fba0aca4b213a10b.vtt",
+              "duration": 6.141678,
+              "narration": "Clique em Ligar à Anota AI. Depois disso, cada pedido concluído conta como uma compra registrada no balcão.",
+              "hotspot": {
+                "x": 45.983072916666664,
+                "y": 70.7780530690537,
+                "w": 27.24392361111111,
+                "h": 7.672634271099745,
+                "tip": null,
+                "text": "Clique em Ligar à Anota AI. Depois disso, cada pedido concluído conta como uma compra registrada no balcão.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
         }
       ]
     },
@@ -5344,9 +5768,616 @@
           ]
         }
       ]
+    },
+    {
+      "id": "clientes",
+      "slug": "clientes",
+      "title": "Clientes e comunicações",
+      "demos": [
+        {
+          "id": "enviar-uma-comunicacao",
+          "slug": "enviar-uma-comunicacao",
+          "title": "Enviar uma comunicação para os clientes",
+          "navTitle": "Enviar uma comunicação para os clientes",
+          "description": "Veja como escolher o público pelos filtros, escrever a mensagem, juntar um cupom exclusivo e revisar o envio de uma comunicação por push e e-mail.",
+          "steps": [
+            {
+              "id": "enviar-uma-comunicacao-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Enviar uma comunicação para os clientes",
+                "description": "Veja como escolher o público pelos filtros, escrever a mensagem, juntar um cupom exclusivo e revisar o envio de uma comunicação por push e e-mail.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "enviar-uma-comunicacao-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "enviar-uma-comunicacao-01",
+              "image": "/media/7ccf181d630f6ff7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/880982cc3c037844.mp3",
+              "captions": "/media/08b4a6549e8ca9d1.vtt",
+              "duration": 3.982222,
+              "narration": "Para falar com os seus clientes, abra Comunicações, no menu lateral.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 37.851662404092075,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Para falar com os seus clientes, abra Comunicações, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-02",
+              "image": "/media/8f9e5dfeb3785a3b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c64b988eac5765b6.mp3",
+              "captions": "/media/11a747131a881ec1.vtt",
+              "duration": 1.787937,
+              "narration": "Clique em Nova comunicação.",
+              "hotspot": {
+                "x": 91.85221354166667,
+                "y": 18.925831202046037,
+                "w": 12.962239583333332,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Clique em Nova comunicação.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-03",
+              "image": "/media/f0e7da5f07ba6177.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8824997ee370daba.mp3",
+              "captions": "/media/1af8bab31b1743a4.vtt",
+              "duration": 6.025578,
+              "narration": "Primeiro, o público. Use os filtros: aqui, quem tem 8 selos ou mais, perto da recompensa.",
+              "hotspot": {
+                "x": 31.180555555555557,
+                "y": 51.150895140664964,
+                "w": 18.75,
+                "h": 3.580562659846547,
+                "tip": null,
+                "text": "Primeiro, o público. Use os filtros: aqui, quem tem 8 selos ou mais, perto da recompensa.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-04",
+              "image": "/media/b4d640c01eb3eff0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/6a580e7b4ecdc41c.mp3",
+              "captions": "/media/ec5d34ed25f12777.vtt",
+              "duration": 4.539501,
+              "narration": "A lista mostra quem vai receber. Dá para desmarcar alguém antes de seguir.",
+              "hotspot": {
+                "x": 49.963107638888886,
+                "y": 28.005115089514064,
+                "w": 7.944878472222222,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "A lista mostra quem vai receber. Dá para desmarcar alguém antes de seguir.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-05",
+              "image": "/media/b4d640c01eb3eff0.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e8d28bee1c60d1d3.mp3",
+              "captions": "/media/ee76f0f54621c75c.vtt",
+              "duration": 2.403265,
+              "narration": "Clique em Continuar para escrever a mensagem.",
+              "hotspot": {
+                "x": 93.75271267361111,
+                "y": 94.94884910485933,
+                "w": 9.161241319444445,
+                "h": 7.544757033248081,
+                "tip": null,
+                "text": "Clique em Continuar para escrever a mensagem.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-06",
+              "image": "/media/e7d4b55f176dbd07.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/830a611325da2a8d.mp3",
+              "captions": "/media/61d1acd43b85529c.vtt",
+              "duration": 4.435011,
+              "narration": "Escreva o título. É o que aparece primeiro na notificação e no e-mail.",
+              "hotspot": {
+                "x": 48.229166666666664,
+                "y": 56.26598465473146,
+                "w": 52.29166666666667,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Escreva o título. É o que aparece primeiro na notificação e no e-mail.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-07",
+              "image": "/media/f22e9ddceda8939b.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/df3a4a3b5e386791.mp3",
+              "captions": "/media/42a6b07e8fe5bfae.vtt",
+              "duration": 2.484535,
+              "narration": "Escreva a mensagem, curta e direta.",
+              "hotspot": {
+                "x": 48.229166666666664,
+                "y": 69.46431425831202,
+                "w": 52.29166666666667,
+                "h": 12.585917519181585,
+                "tip": null,
+                "text": "Escreva a mensagem, curta e direta.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-08",
+              "image": "/media/77d3e52c804d4a1d.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1a799ad02dea165b.mp3",
+              "captions": "/media/e944af2002c25f70.vtt",
+              "duration": 5.25932,
+              "narration": "Quer dar um empurrão? Ligue o cupom exclusivo: ele entra na carteira de quem está no público.",
+              "hotspot": {
+                "x": 25.208333333333332,
+                "y": 76.97210677749361,
+                "w": 3.888888888888889,
+                "h": 4.987212276214834,
+                "tip": null,
+                "text": "Quer dar um empurrão? Ligue o cupom exclusivo: ele entra na carteira de quem está no público.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-09",
+              "image": "/media/34515c12e0055d5a.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/46ee2e7e0ad6ca51.mp3",
+              "captions": "/media/2b12070273d46965.vtt",
+              "duration": 3.506213,
+              "narration": "Defina o desconto do cupom. Aqui, 10%.",
+              "hotspot": {
+                "x": 36.61892361111111,
+                "y": 56.33791560102301,
+                "w": 18.79340277777778,
+                "h": 7.161125319693094,
+                "tip": null,
+                "text": "Defina o desconto do cupom. Aqui, 10%.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-10",
+              "image": "/media/fd237502aa420b45.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/4996a4930097d36f.mp3",
+              "captions": "/media/9e3e31a927c1ccce.vtt",
+              "duration": 1.880816,
+              "narration": "E por quantos dias ele vale.",
+              "hotspot": {
+                "x": 35.749782986111114,
+                "y": 74.88011508951406,
+                "w": 6.267361111111111,
+                "h": 7.161125319693094,
+                "tip": null,
+                "text": "E por quantos dias ele vale.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-11",
+              "image": "/media/4b65dd458ecf79d2.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/f6642044c56a9b81.mp3",
+              "captions": "/media/ba5b4923378edc9e.vtt",
+              "duration": 1.915646,
+              "narration": "Clique em Continuar para revisar.",
+              "hotspot": {
+                "x": 93.75271267361111,
+                "y": 94.8849104859335,
+                "w": 9.161241319444445,
+                "h": 7.544757033248081,
+                "tip": null,
+                "text": "Clique em Continuar para revisar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "enviar-uma-comunicacao-12",
+              "image": "/media/8f999c4ea27deddc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/e47dff82f5a54538.mp3",
+              "captions": "/media/b21f1df8847f4e74.vtt",
+              "duration": 8.684263,
+              "narration": "Confira o resumo: público, mensagem e cupom. Tudo certo? Clique em Enviar agora. Cada loja manda até duas comunicações por semana.",
+              "hotspot": {
+                "x": 93.10655381944444,
+                "y": 94.8849104859335,
+                "w": 10.453559027777779,
+                "h": 7.544757033248081,
+                "tip": null,
+                "text": "Confira o resumo: público, mensagem e cupom. Tudo certo? Clique em Enviar agora. Cada loja manda até duas comunicações por semana.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        },
+        {
+          "id": "importar-clientes",
+          "slug": "importar-clientes",
+          "title": "Importar clientes de uma planilha",
+          "navTitle": "Importar clientes de uma planilha",
+          "description": "Veja como trazer para a Fidz os clientes que você já tinha, da Fidelimax ou de uma planilha, com o saldo de cada um.",
+          "steps": [
+            {
+              "id": "importar-clientes-00",
+              "image": null,
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": null,
+              "captions": null,
+              "narration": null,
+              "duration": null,
+              "hotspot": null,
+              "zoom": null,
+              "chapter": {
+                "heading": "Importar clientes de uma planilha",
+                "description": "Veja como trazer para a Fidz os clientes que você já tinha, da Fidelimax ou de uma planilha, com o saldo de cada um.",
+                "layout": "left",
+                "buttons": [
+                  {
+                    "label": "Começar",
+                    "color": "#6B2EBA",
+                    "textColor": "#fff",
+                    "href": null,
+                    "nextStep": "importar-clientes-01"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "importar-clientes-01",
+              "image": "/media/7ccf181d630f6ff7.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/ef2c24e88dcea028.mp3",
+              "captions": "/media/419140e62082fdfc.vtt",
+              "duration": 5.584399,
+              "narration": "Já tinha clientes em outro sistema ou no cartão de papel? Comece em Clientes, no menu lateral.",
+              "hotspot": {
+                "x": 9.305555555555555,
+                "y": 32.48081841432225,
+                "w": 17.22222222222222,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Já tinha clientes em outro sistema ou no cartão de papel? Comece em Clientes, no menu lateral.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-02",
+              "image": "/media/f7885519c3c81669.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fa478284953d1317.mp3",
+              "captions": "/media/e66e8113e517e2c0.vtt",
+              "duration": 1.834376,
+              "narration": "Clique em Importar clientes.",
+              "hotspot": {
+                "x": 69.44444444444444,
+                "y": 15.856777493606138,
+                "w": 11.944444444444445,
+                "h": 7.672634271099745,
+                "tip": null,
+                "text": "Clique em Importar clientes.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-03",
+              "image": "/media/f6e400fa19e4fca1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/72260771670790b2.mp3",
+              "captions": "/media/cbadbfbcf74fd786.vtt",
+              "duration": 6.095238,
+              "narration": "Vindo da Fidelimax? Cole o token da API e a Fidz traz todos os clientes, com o saldo de cada um.",
+              "hotspot": {
+                "x": 27.953016493055554,
+                "y": 40.47314578005115,
+                "w": 5.350477430555555,
+                "h": 3.9641943734015346,
+                "tip": null,
+                "text": "Vindo da Fidelimax? Cole o token da API e a Fidz traz todos os clientes, com o saldo de cada um.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-04",
+              "image": "/media/f6e400fa19e4fca1.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/fe9956118d26a7ea.mp3",
+              "captions": "/media/a78b6ed1bbac061a.vtt",
+              "duration": 4.609161,
+              "narration": "De qualquer outro sistema, use uma planilha CSV. Aqui, Planilha.",
+              "hotspot": {
+                "x": 51.96397569444444,
+                "y": 40.47314578005115,
+                "w": 4.622395833333334,
+                "h": 3.9641943734015346,
+                "tip": null,
+                "text": "De qualquer outro sistema, use uma planilha CSV. Aqui, Planilha.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-05",
+              "image": "/media/f6c14cca158641bb.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/9251ba20793060b6.mp3",
+              "captions": "/media/d967211e23922bf5.vtt",
+              "duration": 1.288707,
+              "narration": "Clique em Continuar.",
+              "hotspot": {
+                "x": 26.297200520833336,
+                "y": 52.85725703324808,
+                "w": 8.427734375,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Clique em Continuar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-06",
+              "image": "/media/5f5b8e84c9e5a728.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/cf903dc1fdc330b9.mp3",
+              "captions": "/media/4a6463d01686f1f6.vtt",
+              "duration": 5.665669,
+              "narration": "Se precisar, baixe a planilha modelo: uma linha por cliente, com o celular, o nome e o saldo.",
+              "hotspot": {
+                "x": 28.024088541666664,
+                "y": 54.53964194373402,
+                "w": 11.881510416666668,
+                "h": 4.603580562659847,
+                "tip": null,
+                "text": "Se precisar, baixe a planilha modelo: uma linha por cliente, com o celular, o nome e o saldo.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-07",
+              "image": "/media/5f5b8e84c9e5a728.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/c9d744176a37f7cf.mp3",
+              "captions": "/media/0d260e2f09c887bd.vtt",
+              "duration": 5.21288,
+              "narration": "Clique em Escolher arquivo CSV e envie a planilha. No Excel, salve como CSV.",
+              "hotspot": {
+                "x": 30.95486111111111,
+                "y": 47.7621483375959,
+                "w": 10.9375,
+                "h": 4.092071611253197,
+                "tip": null,
+                "text": "Clique em Escolher arquivo CSV e envie a planilha. No Excel, salve como CSV.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-08",
+              "image": "/media/52e490a7cdd58acc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/58d75280d8569c5b.mp3",
+              "captions": "/media/7fbb6085b51737b3.vtt",
+              "duration": 5.13161,
+              "narration": "A Fidz reconhece as colunas de celular, nome e saldo. Confira e clique em Ver prévia.",
+              "hotspot": {
+                "x": 26.337890625,
+                "y": 84.97442455242967,
+                "w": 8.509114583333334,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "A Fidz reconhece as colunas de celular, nome e saldo. Confira e clique em Ver prévia.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-09",
+              "image": "/media/2b9b53a552fb0423.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/8e63d966d0266303.mp3",
+              "captions": "/media/0c3be3402862b7a5.vtt",
+              "duration": 7.244626,
+              "narration": "A prévia mostra quantos clientes entram. Linha sem celular fica de fora: na Fidz, o cliente é identificado pelo celular.",
+              "hotspot": {
+                "x": 47.083333333333336,
+                "y": 50.815217391304344,
+                "w": 47.5,
+                "h": 3.9322250639386187,
+                "tip": null,
+                "text": "A prévia mostra quantos clientes entram. Linha sem celular fica de fora: na Fidz, o cliente é identificado pelo celular.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-10",
+              "image": "/media/2b9b53a552fb0423.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/1d8053cdf4848c73.mp3",
+              "captions": "/media/fcb078f116d27244.vtt",
+              "duration": 5.642449,
+              "narration": "Escolha a unidade onde os clientes entram. O saldo importado segue as regras da sua fidelidade.",
+              "hotspot": {
+                "x": 61.38888888888889,
+                "y": 69.8849104859335,
+                "w": 18.88888888888889,
+                "h": 6.649616368286446,
+                "tip": null,
+                "text": "Escolha a unidade onde os clientes entram. O saldo importado segue as regras da sua fidelidade.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-11",
+              "image": "/media/d150641f489c9fcc.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/bb57171c6ae19ac9.mp3",
+              "captions": "/media/e97440628a720370.vtt",
+              "duration": 2.635465,
+              "narration": "Tudo certo? Clique para importar.",
+              "hotspot": {
+                "x": 26.663411458333336,
+                "y": 93.09462915601023,
+                "w": 12.632378472222221,
+                "h": 7.41687979539642,
+                "tip": null,
+                "text": "Tudo certo? Clique para importar.",
+                "displayOnly": false
+              },
+              "zoom": null,
+              "chapter": null
+            },
+            {
+              "id": "importar-clientes-12",
+              "image": "/media/4d400621fc48acca.jpg",
+              "video": null,
+              "width": 2880,
+              "height": 1564,
+              "audio": "/media/cada2b36a95d44f3.mp3",
+              "captions": "/media/b54c998f63ce1f2c.vtt",
+              "duration": 7.650975,
+              "narration": "Pronto: os clientes já estão na Fidz, com o saldo. Ninguém recebe mensagem agora: o convite para baixar o app sai na próxima compra.",
+              "hotspot": {
+                "x": 46.458333333333336,
+                "y": 38.29923273657289,
+                "w": 48.75,
+                "h": 4.219948849104859,
+                "tip": null,
+                "text": "Pronto: os clientes já estão na Fidz, com o saldo. Ninguém recebe mensagem agora: o convite para baixar o app sai na próxima compra.",
+                "displayOnly": true
+              },
+              "zoom": null,
+              "chapter": null
+            }
+          ]
+        }
+      ]
     }
   ],
   "exportedAt": "2026-11-03T13:38:39.604Z",
   "source": "https://app.supademo.com/showcase/cmuliox8y0001yt0ji92fnwjd",
-  "capturedAt": "2026-11-16T19:53:07.780Z"
+  "capturedAt": "2026-11-16T19:59:46.307Z"
 }
