@@ -33,7 +33,10 @@ delete from public.affiliate_commissions where affiliate_id = 950 or company_id 
 delete from public.affiliate_withdrawals where affiliate_id = 950;
 delete from public.company_referrals where affiliate_id = 950 or company_id between 950 and 952;
 delete from public.invoices where company_id between 950 and 952;
-delete from public.merchant_users where company_id between 950 and 952;
+-- Vínculos login × empresa (merchant_memberships) e perfis dos donos dos guias. O perfil sai pelo id:
+-- merchant_users.company_id pode estar nulo (apagar a empresa não leva mais o perfil junto).
+delete from public.merchant_memberships where company_id between 950 and 952 or user_id in (select id from guia_owner);
+delete from public.merchant_users where id in (select id from guia_owner) or company_id between 950 and 952;
 delete from public.company_units where company_id between 950 and 952;
 delete from public.companies where id between 950 and 952;
 -- Contas dos donos ficam de uma rodada para a outra: o aceite dos termos não se apaga.
@@ -75,6 +78,11 @@ update public.companies
 insert into public.merchant_users (id, company_id, name, role, whatsapp, onboarding_seen_at)
 select id, company_id, name, 'owner', '4899' || lpad(company_id::text, 7, '0'), now() - interval '100 days'
 from guia_owner;
+
+-- O gatilho de merchant_users já grava o vínculo; fica explícito para quando a coluna company_id sair.
+insert into public.merchant_memberships (user_id, company_id, role, status)
+select id, company_id, 'owner', 'active' from guia_owner
+on conflict (user_id, company_id) do nothing;
 
 insert into public.legal_acceptances (user_id, party, document_id, version, channel)
 select o.id, 'merchant', d.id, d.current_version, 'painel'
